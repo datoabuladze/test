@@ -1,0 +1,221 @@
+/* @media (max-width: 1700px) {
+  .card {
+    flex: 1 1 25% !important;
+    min-width: 250px !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .card img {
+    width: 100% !important;
+  }
+} */
+@media (max-width: 1700px) {
+  .container {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 80% !important;
+  }
+
+  .activities .container .cards .card {
+    flex: 1 1 40% !important;
+  }
+  .activities .container .cards .card img {
+    width: 98% !important;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    width: 90% !important;
+  }
+  footer .container .footer-inner .middle {
+    display: flex !important;
+    gap: 20px !important;
+  }
+  footer .container .footer-inner .left .social {
+    display: flex !important;
+    gap: 20px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 98% !important;
+  }
+  .middle-section .card {
+    flex: 1 1 calc(30% - 10px) !important;
+    margin: 10px;
+  }
+  .middle-section .card img {
+    width: 90%;
+  }
+}
+@media (max-width: 900px) {
+  .main-menu ul li {
+    display: none !important;
+  }
+  .main-menu ul .Hide {
+    display: block !important;
+  }
+  .main-menu ul .Hide a {
+    display: block !important;
+    font-size: 3rem;
+  }
+  footer .container .footer-inner .left,
+  footer .container .footer-inner .right {
+    width: 40% !important;
+    order: 0;
+  }
+  .footer-inner {
+    flex-wrap: wrap;
+  }
+  .footer-inner .middle {
+    width: 50% !important;
+    order: 1;
+    margin-top: 50px;
+  }
+  .header-middle .txt-box h1 {
+    font-size: 32px !important;
+  }
+  .about-us {
+    width: 100% !important;
+  }
+}
+@media (max-width: 700px) {
+  .container .about-us .left {
+    width: 60% !important;
+  }
+  .container .about-us .right {
+    width: 40% !important;
+  }
+  .container .about-us .right img {
+    width: 250px !important;
+  }
+  .header-bottom {
+    width: 100% !important;
+  }
+  .middle-section .card {
+    flex: 1 1 calc(40% - 10px) !important;
+    margin: 10px;
+  }
+  .middle-section .card img {
+    width: 90%;
+  }
+  .popular-places {
+    flex-wrap: wrap !important;
+  }
+  .popular-places .popular-left iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .popular-left {
+    width: 100% !important;
+    height: 400px !important;
+  }
+  .popular-right {
+    width: 100% !important;
+  }
+  .footer-inner {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .footer-inner .left {
+    width: 90% !important;
+
+    order: 1 !important;
+  }
+  .footer-inner .right {
+    width: 90% !important;
+  }
+  .footer-inner .middle {
+    width: 90% !important;
+  }
+
+  .header-bottom .sec input {
+    width: 85% !important;
+  }
+  .header-bottom .search-btn {
+    position: relative !important;
+    width: 60% !important;
+    margin: auto;
+  }
+  .header-bottom .search-btn button {
+    width: 100% !important;
+    padding: 4px;
+  }
+}
+@media (max-width: 600px) {
+  .header-middle .txt-box h1 {
+    font-size: 26px !important;
+  }
+  .header-bottom {
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .header-bottom .sec {
+    flex: 1 1 50% !important;
+    display: flex !important;
+    margin: auto !important;
+    padding-left: 30px !important;
+  }
+  .header-bottom .search-btn {
+    width: 50% !important;
+  }
+  .header-bottom .search-btn button {
+    width: 50% !important;
+    margin-top: 10px;
+  }
+  .about-us {
+    width: 90% !important;
+    flex-wrap: wrap !important;
+  }
+  .about-us .left {
+    width: 60% !important;
+    margin: auto !important;
+  }
+  .about-us .right {
+    width: 60% !important;
+    margin: auto !important;
+  }
+}
+@media (max-width: 500px) {
+  .header-bottom {
+    margin: auto !important;
+  }
+  .header-bottom .sec {
+    flex: 1 1 50% !important;
+    display: flex !important;
+    margin: auto !important;
+    padding-left: 30px !important;
+  }
+  .header-middle .txt-box h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-bottom {
+    margin: auto !important;
+  }
+  .header-bottom .sec {
+    flex: 0 1 60% !important;
+    display: flex !important;
+    margin: auto !important;
+  }
+  .header-middle .txt-box h1 {
+    font-size: 17px !important;
+  }
+  .middle-section .container .txt h1 {
+    font-size: 24px;
+  }
+  .container .title .txt h1 {
+    font-size: 24px !important;
+  }
+}
