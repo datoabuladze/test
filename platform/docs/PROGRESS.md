@@ -38,7 +38,7 @@ Status as of 2026-10-08. Everything marked **verified** was run and observed in 
 - **GameDistribution adapter.** The field mapping follows the provider's export format but has not been tested against a live feed.
 - **Unity WebGL.** The wrapper and package detection exist; no Unity build was available to test them.
 - **Phaser.** Detected on upload and served like HTML5; no Phaser game was tested.
-- **CI on GitHub.** The workflow is in the repo, but every job on this repository stopped within about two seconds without starting a runner and without logs, which usually means GitHub Actions is unavailable for the account (billing or settings). The same commands pass locally.
+- **CI on GitHub.** The workflow is in the repo, but every job on this repository stopped within about two seconds without starting a runner and without logs, because GitHub has locked the account over a billing issue (the check annotation says so). The same commands pass locally.
 - **Production deployment.** Not performed. It needs the owner's approval, a domain, TLS, a server and credentials. The nginx config was not validated with `nginx -t` here.
 - **PHP 8.4.** Developed and tested on PHP 8.3.6; the deploy configs assume 8.4.
 - **Redis.** The app runs with Redis for cache and sessions (catalog caching checked). Running the PHPUnit suite with Redis as the cache fails 9 tests because rate-limiter state persists between tests; the suite is meant to run with the array cache from `phpunit.xml`.
