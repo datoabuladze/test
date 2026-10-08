@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Middleware\SetLocale;
 use App\Models\AdCampaign;
 use App\Services\Ads;
 use Illuminate\Http\RedirectResponse;
@@ -15,7 +16,7 @@ class AdController extends Controller
         $ads->record($campaign, 'clicks');
 
         if ($campaign->type === 'sponsored_game' && $campaign->game) {
-            return redirect($campaign->game->url(\App\Http\Middleware\SetLocale::preferred(request())));
+            return redirect($campaign->game->url(SetLocale::preferred(request())));
         }
         $url = (string) $campaign->target_url;
         abort_unless(str_starts_with($url, 'https://') || str_starts_with($url, 'http://'), 404);

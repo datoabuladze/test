@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Models\Concerns\HasTranslations;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Carbon;
 
 class Achievement extends Model
 {
@@ -23,7 +24,7 @@ class Achievement extends Model
 
     public function periodKey(?\DateTimeInterface $at = null): string
     {
-        $at = $at ? \Illuminate\Support\Carbon::instance($at) : now();
+        $at = $at ? Carbon::instance($at) : now();
 
         return match ($this->period) {
             'daily' => $at->format('Y-m-d'),

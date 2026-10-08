@@ -51,7 +51,7 @@ document.addEventListener('alpine:init', () => {
         playCol(i) { if (this.myTurn) this.send(this.$root.dataset.moveUrl, { col: this.colOf(i) }); },
         colOf(i) { return i % 7; },
         async copyLink() {
-            try { await navigator.clipboard.writeText(this.$root.dataset.shareUrl); } catch (e) { window.prompt('Copy link', this.$root.dataset.shareUrl); return; }
+            try { await navigator.clipboard.writeText(this.$root.dataset.shareUrl); } catch (e) { window.prompt(this.$root.dataset.copyPrompt, this.$root.dataset.shareUrl); return; }
             window.dispatchEvent(new CustomEvent('toast', { detail: this.$root.dataset.copied }));
         },
 
@@ -70,12 +70,18 @@ document.addEventListener('alpine:init', () => {
         get score1() { return this.data && this.data.state.score ? this.data.state.score[1] : 0; },
         get hostStatus() { return this.presence(this.data && this.data.host, true); },
         get guestStatus() { return this.data && this.data.guest.joined ? this.presence(this.data.guest, true) : '—'; },
-        presence(p) { if (!p) return ''; return (p.present ? 'online' : 'away') + (p.ready ? ' · ready' : ''); },
+        presence(p) {
+            if (!p) return '';
+            const d = this.$root.dataset;
+            return (p.present ? d.tOnline : d.tAway) + (p.ready ? ' · ' + d.tReady : '');
+        },
+        cellLabel(i) { return this.$root.dataset.tCell.replace(':n', i + 1); },
+        colLabel(i) { return this.$root.dataset.tColumn.replace(':n', this.colOf(i) + 1); },
         isTurn(seat) { return !!this.g && this.data.status === 'playing' && this.g.turn === seat; },
         get message() {
             const d = this.$root.dataset;
             if (!this.data) return '';
-            if (this.data.status === 'expired') return 'Expired';
+            if (this.data.status === 'expired') return d.tExpired;
             if (!this.g) return this.you === null && this.data.guest.joined ? d.tSpectating : '';
             if (this.g.draw) return d.tDraw;
             if (this.g.winner !== null) {

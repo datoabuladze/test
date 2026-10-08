@@ -176,7 +176,7 @@ class TranslationController extends Controller
     private function write(string $locale, array $strings): void
     {
         ksort($strings, SORT_STRING);
-        $json = json_encode($strings ?: new \stdClass(), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        $json = json_encode($strings ?: new \stdClass, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
         File::put(lang_path("$locale.json"), $json."\n", true);
     }
 }

@@ -1,5 +1,10 @@
 <?php
 
+use App\Services\Import\Adapters\CsvAdapter;
+use App\Services\Import\Adapters\GameDistributionAdapter;
+use App\Services\Import\Adapters\JsonAdapter;
+use App\Services\Import\Adapters\ManualAdapter;
+
 return [
     /*
     | Provisional brand name. Trademark/domain availability has NOT been checked;
@@ -72,10 +77,10 @@ return [
 
     'import' => [
         'adapters' => [
-            'manual' => \App\Services\Import\Adapters\ManualAdapter::class,
-            'csv' => \App\Services\Import\Adapters\CsvAdapter::class,
-            'json' => \App\Services\Import\Adapters\JsonAdapter::class,
-            'gamedistribution' => \App\Services\Import\Adapters\GameDistributionAdapter::class,
+            'manual' => ManualAdapter::class,
+            'csv' => CsvAdapter::class,
+            'json' => JsonAdapter::class,
+            'gamedistribution' => GameDistributionAdapter::class,
         ],
     ],
 

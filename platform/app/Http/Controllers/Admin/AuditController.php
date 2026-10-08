@@ -17,7 +17,7 @@ class AuditController extends Controller
                 ->when($request->query('user'), fn ($q, $u) => $q->where('user_id', $u))
                 ->when($request->query('subject'), fn ($q, $s) => $q->where('subject_type', $s))
                 ->latest('created_at')->latest('id')->paginate(50)->withQueryString(),
-            'actions' => AuditLog::query()->selectRaw("distinct action")->orderBy('action')->limit(200)->pluck('action'),
+            'actions' => AuditLog::query()->selectRaw('distinct action')->orderBy('action')->limit(200)->pluck('action'),
         ]);
     }
 }

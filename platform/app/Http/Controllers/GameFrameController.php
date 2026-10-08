@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Enums\GameEngine;
+use App\Http\Middleware\SetLocale;
 use App\Models\Game;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -27,7 +28,7 @@ class GameFrameController extends Controller
         return match ($game->engine) {
             GameEngine::Original, GameEngine::Html5, GameEngine::Phaser => $this->frameHeaders(
                 redirect()->away($base.'/'.ltrim((string) $game->entry_path, '/')
-                    .($game->engine === GameEngine::Original ? '?lang='.\App\Http\Middleware\SetLocale::preferred($request) : ''))
+                    .($game->engine === GameEngine::Original ? '?lang='.SetLocale::preferred($request) : ''))
             ),
             GameEngine::Ruffle => $this->frameHeaders(response()->view('frames.ruffle', [
                 'game' => $game,

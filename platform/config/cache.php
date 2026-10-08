@@ -1,5 +1,14 @@
 <?php
 
+use App\Models\AdPlacement;
+use App\Models\Category;
+use App\Models\Game;
+use App\Models\HomepageSection;
+use App\Models\MenuItem;
+use App\Models\Provider;
+use App\Models\Tag;
+use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 
 return [
@@ -135,15 +144,15 @@ return [
     // used by cached catalog queries. Anything else comes back as an incomplete class.
     'serializable_classes' => [
         Illuminate\Database\Eloquent\Collection::class,
-        Illuminate\Support\Collection::class,
-        Illuminate\Database\Eloquent\Relations\Pivot::class,
-        App\Models\Game::class,
-        App\Models\Category::class,
-        App\Models\Tag::class,
-        App\Models\MenuItem::class,
-        App\Models\HomepageSection::class,
-        App\Models\AdPlacement::class,
-        App\Models\Provider::class,
+        Collection::class,
+        Pivot::class,
+        Game::class,
+        Category::class,
+        Tag::class,
+        MenuItem::class,
+        HomepageSection::class,
+        AdPlacement::class,
+        Provider::class,
     ],
 
 ];

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Enums\Role;
 use App\Http\Controllers\Controller;
+use App\Models\AuditLog;
 use App\Models\User;
 use App\Services\Audit;
 use Illuminate\Http\RedirectResponse;
@@ -35,7 +36,7 @@ class UserController extends Controller
     {
         return view('admin.users.show', [
             'user' => $user->loadCount(['plays', 'favorites', 'ratings', 'scores']),
-            'audit' => \App\Models\AuditLog::query()->where('subject_type', 'User')->where('subject_id', $user->id)->with('user:id,nickname')->latest('created_at')->limit(20)->get(),
+            'audit' => AuditLog::query()->where('subject_type', 'User')->where('subject_id', $user->id)->with('user:id,nickname')->latest('created_at')->limit(20)->get(),
             'recentPlays' => $user->plays()->with('game:id,slug,title')->latest()->limit(10)->get(),
         ]);
     }

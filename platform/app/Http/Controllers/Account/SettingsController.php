@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Account;
 
 use App\Http\Controllers\Controller;
+use App\Services\ImageProcessor;
 use App\Support\Seo;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -75,7 +76,7 @@ class SettingsController extends Controller
         ]);
         $user = $request->user();
         // Re-encode the image so no original file content (metadata, polyglots) is ever served.
-        $path = app(\App\Services\ImageProcessor::class)->storeSquare($request->file('avatar'), 'avatars', 256);
+        $path = app(ImageProcessor::class)->storeSquare($request->file('avatar'), 'avatars', 256);
         if ($user->avatar_path) {
             Storage::disk('public')->delete($user->avatar_path);
         }

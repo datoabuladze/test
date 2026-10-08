@@ -10,6 +10,7 @@ use App\Support\Translatable;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
 use Illuminate\View\View;
@@ -105,7 +106,7 @@ class CategoryController extends Controller
                 Category::query()->whereKey($id)->update(['sort_order' => $i]);
             }
         });
-        \Illuminate\Support\Facades\Cache::forget('categories.tree');
+        Cache::forget('categories.tree');
         GameCatalog::flush();
         Audit::log('category.reorder', null, ['ids' => $ids]);
 

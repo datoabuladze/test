@@ -9,7 +9,6 @@ use App\Models\GamePlay;
 use App\Models\SearchQuery;
 use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 
 /**

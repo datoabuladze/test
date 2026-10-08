@@ -20,7 +20,14 @@
      data-t-you-won="{{ __('You won!') }}"
      data-t-you-lost="{{ __('Your friend won') }}"
      data-t-draw="{{ __('Draw') }}"
-     data-t-spectating="{{ __('Watching') }}">
+     data-t-spectating="{{ __('Watching') }}"
+     data-t-online="{{ __('online') }}"
+     data-t-away="{{ __('away') }}"
+     data-t-ready="{{ __('ready') }}"
+     data-t-expired="{{ __('This room has expired.') }}"
+     data-t-cell="{{ __('Cell :n') }}"
+     data-t-column="{{ __('Column :n') }}"
+     data-copy-prompt="{{ __('Copy this link') }}">
     <div class="flex flex-wrap items-center justify-between gap-3">
         <div>
             <p class="text-xs uppercase tracking-widest text-ink-3">{{ __('Room') }} <span class="font-mono text-ink-2">{{ $room->code }}</span></p>
@@ -61,7 +68,7 @@
         <div x-show="hasBoard && game === 'tictactoe'" class="mx-auto grid w-full max-w-xs grid-cols-3 gap-2">
             <template x-for="i in cells9" :key="i">
                 <button type="button" class="flex aspect-square items-center justify-center rounded-xl border border-line bg-bg-2 text-5xl font-black transition hover:bg-card-2"
-                        :class="cellClass(i)" @click="playCell(i)" :data-testid="'cell-' + i" :aria-label="'Cell ' + (i + 1)">
+                        :class="cellClass(i)" @click="playCell(i)" :data-testid="'cell-' + i" :aria-label="cellLabel(i)">
                     <span x-text="cellMark(i)"></span>
                 </button>
             </template>
@@ -71,7 +78,7 @@
         <div x-show="hasBoard && game === 'connect4'" class="mx-auto w-full max-w-md">
             <div class="grid grid-cols-7 gap-1.5 rounded-2xl bg-brand/25 p-2">
                 <template x-for="i in cells42" :key="i">
-                    <button type="button" class="aspect-square rounded-full transition" :class="discClass(i)" @click="playCol(i)" :data-testid="'disc-' + i" :aria-label="'Column ' + (colOf(i) + 1)"></button>
+                    <button type="button" class="aspect-square rounded-full transition" :class="discClass(i)" @click="playCol(i)" :data-testid="'disc-' + i" :aria-label="colLabel(i)"></button>
                 </template>
             </div>
         </div>
