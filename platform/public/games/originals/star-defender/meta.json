@@ -1,0 +1,52 @@
+{
+  "key": "star-defender",
+  "slug": "star-defender",
+  "title": {"en": "Star Defender", "ka": "ვარსკვლავების დამცველი", "tr": "Yıldız Savunucusu", "ru": "Звёздный защитник"},
+  "short_description": {
+    "en": "Pilot a lone starfighter through 15 waves of invaders and three massive dreadnought bosses.",
+    "ka": "მართე მარტოხელა ვარსკვლავური გამანადგურებელი დამპყრობთა 15 ტალღასა და სამ უზარმაზარ ბოსს შორის.",
+    "tr": "Tek başına bir yıldız savaşçısıyla istilacıların 15 dalgasını ve üç devasa ana gemiyi aş.",
+    "ru": "Проведите одинокий истребитель через 15 волн захватчиков и трёх огромных флагманов."
+  },
+  "description": {
+    "en": "Star Defender is a vertical space shooter that is easy to pick up and tough to master. Your starfighter fires on its own, so all your attention goes into flying: weave between enemy shots, line up with targets and grab the capsules that wrecked ships leave behind.\n\nThe invaders arrive in waves with their own personalities – drones drift down in loose columns, swoopers dive across the screen in tight chains, and armoured gunners park in place and spray aimed bursts. Every fifth wave a dreadnought boss rolls in with rotating bullet rings, aimed volleys and spiral streams that get nastier each time.\n\nPower capsules upgrade your guns from a single laser to a five-way spread, shields soak up one hit, and rare hearts give you an extra life. Getting hit costs a life and one power level, so stay sharp. Survive all 15 waves and destroy the third dreadnought to save the sector.",
+    "ka": "ვარსკვლავების დამცველი ვერტიკალური კოსმოსური შუტერია, რომლის ათვისება მარტივია, დაუფლება კი — რთული. შენი გამანადგურებელი თავად ისვრის, ამიტომ მთელი ყურადღება ფრენას ეთმობა: აარიდე თავი მტრის ტყვიებს, დაუმიზნე სამიზნეებს და აკრიფე კაფსულები, რომლებსაც ჩამოგდებული ხომალდები ტოვებს.\n\nდამპყრობლები ტალღებად მოდიან და თითოეულს თავისი ხასიათი აქვს: დრონები ფხვიერ სვეტებად ეშვებიან, მყვინთავები მჭიდრო ჯაჭვებად ეკრანს კვეთენ, ჯავშნიანი მსროლელები კი ჩერდებიან და დამიზნებულ ჯერებს ისვრიან. ყოველ მეხუთე ტალღაზე უზარმაზარი ბოსი გამოჩნდება მბრუნავი ტყვიის რგოლებით, დამიზნებული ზალპებითა და სპირალური ნაკადებით, რომლებიც ყოველ ჯერზე უფრო საშიში ხდება.\n\nძალის კაფსულები შენს იარაღს ერთი ლაზერიდან ხუთმხრივ გაფანტულ ცეცხლამდე აძლიერებს, ფარი ერთ დარტყმას შთანთქავს, იშვიათი გულები კი დამატებით სიცოცხლეს გაძლევს. დარტყმა ერთ სიცოცხლესა და ერთ ძალის დონეს გართმევს, ამიტომ იყავი ფხიზლად. გადაიტანე 15-ვე ტალღა და გაანადგურე მესამე ბოსი, რომ სექტორი გადაარჩინო.",
+    "tr": "Yıldız Savunucusu, öğrenmesi kolay ama ustalaşması zor dikey bir uzay nişancı oyunudur. Yıldız savaşçın kendi kendine ateş eder; böylece tüm dikkatin uçuşta olur: düşman mermilerinin arasından süzül, hedeflerle hizalan ve düşürülen gemilerin bıraktığı kapsülleri topla.\n\nİstilacılar her biri kendi karakterine sahip dalgalar halinde gelir – dronlar gevşek sütunlar halinde aşağı süzülür, dalıcılar sıkı zincirler halinde ekranı yarar, zırhlı nişancılar ise yerlerine yerleşip sana nişanlı seriler yağdırır. Her beşinci dalgada dönen mermi halkaları, nişanlı yaylımlar ve sarmal akışlarla gelen bir ana gemi belirir ve her seferinde daha da acımasızlaşır.\n\nGüç kapsülleri silahını tek lazerden beş yönlü atışa yükseltir, kalkanlar bir vuruşu emer, nadir kalpler ise ekstra can verir. Vurulmak bir cana ve bir güç seviyesine mal olur, bu yüzden dikkatli ol. 15 dalganın hepsinden sağ çık ve sektörü kurtarmak için üçüncü ana gemiyi yok et.",
+    "ru": "«Звёздный защитник» — вертикальный космический шутер, в который легко начать играть и трудно стать мастером. Истребитель стреляет сам, так что всё внимание уходит на пилотирование: лавируйте между вражескими выстрелами, выходите на линию огня и подбирайте капсулы, которые оставляют сбитые корабли.\n\nЗахватчики приходят волнами, и у каждого свой характер: дроны спускаются рыхлыми колоннами, пикировщики проносятся по экрану плотными цепочками, а бронированные стрелки зависают на месте и бьют прицельными очередями. Каждую пятую волну появляется флагман-босс с вращающимися кольцами пуль, прицельными залпами и спиральными потоками — и с каждым разом он всё опаснее.\n\nКапсулы мощи улучшают оружие от одиночного лазера до пятиствольного веера, щит поглощает одно попадание, а редкие сердца дают дополнительную жизнь. Попадание стоит жизни и одного уровня мощи, так что будьте начеку. Переживите все 15 волн и уничтожьте третьего флагмана, чтобы спасти сектор."
+  },
+  "instructions": {
+    "en": "1. Your ship fires automatically – focus on moving and dodging.\n2. Only the small glowing core of your ship can be hit.\n3. Destroy enemies to score; clearing a wave gives a bonus.\n4. Collect capsules: P upgrades your guns (up to 4 levels), S gives a shield, ♥ adds a life.\n5. Every 5th wave is a boss fight.\n6. Lose all lives and the game is over – beat the boss of wave 15 to win.",
+    "ka": "1. შენი ხომალდი ავტომატურად ისვრის — ყურადღება მოძრაობასა და თავის არიდებაზე გაამახვილე.\n2. დაზიანება შეიძლება მხოლოდ ხომალდის პატარა მანათობელმა ბირთვმა მიიღოს.\n3. გაანადგურე მტრები ქულებისთვის; ტალღის გავლა ბონუსს იძლევა.\n4. აკრიფე კაფსულები: P აძლიერებს იარაღს (4 დონემდე), S გაძლევს ფარს, ♥ ამატებს სიცოცხლეს.\n5. ყოველი მე-5 ტალღა ბოსთან ბრძოლაა.\n6. ყველა სიცოცხლის დაკარგვა თამაშს ასრულებს — მოსაგებად დაამარცხე მე-15 ტალღის ბოსი.",
+    "tr": "1. Gemin otomatik ateş eder – hareket etmeye ve kaçmaya odaklan.\n2. Geminin yalnızca küçük parlayan çekirdeği vurulabilir.\n3. Puan için düşmanları yok et; bir dalgayı temizlemek bonus verir.\n4. Kapsülleri topla: P silahını yükseltir (4 seviyeye kadar), S kalkan verir, ♥ can ekler.\n5. Her 5. dalga bir ana gemi savaşıdır.\n6. Tüm canlarını kaybedersen oyun biter – kazanmak için 15. dalganın ana gemisini yen.",
+    "ru": "1. Корабль стреляет автоматически — сосредоточьтесь на манёврах и уклонении.\n2. Уязвимо только маленькое светящееся ядро корабля.\n3. Уничтожайте врагов ради очков; за прохождение волны дают бонус.\n4. Собирайте капсулы: P усиливает оружие (до 4 уровней), S даёт щит, ♥ добавляет жизнь.\n5. Каждая 5-я волна — бой с боссом.\n6. Потеряете все жизни — игра окончена; победите босса 15-й волны, чтобы выиграть."
+  },
+  "controls": {
+    "en": "- **Keyboard:** arrow keys or W A S D to fly\n- **Touch / mouse:** press and drag anywhere – the ship follows your movement without hiding under your finger\n- **Firing:** automatic\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** ისრები ან W A S D ფრენისთვის\n- **სენსორი / მაუსი:** დააჭირე და გაასრიალე ნებისმიერ ადგილას — ხომალდი მიჰყვება შენს მოძრაობას და თითის ქვეშ არ იმალება\n- **სროლა:** ავტომატური\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** uçmak için ok tuşları veya W A S D\n- **Dokunmatik / fare:** herhangi bir yere basılı tutup sürükle – gemi parmağının altında kalmadan hareketini takip eder\n- **Ateş:** otomatik\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** стрелки или W A S D для полёта\n- **Сенсор / мышь:** нажмите и ведите в любом месте — корабль повторяет движение и не прячется под пальцем\n- **Стрельба:** автоматическая\n- **P / Esc:** пауза"
+  },
+  "categories": ["shooting", "action", "arcade", "retro"],
+  "primary_category": "shooting",
+  "tags": [
+    {"slug": "space", "name": {"en": "Space", "ka": "კოსმოსი", "tr": "Uzay", "ru": "Космос"}},
+    {"slug": "shoot-em-up", "name": {"en": "Shoot 'em up", "ka": "შუტერი", "tr": "Nişancı", "ru": "Шмап"}},
+    {"slug": "boss-fights", "name": {"en": "Boss fights", "ka": "ბრძოლა ბოსებთან", "tr": "Boss savaşları", "ru": "Битвы с боссами"}}
+  ],
+  "input_types": ["keyboard", "mouse", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "medium",
+  "min_age": 7,
+  "score_mode": "casual",
+  "max_points_per_second": 6000,
+  "max_score": 800000,
+  "color": "#22d3ee",
+  "width": 480,
+  "height": 720,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": true,
+  "editors_pick": false
+}

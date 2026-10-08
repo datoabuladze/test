@@ -1,0 +1,52 @@
+{
+  "key": "slide-15",
+  "slug": "slide-15",
+  "title": {"en": "Tile Drift", "ka": "მოსრიალე ფილები", "tr": "Kayan Kareler", "ru": "Скользящие плитки"},
+  "short_description": {
+    "en": "Slide scrambled tiles back into order and restore a glowing, freshly painted picture.",
+    "ka": "აურეული ფილები სწორ რიგზე დააბრუნე და აღადგინე მანათობელი, ყოველ ჯერზე ახლად დახატული სურათი.",
+    "tr": "Karışmış kareleri sıraya geri kaydır ve her seferinde yeniden çizilen ışıltılı bir resmi tamamla.",
+    "ru": "Расставьте перемешанные плитки по порядку и восстановите светящуюся, каждый раз новую картину."
+  },
+  "description": {
+    "en": "Tile Drift is a modern take on the beloved sliding puzzle. A picture is cut into square tiles, one tile is removed and the rest are scrambled. Slide tiles into the empty slot, one or several at a time, until the picture is whole again – then the missing piece drops back in with a flash.\n\nEvery round paints a brand-new image on the fly: neon sunsets over grid plains, ringed planets in drifting nebulae or glowing geometric mandalas. Prefer classic puzzles? Switch to Numbers mode at any time and put the tiles in order from 1 upward. Each board is shuffled by legal moves only, so every puzzle can always be solved.\n\nPick a gentle 3×3 board, the classic 4×4 or a brain-twisting 5×5. Your score rewards both few moves and a quick finish, and little dots show which tiles already sit in their final spot – handy when you plan the last tricky rows.",
+    "ka": "„მოსრიალე ფილები“ საყვარელი მოსრიალე თავსატეხის თანამედროვე ვერსიაა. სურათი კვადრატულ ფილებად იჭრება, ერთი ფილა ამოიღება, დანარჩენი კი ირევა. გადაასრიალე ფილები ცარიელ ადგილზე – სათითაოდ ან რამდენიმე ერთად – სანამ სურათი ისევ მთლიანი არ გახდება; მაშინ დაკარგული ნაწილიც ბრწყინვალედ დაბრუნდება.\n\nყოველი რაუნდი სრულიად ახალ სურათს ხატავს: ნეონის მზის ჩასვლა ბადიან ველზე, რგოლებიანი პლანეტები მოცურავე ნისლეულებში ან მანათობელი გეომეტრიული მანდალები. კლასიკური თავსატეხი გირჩევნია? ნებისმიერ დროს ჩართე „ციფრების“ რეჟიმი და ფილები 1-დან დაწყებული რიგზე დაალაგე. ყოველი დაფა მხოლოდ დასაშვები სვლებით ირევა, ამიტომ თითოეული თავსატეხი ყოველთვის იხსნება.\n\nაირჩიე მსუბუქი 3×3, კლასიკური 4×4 ან თავსატეხი 5×5. ქულა აჯილდოებს როგორც ცოტა სვლას, ისე სწრაფ დასრულებას, ხოლო პატარა წერტილები გიჩვენებს, რომელი ფილები დგას უკვე თავის ადგილზე – ეს ბოლო რთული რიგების დაგეგმვისას გამოგადგება.",
+    "tr": "Kayan Kareler, sevilen kaydırmalı bulmacanın modern bir yorumudur. Bir resim kare parçalara bölünür, bir parça çıkarılır ve geri kalanlar karıştırılır. Resim yeniden bütün olana kadar kareleri boş yuvaya tek tek ya da birkaçını birden kaydır – sonunda eksik parça da ışıltıyla yerine oturur.\n\nHer tur anında yepyeni bir görüntü çizer: ızgaralı ovalar üzerinde neon gün batımları, süzülen bulutsular içinde halkalı gezegenler ya da parlayan geometrik mandalalar. Klasik bulmacaları mı seversin? İstediğin an Sayılar moduna geç ve kareleri 1’den başlayarak sıraya diz. Her tahta yalnızca geçerli hamlelerle karıştırılır, bu yüzden her bulmaca mutlaka çözülebilir.\n\nRahat bir 3×3, klasik 4×4 ya da kafa yoran 5×5 tahta seç. Puanın hem az hamleyi hem de hızlı bitirmeyi ödüllendirir; küçük noktalar ise hangi karelerin zaten doğru yerde olduğunu gösterir – son zorlu sıraları planlarken çok işine yarar.",
+    "ru": "«Скользящие плитки» — современный взгляд на любимую головоломку-пятнашки. Картина разрезается на квадратные плитки, одна убирается, а остальные перемешиваются. Сдвигайте плитки в пустую ячейку — по одной или сразу несколько, — пока картина снова не станет целой; тогда недостающий фрагмент со вспышкой встанет на место.\n\nКаждый раунд рисует совершенно новое изображение: неоновые закаты над равниной-сеткой, планеты с кольцами среди туманностей или светящиеся геометрические мандалы. Любите классику? В любой момент включите режим «Числа» и расставьте плитки по порядку, начиная с 1. Поле перемешивается только допустимыми ходами, поэтому каждая головоломка решаема.\n\nВыберите спокойное поле 3×3, классическое 4×4 или заковыристое 5×5. Счёт вознаграждает и малое число ходов, и быстрое решение, а маленькие точки показывают, какие плитки уже стоят на своём месте, — это очень помогает при сборке последних рядов."
+  },
+  "instructions": {
+    "en": "1. Choose a board size and press Play.\n2. Click or tap any tile in the same row or column as the empty slot to slide it (and the tiles between) toward the gap.\n3. Or use arrow keys / swipes to push a single tile into the gap.\n4. Rebuild the picture – or the numbers in order from 1 – with the empty slot in the bottom-right corner.\n5. Fewer moves and less time give a higher score.",
+    "ka": "1. აირჩიე დაფის ზომა და დააჭირე „თამაშს“.\n2. დააწკაპუნე ან შეეხე ნებისმიერ ფილას, რომელიც ცარიელ ადგილთან ერთ სტრიქონში ან სვეტშია, რომ ის (და შუაში მდგარი ფილები) ცარიელი ადგილისკენ გადაინაცვლოს.\n3. ან გამოიყენე ისრები / გასრიალება ერთი ფილის გადასაადგილებლად.\n4. ააწყვე სურათი – ან ციფრები 1-დან რიგით – ისე, რომ ცარიელი ადგილი ქვედა მარჯვენა კუთხეში აღმოჩნდეს.\n5. ნაკლები სვლა და დრო მეტ ქულას იძლევა.",
+    "tr": "1. Bir tahta boyutu seç ve Oyna’ya bas.\n2. Boş yuvayla aynı satır veya sütundaki herhangi bir kareye tıkla ya da dokun; kare (ve aradakiler) boşluğa doğru kayar.\n3. Ya da ok tuşları / kaydırma hareketiyle tek bir kareyi boşluğa it.\n4. Boş yuva sağ alt köşede kalacak şekilde resmi – ya da 1’den başlayarak sayıları – yeniden oluştur.\n5. Daha az hamle ve süre daha yüksek puan demektir.",
+    "ru": "1. Выберите размер поля и нажмите «Играть».\n2. Нажмите на любую плитку в одной строке или столбце с пустой ячейкой — она (и плитки между ними) сдвинется к пустому месту.\n3. Или используйте стрелки / свайпы, чтобы сдвинуть одну плитку.\n4. Соберите картину — или числа по порядку с 1 — так, чтобы пустая ячейка оказалась в правом нижнем углу.\n5. Меньше ходов и времени — больше очков."
+  },
+  "controls": {
+    "en": "- **Mouse / touch:** click or tap a tile to slide it, or swipe on the board\n- **Keyboard:** arrow keys or W A S D push a tile into the gap, M switches Picture / Numbers\n- **P / Esc:** pause",
+    "ka": "- **მაუსი / სენსორი:** დააწკაპუნე ან შეეხე ფილას გადასაადგილებლად, ან გაასრიალე დაფაზე\n- **კლავიატურა:** ისრები ან W A S D ფილას ცარიელ ადგილზე გადაიტანს, M – სურათი / ციფრები\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare / dokunmatik:** kaydırmak için kareye tıkla ya da dokun veya tahtada kaydırma hareketi yap\n- **Klavye:** ok tuşları veya W A S D kareyi boşluğa iter, M Resim / Sayılar arasında geçiş yapar\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь / сенсор:** нажмите на плитку, чтобы сдвинуть её, или сделайте свайп по полю\n- **Клавиатура:** стрелки или W A S D двигают плитку в пустую ячейку, M — переключение «Картина / Числа»\n- **P / Esc:** пауза"
+  },
+  "categories": ["puzzle", "logic", "brain", "classic"],
+  "primary_category": "puzzle",
+  "tags": [
+    {"slug": "sliding", "name": {"en": "Sliding", "ka": "სრიალი", "tr": "Kaydırma", "ru": "Пятнашки"}},
+    {"slug": "picture", "name": {"en": "Picture", "ka": "სურათი", "tr": "Resim", "ru": "Картинки"}},
+    {"slug": "tiles", "name": {"en": "Tiles", "ka": "ფილები", "tr": "Kareler", "ru": "Плитки"}}
+  ],
+  "input_types": ["mouse", "keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 600,
+  "max_score": 10000,
+  "color": "#38bdf8",
+  "width": 640,
+  "height": 720,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

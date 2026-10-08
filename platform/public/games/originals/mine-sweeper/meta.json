@@ -1,0 +1,52 @@
+{
+  "key": "mine-sweeper",
+  "slug": "mine-sweeper",
+  "title": {"en": "Mine Field", "ka": "ნაღმების ველი", "tr": "Mayın Tarlası", "ru": "Минное поле"},
+  "short_description": {
+    "en": "Read the numbers, flag the hidden mines and clear the glowing field without a single misstep.",
+    "ka": "წაიკითხე ციფრები, მონიშნე დამალული ნაღმები და გაასუფთავე მანათობელი ველი ერთი შეცდომის გარეშე.",
+    "tr": "Sayıları oku, gizli mayınları işaretle ve parlayan alanı tek bir hata yapmadan temizle.",
+    "ru": "Читайте цифры, отмечайте скрытые мины и очистите светящееся поле без единой ошибки."
+  },
+  "description": {
+    "en": "Mine Field is a tense game of deduction. Somewhere under the neon tiles lie hidden mines, and every tile you open shows how many of its eight neighbours are dangerous. Combine those clues, mark mines with flags and work your way across the board – one wrong dig and the whole field goes up.\n\nYour very first dig is always safe and opens up a clear area, so every round starts with real information instead of blind luck. Choose a compact 9×9 field for a quick game, a 16×16 board for a proper challenge or the large 30×16 field with 99 mines for marathon sessions. On phones the large field turns upright to fit the screen.\n\nYou earn points for every safe tile you open, and clearing the whole field adds a big bonus that grows the faster you finish. Use chording – tapping a number whose flags are complete – to open several tiles at once and save precious seconds.",
+    "ka": "„ნაღმების ველი“ დაძაბული ლოგიკური თამაშია. ნეონის ფილების ქვეშ ნაღმებია დამალული, და ყოველი გახსნილი ფილა გიჩვენებს, მისი რვა მეზობლიდან რამდენია საშიში. შეაჯერე მინიშნებები, ნაღმები დროშებით მონიშნე და ნელ-ნელა გადაკვეთე დაფა – ერთი არასწორი თხრა და მთელი ველი აფეთქდება.\n\nპირველი თხრა ყოველთვის უსაფრთხოა და თავისუფალ არეს ხსნის, ამიტომ ყოველი რაუნდი ბრმა იღბლით კი არა, რეალური ინფორმაციით იწყება. აირჩიე კომპაქტური 9×9 ველი სწრაფი თამაშისთვის, 16×16 დაფა ნამდვილი გამოწვევისთვის ან დიდი 30×16 ველი 99 ნაღმით ხანგრძლივი სესიებისთვის. ტელეფონზე დიდი ველი ვერტიკალურად ბრუნდება, რომ ეკრანზე დაეტიოს.\n\nყოველი გახსნილი უსაფრთხო ფილა ქულას გაძლევს, ხოლო მთელი ველის გასუფთავება დიდ ბონუსს ამატებს, რომელიც რაც უფრო სწრაფად დაასრულებ, მით მეტია. გამოიყენე „აკორდი“ – შეეხე ციფრს, რომლის დროშებიც სრულია, და ერთდროულად რამდენიმე ფილა გაიხსნება.",
+    "tr": "Mayın Tarlası gergin bir çıkarım oyunudur. Neon karelerin altında gizli mayınlar yatar ve açtığın her kare, sekiz komşusundan kaçının tehlikeli olduğunu gösterir. İpuçlarını birleştir, mayınları bayraklarla işaretle ve tahtada ilerle – tek bir yanlış kazı tüm alanı havaya uçurur.\n\nİlk kazın her zaman güvenlidir ve açık bir alan ortaya çıkarır; böylece her tur kör şans yerine gerçek bilgiyle başlar. Hızlı bir oyun için küçük 9×9 alanı, gerçek bir meydan okuma için 16×16 tahtayı ya da uzun seanslar için 99 mayınlı büyük 30×16 alanı seç. Telefonlarda büyük alan ekrana sığmak için dikey döner.\n\nAçtığın her güvenli kare puan kazandırır; tüm alanı temizlemek ise ne kadar hızlı bitirirsen o kadar büyüyen büyük bir bonus ekler. Bayrakları tamamlanmış bir sayıya dokunarak birden fazla kareyi aynı anda açabilir, değerli saniyeler kazanabilirsin.",
+    "ru": "«Минное поле» — напряжённая игра на логику. Под неоновыми клетками спрятаны мины, а каждая открытая клетка показывает, сколько из восьми её соседей опасны. Сопоставляйте подсказки, отмечайте мины флажками и продвигайтесь по полю — одна ошибка, и всё взлетит на воздух.\n\nПервый ход всегда безопасен и открывает свободную область, поэтому каждый раунд начинается с настоящей информации, а не со слепой удачи. Выберите компактное поле 9×9 для быстрой партии, 16×16 для серьёзного испытания или большое поле 30×16 с 99 минами для долгих сессий. На телефоне большое поле поворачивается вертикально, чтобы поместиться на экране.\n\nКаждая открытая безопасная клетка приносит очки, а полная очистка поля даёт крупный бонус, который тем больше, чем быстрее вы справились. Нажимайте на цифру с полным набором флажков, чтобы открыть сразу несколько соседних клеток и сэкономить драгоценные секунды."
+  },
+  "instructions": {
+    "en": "1. Choose a field size and press Play.\n2. Dig any tile – the first dig is always safe.\n3. Each number tells how many mines touch that tile, including diagonals.\n4. Flag tiles you are sure hide a mine.\n5. Tap a number whose flags are complete to open all its other neighbours.\n6. Open every safe tile to win; digging a mine ends the round.",
+    "ka": "1. აირჩიე ველის ზომა და დააჭირე „თამაშს“.\n2. გათხარე ნებისმიერი ფილა – პირველი თხრა ყოველთვის უსაფრთხოა.\n3. თითოეული ციფრი გიჩვენებს, რამდენი ნაღმი ეხება ამ ფილას, დიაგონალების ჩათვლით.\n4. მონიშნე დროშით ფილები, რომლებშიც ნაღმის არსებობაში დარწმუნებული ხარ.\n5. შეეხე ციფრს, რომლის დროშებიც სრულია, რომ დანარჩენი მეზობლები გაიხსნას.\n6. მოსაგებად გახსენი ყველა უსაფრთხო ფილა; ნაღმის გათხრა რაუნდს ასრულებს.",
+    "tr": "1. Bir alan boyutu seç ve Oyna’ya bas.\n2. Herhangi bir kareyi kaz – ilk kazı her zaman güvenlidir.\n3. Her sayı, çaprazlar dahil o kareye kaç mayının değdiğini gösterir.\n4. Mayın olduğundan emin olduğun kareleri bayrakla işaretle.\n5. Bayrakları tamam olan bir sayıya dokunarak diğer tüm komşularını aç.\n6. Kazanmak için tüm güvenli kareleri aç; mayın kazmak turu bitirir.",
+    "ru": "1. Выберите размер поля и нажмите «Играть».\n2. Откройте любую клетку — первый ход всегда безопасен.\n3. Каждая цифра показывает, сколько мин касается клетки, включая диагонали.\n4. Отмечайте флажком клетки, в которых точно есть мина.\n5. Нажмите на цифру с полным набором флажков, чтобы открыть остальных соседей.\n6. Откройте все безопасные клетки, чтобы победить; мина завершает раунд."
+  },
+  "controls": {
+    "en": "- **Mouse:** left click to dig, right click to place or remove a flag, click a completed number to open its neighbours\n- **Touch:** tap to dig, long-press to flag, or switch the Dig / Flag toggle below the field\n- **Keyboard:** arrow keys or W A S D to move, Space / Enter to dig, F to flag\n- **P / Esc:** pause",
+    "ka": "- **მაუსი:** მარცხენა ღილაკი – თხრა, მარჯვენა – დროშის დასმა ან მოხსნა, დასრულებულ ციფრზე დაწკაპუნება მეზობლებს ხსნის\n- **სენსორი:** შეხება – თხრა, ხანგრძლივი შეხება – დროშა, ან ველის ქვეშ „თხრა / დროშა“ გადამრთველი\n- **კლავიატურა:** ისრები ან W A S D – გადაადგილება, Space / Enter – თხრა, F – დროშა\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare:** kazmak için sol tık, bayrak koyup kaldırmak için sağ tık, tamamlanmış bir sayıya tıklayınca komşuları açılır\n- **Dokunmatik:** kazmak için dokun, bayrak için uzun bas veya alanın altındaki Kaz / Bayrak düğmesini kullan\n- **Klavye:** hareket için ok tuşları veya W A S D, kazmak için Space / Enter, bayrak için F\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь:** левый клик — копать, правый — поставить или снять флажок, клик по завершённой цифре открывает соседей\n- **Сенсор:** касание — копать, долгое нажатие — флажок, или переключатель «Копать / Флаг» под полем\n- **Клавиатура:** стрелки или W A S D — перемещение, Space / Enter — копать, F — флажок\n- **P / Esc:** пауза"
+  },
+  "categories": ["puzzle", "logic", "strategy", "classic"],
+  "primary_category": "logic",
+  "tags": [
+    {"slug": "mines", "name": {"en": "Mines", "ka": "ნაღმები", "tr": "Mayınlar", "ru": "Мины"}},
+    {"slug": "deduction", "name": {"en": "Deduction", "ka": "დედუქცია", "tr": "Çıkarım", "ru": "Дедукция"}},
+    {"slug": "grid", "name": {"en": "Grid", "ka": "ბადე", "tr": "Izgara", "ru": "Сетка"}}
+  ],
+  "input_types": ["mouse", "keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "medium",
+  "min_age": 6,
+  "score_mode": "casual",
+  "max_points_per_second": 2000,
+  "max_score": 15000,
+  "color": "#f472b6",
+  "width": 960,
+  "height": 640,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

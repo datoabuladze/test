@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#3a1240"/><stop offset=".6" stop-color="#140d24"/><stop offset="1" stop-color="#0b0d17"/></radialGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c3160"/><stop offset="1" stop-color="#1a1d3a"/></linearGradient>
+    <radialGradient id="mine" cx="35%" cy="35%"><stop offset="0" stop-color="#fda4af"/><stop offset="1" stop-color="#9f1239"/></radialGradient>
+    <radialGradient id="blast" cx="50%" cy="50%"><stop offset="0" stop-color="#fde047" stop-opacity=".9"/><stop offset=".4" stop-color="#fb7185" stop-opacity=".5"/><stop offset="1" stop-color="#fb7185" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+    <g id="t"><rect width="52" height="52" rx="9" fill="url(#tile)"/><rect x="2" y="2" width="48" height="16" rx="7" fill="#fff" opacity=".07"/></g>
+    <g id="o"><rect width="52" height="52" rx="7" fill="#141729"/></g>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <g transform="translate(320 250) skewX(-12) scale(1 .78) translate(-196 -196)">
+    <rect x="-10" y="-10" width="412" height="412" rx="20" fill="#0d1020" stroke="#f472b6" stroke-opacity=".45" stroke-width="2"/>
+    <!-- row 0 -->
+    <use href="#t" x="0" y="0"/><use href="#t" x="56" y="0"/><use href="#t" x="112" y="0"/><use href="#t" x="168" y="0"/><use href="#t" x="224" y="0"/><use href="#t" x="280" y="0"/><use href="#t" x="336" y="0"/>
+    <!-- row 1 -->
+    <use href="#t" x="0" y="56"/><use href="#o" x="56" y="56"/><use href="#o" x="112" y="56"/><use href="#o" x="168" y="56"/><use href="#t" x="224" y="56"/><use href="#t" x="280" y="56"/><use href="#t" x="336" y="56"/>
+    <!-- row 2 -->
+    <use href="#t" x="0" y="112"/><use href="#o" x="56" y="112"/><use href="#o" x="112" y="112"/><use href="#o" x="168" y="112"/><use href="#o" x="224" y="112"/><use href="#t" x="280" y="112"/><use href="#t" x="336" y="112"/>
+    <!-- row 3 -->
+    <use href="#o" x="0" y="168"/><use href="#o" x="56" y="168"/><use href="#o" x="112" y="168"/><use href="#o" x="168" y="168"/><use href="#o" x="224" y="168"/><use href="#t" x="280" y="168"/><use href="#t" x="336" y="168"/>
+    <!-- row 4 -->
+    <use href="#o" x="0" y="224"/><use href="#o" x="56" y="224"/><use href="#o" x="112" y="224"/><use href="#o" x="168" y="224"/><use href="#o" x="224" y="224"/><use href="#o" x="280" y="224"/><use href="#t" x="336" y="224"/>
+    <!-- row 5 -->
+    <use href="#t" x="0" y="280"/><use href="#t" x="56" y="280"/><use href="#o" x="112" y="280"/><use href="#o" x="168" y="280"/><use href="#o" x="224" y="280"/><use href="#o" x="280" y="280"/><use href="#t" x="336" y="280"/>
+    <!-- row 6 -->
+    <use href="#t" x="0" y="336"/><use href="#t" x="56" y="336"/><use href="#t" x="112" y="336"/><use href="#t" x="168" y="336"/><use href="#t" x="224" y="336"/><use href="#t" x="280" y="336"/><use href="#t" x="336" y="336"/>
+    <g font-family="system-ui,sans-serif" font-weight="900" font-size="30" text-anchor="middle">
+      <text x="82" y="93" fill="#22d3ee">1</text><text x="138" y="93" fill="#4ade80">2</text><text x="194" y="93" fill="#22d3ee">1</text>
+      <text x="82" y="149" fill="#22d3ee">1</text><text x="250" y="149" fill="#f472b6">3</text>
+      <text x="26" y="205" fill="#22d3ee">1</text><text x="250" y="205" fill="#4ade80">2</text>
+      <text x="306" y="261" fill="#22d3ee">1</text>
+      <text x="26" y="261" fill="#4ade80">2</text><text x="138" y="317" fill="#22d3ee">1</text><text x="306" y="317" fill="#a78bfa">4</text>
+    </g>
+    <!-- flags -->
+    <g transform="translate(112 0)"><path d="M18 40V12" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/><path d="M19 12l17 7-17 7z" fill="#f472b6"/><path d="M19 12l17 7-17 7z" fill="#f472b6" filter="url(#glow)"/></g>
+    <g transform="translate(280 112)"><path d="M18 40V12" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/><path d="M19 12l17 7-17 7z" fill="#f472b6"/></g>
+    <g transform="translate(56 280)"><path d="M18 40V12" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/><path d="M19 12l17 7-17 7z" fill="#f472b6"/></g>
+  </g>
+  <!-- glowing mine, popping out of the board -->
+  <circle cx="470" cy="150" r="90" fill="url(#blast)"/>
+  <g transform="translate(470 150)" stroke="#fecdd3" stroke-width="7" stroke-linecap="round">
+    <path d="M0-50V50M-50 0H50M-35-35L35 35M35-35L-35 35"/>
+  </g>
+  <circle cx="470" cy="150" r="32" fill="url(#mine)"/>
+  <circle cx="460" cy="140" r="8" fill="#fff" opacity=".6"/>
+  <text x="320" y="455" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="40" fill="#fff" letter-spacing="2">MINE FIELD</text>
+</svg>

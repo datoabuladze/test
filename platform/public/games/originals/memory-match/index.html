@@ -36,7 +36,8 @@
   .xx-chip { border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.05); border-radius: 999px; padding: 7px 14px; cursor: pointer; font-weight: 700; font-size: 13px; }
   .xx-chip.on { background: linear-gradient(135deg, rgba(34,211,238,.35), rgba(124,92,255,.45)); border-color: #22d3ee; }
   .xx-stars { font-size: 30px; letter-spacing: 6px; color: #fde047; text-shadow: 0 0 14px rgba(253,224,71,.6); }
-  @media (max-width: 520px) { #ng-hud .ng-stats { gap: 8px; font-size: 12px; } #ng-hud .ng-title { font-size: 14px; } #ng-hud { gap: 6px; padding: 6px 8px; } #ng-hud .ng-btn { width: 30px; height: 30px; } }
+  @media (max-width: 520px) { #ng-hud .ng-stats { gap: 8px; font-size: 12px; } #ng-hud .ng-title { font-size: 14px; } #ng-hud { gap: 6px; padding: 6px 8px; } #ng-hud .ng-btn { width: 30px; height: 30px; flex: 0 0 auto; } }
+  @media (max-width: 440px) { #ng-hud .ng-title { display: none; } #ng-hud .ng-stats { gap: 7px; font-size: 11.5px; } }
   .fx { position: absolute; inset: 0; pointer-events: none; z-index: 4; }
 </style>
 </head>

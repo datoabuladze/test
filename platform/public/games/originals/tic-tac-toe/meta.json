@@ -1,0 +1,52 @@
+{
+  "key": "tic-tac-toe",
+  "slug": "tic-tac-toe",
+  "title": {"en": "Neon Noughts", "ka": "ნეონის X-O", "tr": "Neon XOX", "ru": "Неоновые крестики-нолики"},
+  "short_description": {
+    "en": "Three in a row, neon style: outsmart a CPU with three brains or duel a friend on one screen.",
+    "ka": "სამი ერთ ხაზზე ნეონის სტილში: აჯობე სამი სირთულის კომპიუტერს ან შეეჯიბრე მეგობარს ერთ ეკრანზე.",
+    "tr": "Neon tarzında üçlü dizi: üç farklı zekâya sahip bilgisayarı alt et ya da aynı ekranda bir arkadaşınla düello yap.",
+    "ru": "Три в ряд в неоновом стиле: перехитрите компьютер трёх уровней сложности или сразитесь с другом на одном экране."
+  },
+  "description": {
+    "en": "Neon Noughts takes the oldest pencil-and-paper duel and lights it up. Place your glowing X on the 3×3 grid and try to line up three marks across, down or diagonally before your opponent does.\n\nPlay against the computer on **Easy**, **Medium** or **Unbeatable**. The Unbeatable CPU searches every possible continuation, so a draw is a victory in itself. Against the CPU the match keeps going round after round: every win and every draw adds to your score, and a single loss ends the run – how long can you keep your streak alive?\n\nWant a human rival instead? Switch to **2 Players** and pass the device back and forth. The first player to take three rounds wins the match. Who opens alternates every round, so it stays fair.",
+    "ka": "ნეონის X-O უძველეს ქაღალდისა და ფანქრის დუელს ახალ შუქს ჰფენს. დასვი შენი მანათობელი X 3×3 დაფაზე და შეეცადე, სამი ნიშანი ჰორიზონტალურად, ვერტიკალურად ან დიაგონალზე მეტოქეზე ადრე ააწყო.\n\nითამაშე კომპიუტერთან **მარტივ**, **საშუალო** ან **უძლეველ** რეჟიმში. უძლეველი კომპიუტერი ყველა შესაძლო გაგრძელებას ითვლის, ამიტომ მასთან ფრეც კი გამარჯვებაა. კომპიუტერთან მატჩი რაუნდიდან რაუნდამდე გრძელდება: ყოველი მოგება და ფრე ქულას გმატებს, ერთი წაგება კი სერიას ამთავრებს – რამდენ ხანს გაძლებ?\n\nგინდა ცოცხალი მეტოქე? ჩართე **2 მოთამაშე** და მოწყობილობა ერთმანეთს გადაეცით. ვინც პირველი მოიგებს სამ რაუნდს, მატჩი მისია. პირველი სვლის უფლება ყოველ რაუნდში იცვლება, ასე რომ, ყველაფერი სამართლიანია.",
+    "tr": "Neon XOX, en eski kâğıt-kalem düellosunu ışıl ışıl bir hâle getiriyor. Parlayan X’ini 3×3 tahtaya yerleştir ve rakibinden önce üç işareti yatay, dikey ya da çapraz olarak sıralamaya çalış.\n\nBilgisayara karşı **Kolay**, **Orta** veya **Yenilmez** seviyede oyna. Yenilmez bilgisayar olası tüm devamları hesaplar; ona karşı beraberlik bile bir zaferdir. Bilgisayara karşı maç tur tur devam eder: her galibiyet ve beraberlik puanına eklenir, tek bir yenilgi ise seriyi bitirir – serini ne kadar sürdürebilirsin?\n\nGerçek bir rakip mi istiyorsun? **2 Oyuncu** moduna geç ve cihazı sırayla kullanın. Üç turu ilk kazanan maçı alır. Her turda başlayan oyuncu değişir, böylece oyun adil kalır.",
+    "ru": "«Неоновые крестики-нолики» – самая старая дуэль на бумаге в новом свете. Ставьте светящийся крестик на поле 3×3 и постарайтесь выстроить три знака по горизонтали, вертикали или диагонали раньше соперника.\n\nИграйте против компьютера на уровнях **Легко**, **Средне** или **Непобедимый**. Непобедимый компьютер просчитывает все возможные продолжения, так что ничья с ним – уже победа. Против компьютера матч идёт раунд за раундом: каждая победа и ничья приносят очки, а одно поражение завершает серию – как долго вы продержитесь?\n\nХотите живого соперника? Включите режим **2 игрока** и передавайте устройство друг другу. Кто первым выиграет три раунда, тот и победил в матче. Право первого хода меняется каждый раунд, так что всё честно."
+  },
+  "instructions": {
+    "en": "1. Choose a mode at the top of the board: Easy, Medium, Unbeatable or 2 Players.\n2. Take turns placing marks – you are X against the CPU.\n3. Line up three marks in a row, column or diagonal to win the round.\n4. Vs CPU: wins (100 / 300 points) and draws (20 / 60 / 150 points) add up; one loss ends the run.\n5. 2 Players: the first to win three rounds takes the match.",
+    "ka": "1. დაფის ზემოთ აირჩიე რეჟიმი: მარტივი, საშუალო, უძლეველი ან 2 მოთამაშე.\n2. რიგრიგობით დასვით ნიშნები – კომპიუტერთან შენ X ხარ.\n3. ააწყვე სამი ნიშანი რიგში, სვეტში ან დიაგონალზე და რაუნდს მოიგებ.\n4. კომპიუტერთან: მოგება (100 / 300 ქულა) და ფრე (20 / 60 / 150 ქულა) ჯამდება; ერთი წაგება სერიას ამთავრებს.\n5. 2 მოთამაშე: ვინც პირველი მოიგებს სამ რაუნდს, მატჩს იგებს.",
+    "tr": "1. Tahtanın üstünden bir mod seç: Kolay, Orta, Yenilmez veya 2 Oyuncu.\n2. Sırayla işaret koyun – bilgisayara karşı sen X’sin.\n3. Turu kazanmak için üç işareti satır, sütun veya çapraz olarak diz.\n4. Bilgisayara karşı: galibiyetler (100 / 300 puan) ve beraberlikler (20 / 60 / 150 puan) toplanır; tek yenilgi seriyi bitirir.\n5. 2 Oyuncu: üç turu ilk kazanan maçı alır.",
+    "ru": "1. Выберите режим над полем: Легко, Средне, Непобедимый или 2 игрока.\n2. Ставьте знаки по очереди – против компьютера вы играете крестиками.\n3. Выстройте три знака в строку, столбец или по диагонали, чтобы выиграть раунд.\n4. Против компьютера: победы (100 / 300 очков) и ничьи (20 / 60 / 150 очков) суммируются; одно поражение завершает серию.\n5. 2 игрока: кто первым выиграет три раунда, тот выиграл матч."
+  },
+  "controls": {
+    "en": "- **Mouse / touch:** click or tap a cell; tap a mode button to switch\n- **Keyboard:** 1–9 place a mark (1 = top left), arrows / W A S D move the cursor, Space / Enter place\n- **M:** cycle game mode\n- **P / Esc:** pause",
+    "ka": "- **მაუსი / სენსორი:** დააჭირე უჯრას; რეჟიმის შესაცვლელად დააჭირე რეჟიმის ღილაკს\n- **კლავიატურა:** 1–9 სვამს ნიშანს (1 = ზედა მარცხენა), ისრები / W A S D ამოძრავებს კურსორს, Space / Enter სვამს\n- **M:** რეჟიმის შეცვლა\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare / dokunmatik:** bir kareye tıkla veya dokun; mod değiştirmek için mod düğmesine dokun\n- **Klavye:** 1–9 işaret koyar (1 = sol üst), ok tuşları / W A S D imleci taşır, Boşluk / Enter yerleştirir\n- **M:** oyun modunu değiştir\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь / сенсор:** нажмите на клетку; для смены режима нажмите кнопку режима\n- **Клавиатура:** 1–9 ставят знак (1 = левый верхний угол), стрелки / W A S D двигают курсор, Пробел / Enter ставят знак\n- **M:** сменить режим\n- **P / Esc:** пауза"
+  },
+  "categories": ["board", "logic", "two-player", "classic", "casual"],
+  "primary_category": "board",
+  "tags": [
+    {"slug": "three-in-a-row", "name": {"en": "Three in a row", "ka": "სამი რიგში", "tr": "Üçlü dizi", "ru": "Три в ряд"}},
+    {"slug": "vs-computer", "name": {"en": "Vs computer", "ka": "კომპიუტერთან", "tr": "Bilgisayara karşı", "ru": "Против компьютера"}},
+    {"slug": "local-multiplayer", "name": {"en": "Local multiplayer", "ka": "ერთ მოწყობილობაზე", "tr": "Yerel çok oyunculu", "ru": "На одном устройстве"}}
+  ],
+  "input_types": ["keyboard", "mouse", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "easy",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 200,
+  "max_score": 100000,
+  "color": "#22d3ee",
+  "width": 600,
+  "height": 760,
+  "is_multiplayer": true,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

@@ -1,0 +1,52 @@
+{
+  "key": "reflex-test",
+  "slug": "reflex-test",
+  "title": {"en": "Pulse Reflex", "ka": "პულსის რეფლექსი", "tr": "Nabız Refleksi", "ru": "Пульс-рефлекс"},
+  "short_description": {
+    "en": "Wait for the flash, then tap. Five rounds measure your true reaction time in milliseconds.",
+    "ka": "დაელოდე აფეთქებას და დააჭირე. ხუთი რაუნდი შენს ნამდვილ რეაქციის დროს მილიწამებში ზომავს.",
+    "tr": "Parlamayı bekle, sonra dokun. Beş tur gerçek tepki süreni milisaniye cinsinden ölçer.",
+    "ru": "Дождитесь вспышки и нажмите. Пять раундов измерят ваше настоящее время реакции в миллисекундах."
+  },
+  "description": {
+    "en": "Pulse Reflex is a clean, honest reaction-time test. A glowing core pulses purple while you wait – then, after a random delay, it flashes bright cyan. Tap the screen or press Space the instant you see it. Your time is measured in milliseconds from the very frame the flash appears.\n\nA full test is five rounds, and your result is the average. Jumping the gun counts as a false start: you get a 200 ms penalty and the round is repeated, so guessing never pays. Taps faster than 100 ms after the flash are treated as anticipation, not reaction. A bar chart keeps track of every attempt so you can see how consistent you are.\n\nMost people land between 200 and 300 ms. Your score is 1000 minus your average, so every millisecond you shave off counts on the leaderboard. Try it rested, tired, before and after coffee – and see how far you can push your reflexes.",
+    "ka": "პულსის რეფლექსი რეაქციის დროის მარტივი და პატიოსანი ტესტია. მანათობელი ბირთვი ლოდინისას იისფრად ფეთქავს, შემდეგ კი შემთხვევითი დაყოვნების მერე კაშკაშა ცისფრად აინთება. როგორც კი დაინახავ, დააჭირე ეკრანს ან Space-ს. დრო მილიწამებში იზომება იმ კადრიდან, როცა აფეთქება ჩნდება.\n\nსრული ტესტი ხუთი რაუნდია, შედეგი კი მათი საშუალოა. ნაადრევი დაჭერა ფალსტარტად ითვლება: იღებ 200 მწ ჯარიმას და რაუნდი მეორდება, ამიტომ გამოცნობა არ ღირს. აფეთქებიდან 100 მწ-ზე სწრაფი დაჭერა წინასწარ გამოცნობად ითვლება და არა რეაქციად. დიაგრამა ყველა მცდელობას აჩვენებს, ასე რომ, დაინახავ, რამდენად სტაბილური ხარ.\n\nადამიანების უმეტესობის შედეგი 200-დან 300 მწ-მდეა. შენი ქულა არის 1000 მინუს საშუალო დრო, ამიტომ ყოველი დაზოგილი მილიწამი რეიტინგში ითვლება. სცადე დასვენებულმა, დაღლილმა, ყავამდე და ყავის შემდეგ – და ნახე, რამდენად შეგიძლია რეფლექსების გაუმჯობესება.",
+    "tr": "Nabız Refleksi sade ve dürüst bir tepki süresi testidir. Beklerken parlayan çekirdek mor renkte atar – ardından rastgele bir gecikmeden sonra parlak camgöbeği renkte yanar. Gördüğün anda ekrana dokun ya da Boşluk’a bas. Süren, parlamanın göründüğü ilk kareden itibaren milisaniye cinsinden ölçülür.\n\nTam bir test beş turdan oluşur ve sonucun bunların ortalamasıdır. Erken davranmak hatalı çıkış sayılır: 200 ms ceza alırsın ve tur tekrarlanır, yani tahmin etmek işe yaramaz. Parlamadan sonraki 100 ms’den hızlı dokunuşlar tepki değil, tahmin olarak değerlendirilir. Bir çubuk grafik her denemeni gösterir, böylece ne kadar istikrarlı olduğunu görürsün.\n\nÇoğu insan 200 ile 300 ms arasında sonuç alır. Puanın 1000 eksi ortalaman olduğu için kazandığın her milisaniye liderlik tablosunda önemlidir. Dinlenmişken, yorgunken, kahveden önce ve sonra dene – reflekslerini ne kadar ileri götürebileceğini gör.",
+    "ru": "«Пульс-рефлекс» – простой и честный тест на время реакции. Пока вы ждёте, светящееся ядро пульсирует фиолетовым, а после случайной паузы вспыхивает ярко-голубым. Нажмите на экран или Пробел, как только это увидите. Время измеряется в миллисекундах с того самого кадра, на котором появилась вспышка.\n\nПолный тест – пять раундов, а результат – их среднее значение. Нажатие раньше времени считается фальстартом: вы получаете штраф 200 мс, и раунд повторяется, так что угадывать бессмысленно. Нажатия быстрее 100 мс после вспышки считаются предугадыванием, а не реакцией. Диаграмма показывает каждую попытку, и видно, насколько вы стабильны.\n\nУ большинства людей результат от 200 до 300 мс. Ваши очки – это 1000 минус среднее время, поэтому в таблице рекордов важна каждая миллисекунда. Попробуйте отдохнувшим, уставшим, до и после кофе – и узнайте, насколько можно разогнать свои рефлексы."
+  },
+  "instructions": {
+    "en": "1. Press Play and keep your finger ready while the core glows purple.\n2. When it flashes cyan, tap anywhere or press Space as fast as you can.\n3. Tapping before the flash is a false start: +200 ms and the round repeats.\n4. After five valid rounds you get your average reaction time.\n5. Score = 1000 − average ms (higher is better).",
+    "ka": "1. დააჭირე „თამაშს“ და თითი მზად გქონდეს, სანამ ბირთვი იისფრად ანათებს.\n2. როცა ცისფრად აინთება, რაც შეიძლება სწრაფად დააჭირე ნებისმიერ ადგილას ან Space-ს.\n3. აფეთქებამდე დაჭერა ფალსტარტია: +200 მწ და რაუნდი მეორდება.\n4. ხუთი სწორი რაუნდის შემდეგ მიიღებ რეაქციის საშუალო დროს.\n5. ქულა = 1000 − საშუალო მწ (რაც მეტი, მით უკეთესი).",
+    "tr": "1. Oyna’ya bas ve çekirdek mor parlarken parmağını hazır tut.\n2. Camgöbeği yandığında olabildiğince hızlı bir şekilde herhangi bir yere dokun ya da Boşluk’a bas.\n3. Parlamadan önce dokunmak hatalı çıkıştır: +200 ms ve tur tekrarlanır.\n4. Beş geçerli turdan sonra ortalama tepki süreni görürsün.\n5. Puan = 1000 − ortalama ms (yüksek olan daha iyi).",
+    "ru": "1. Нажмите «Играть» и держите палец наготове, пока ядро светится фиолетовым.\n2. Когда оно вспыхнет голубым, как можно быстрее нажмите в любом месте или Пробел.\n3. Нажатие до вспышки – фальстарт: +200 мс, и раунд повторяется.\n4. После пяти засчитанных раундов вы узнаете среднее время реакции.\n5. Очки = 1000 − среднее время в мс (чем больше, тем лучше)."
+  },
+  "controls": {
+    "en": "- **Touch / mouse:** tap or click anywhere on the game\n- **Keyboard:** Space, Enter or any letter key\n- **P / Esc:** pause (the current round restarts)",
+    "ka": "- **სენსორი / მაუსი:** დააჭირე თამაშის ნებისმიერ ადგილას\n- **კლავიატურა:** Space, Enter ან ნებისმიერი ასო\n- **P / Esc:** პაუზა (მიმდინარე რაუნდი თავიდან იწყება)",
+    "tr": "- **Dokunmatik / fare:** oyunun herhangi bir yerine dokun veya tıkla\n- **Klavye:** Boşluk, Enter veya herhangi bir harf tuşu\n- **P / Esc:** duraklat (mevcut tur yeniden başlar)",
+    "ru": "- **Сенсор / мышь:** нажмите в любом месте игры\n- **Клавиатура:** Пробел, Enter или любая буквенная клавиша\n- **P / Esc:** пауза (текущий раунд начинается заново)"
+  },
+  "categories": ["brain", "casual", "action"],
+  "primary_category": "brain",
+  "tags": [
+    {"slug": "reaction-time", "name": {"en": "Reaction time", "ka": "რეაქციის დრო", "tr": "Tepki süresi", "ru": "Время реакции"}},
+    {"slug": "reflex", "name": {"en": "Reflex", "ka": "რეფლექსი", "tr": "Refleks", "ru": "Рефлексы"}},
+    {"slug": "one-tap", "name": {"en": "One tap", "ka": "ერთი შეხება", "tr": "Tek dokunuş", "ru": "Одно касание"}}
+  ],
+  "input_types": ["keyboard", "mouse", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "easy",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 150,
+  "max_score": 900,
+  "color": "#22d3ee",
+  "width": 600,
+  "height": 720,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

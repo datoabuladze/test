@@ -185,10 +185,16 @@
     game.setStat('score', score);
     game.setStat('wins', isPvp() ? tally[1] + ':' + tally[2] : tally[1], TXT.wins);
   }
+  // 2-player matches have no leaderboard score: the big number shows the match result instead.
+  // The SDK formats the stored best first (for the "Best" line) and the round score second (big number).
+  function matchFormatter(line) {
+    var calls = 0;
+    return function (v) { calls++; return calls === 1 ? (v > 0 ? String(v) : '—') : line; };
+  }
   function finish() {
     if (isPvp()) {
       var champ = tally[1] >= 3 ? 1 : 2, line = tally[1] + ' : ' + tally[2];
-      game.over({ score: 0, win: true, title: fmt(TXT.matchWin, nameOf(champ)), formatScore: function (v) { return v === 0 ? line : String(v); },
+      game.over({ score: 0, win: true, title: fmt(TXT.matchWin, nameOf(champ)), formatScore: matchFormatter(line),
         lines: [TXT.draws + ': ' + tally.D, TXT.rounds + ': ' + round] });
     } else {
       game.over({ score: score, win: false, title: TXT.beaten,

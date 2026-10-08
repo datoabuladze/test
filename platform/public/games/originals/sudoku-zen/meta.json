@@ -1,0 +1,52 @@
+{
+  "key": "sudoku-zen",
+  "slug": "sudoku-zen",
+  "title": {"en": "Sudoku Zen", "ka": "სუდოკუ ძენი", "tr": "Sudoku Zen", "ru": "Судоку Дзен"},
+  "short_description": {
+    "en": "Calm, freshly generated Sudoku puzzles with pencil notes, conflict hints and three difficulty levels.",
+    "ka": "მშვიდი, ყოველ ჯერზე ახლად შექმნილი სუდოკუ შენიშვნებით, კონფლიქტების მინიშნებით და სირთულის სამი დონით.",
+    "tr": "Not alma, çakışma uyarısı ve üç zorluk seviyesiyle her seferinde yeniden üretilen sakin Sudoku bulmacaları.",
+    "ru": "Спокойные, каждый раз новые судоку с заметками, подсветкой ошибок и тремя уровнями сложности."
+  },
+  "description": {
+    "en": "Sudoku Zen brings the timeless number puzzle to a quiet, glowing board. Every round creates a brand-new grid on the spot, and each puzzle is checked to have **exactly one solution** – so pure logic always leads you to the answer, no guessing required.\n\nPick Easy for a relaxed warm-up, Medium for a steady challenge or Hard for a sparse grid that rewards careful reasoning. Pencil notes let you track candidates, numbers that clash with a row, column or box light up in red, and the pad shows how many of each digit are still missing. Made a mess? Undo steps back one move at a time.\n\nYour score depends on the difficulty and on how quickly you finish, so returning players can chase faster, cleaner solves. Pause at any time – the board hides while you are away.",
+    "ka": "„სუდოკუ ძენი“ მარადიულ რიცხვით თავსატეხს მშვიდ, მანათობელ დაფაზე გთავაზობს. ყოველი რაუნდი ადგილზევე ქმნის სრულიად ახალ ბადეს, და თითოეული თავსატეხი მოწმდება, რომ **ზუსტად ერთი ამოხსნა** ჰქონდეს – ამიტომ სუფთა ლოგიკა ყოველთვის მიგიყვანს პასუხამდე, გამოცნობა საჭირო არ არის.\n\nაირჩიე „მარტივი“ მსუბუქი გახურებისთვის, „საშუალო“ სტაბილური გამოწვევისთვის ან „რთული“ – მწირი ბადე, რომელიც ფრთხილ მსჯელობას აჯილდოებს. შენიშვნებით კანდიდატებს მიადევნებ თვალს, სტრიქონში, სვეტში ან კვადრატში კონფლიქტური ციფრები წითლად ანათებს, ხოლო პანელი გიჩვენებს, თითოეული ციფრიდან რამდენი დარჩა. შეცდი? „დაბრუნება“ ნაბიჯ-ნაბიჯ აუქმებს სვლებს.\n\nქულა დამოკიდებულია სირთულესა და დასრულების სისწრაფეზე, ამიტომ შეგიძლია უფრო სწრაფ და სუფთა ამოხსნებს დაედევნო. პაუზა ნებისმიერ დროს შეგიძლია – სანამ არ ხარ, დაფა იმალება.",
+    "tr": "Sudoku Zen, zamansız sayı bulmacasını sakin ve ışıltılı bir tahtaya taşıyor. Her tur anında yepyeni bir ızgara üretir ve her bulmacanın **tek bir çözümü** olduğu kontrol edilir – yani tahmin etmeye gerek kalmadan saf mantık seni her zaman cevaba götürür.\n\nRahat bir ısınma için Kolay’ı, dengeli bir meydan okuma için Orta’yı ya da dikkatli akıl yürütmeyi ödüllendiren seyrek bir ızgara için Zor’u seç. Notlarla adayları takip edebilir, satır, sütun veya kutuda çakışan sayıların kırmızı parlamasını görebilirsin; panel de her rakamdan kaç tane eksik kaldığını gösterir. Karıştırdın mı? Geri al ile adım adım geri dönebilirsin.\n\nPuanın zorluğa ve ne kadar hızlı bitirdiğine bağlıdır; böylece daha hızlı ve temiz çözümlerin peşine düşebilirsin. İstediğin an duraklat – sen yokken tahta gizlenir.",
+    "ru": "«Судоку Дзен» переносит вечную числовую головоломку на спокойное светящееся поле. Каждый раунд создаёт совершенно новую сетку, и каждая головоломка проверяется на то, что у неё **ровно одно решение**, — поэтому к ответу всегда ведёт чистая логика, без угадывания.\n\nВыберите «Легко» для неспешной разминки, «Средне» для ровного испытания или «Сложно» — разреженную сетку, где важна каждая мысль. Заметки помогают отслеживать кандидатов, цифры, конфликтующие в строке, столбце или квадрате, подсвечиваются красным, а панель показывает, сколько каждой цифры ещё не хватает. Ошиблись? Кнопка «Отмена» вернёт ходы по одному.\n\nСчёт зависит от сложности и скорости решения, так что можно стремиться к всё более быстрым и чистым партиям. Пауза доступна в любой момент — пока вас нет, поле скрыто."
+  },
+  "instructions": {
+    "en": "1. Choose a difficulty and press Play.\n2. Select an empty cell and enter a digit from 1 to 9.\n3. Each row, column and 3×3 box must contain every digit exactly once.\n4. Switch on Notes to pencil in possible candidates.\n5. Fix any red conflicts – the puzzle is solved when the grid is full and conflict-free.",
+    "ka": "1. აირჩიე სირთულე და დააჭირე „თამაშს“.\n2. მონიშნე ცარიელი უჯრა და ჩაწერე ციფრი 1-დან 9-მდე.\n3. ყველა სტრიქონში, სვეტსა და 3×3 კვადრატში ყოველი ციფრი ზუსტად ერთხელ უნდა იყოს.\n4. ჩართე „შენიშვნა“ შესაძლო კანდიდატების ჩასაწერად.\n5. გაასწორე წითელი კონფლიქტები – თავსატეხი ამოხსნილია, როცა ბადე სავსეა და შეცდომები არ არის.",
+    "tr": "1. Bir zorluk seç ve Oyna’ya bas.\n2. Boş bir hücre seç ve 1’den 9’a kadar bir rakam gir.\n3. Her satır, sütun ve 3×3 kutu her rakamı tam bir kez içermelidir.\n4. Olası adayları not etmek için Not modunu aç.\n5. Kırmızı çakışmaları düzelt – ızgara dolu ve çakışmasız olduğunda bulmaca çözülür.",
+    "ru": "1. Выберите сложность и нажмите «Играть».\n2. Выделите пустую клетку и введите цифру от 1 до 9.\n3. В каждой строке, столбце и квадрате 3×3 каждая цифра должна встречаться ровно один раз.\n4. Включите «Заметки», чтобы записывать возможные варианты.\n5. Исправьте красные конфликты — головоломка решена, когда сетка заполнена без ошибок."
+  },
+  "controls": {
+    "en": "- **Mouse / touch:** tap a cell, then tap a number on the pad; Notes, Erase and Undo buttons below\n- **Keyboard:** arrow keys move, 1–9 enter a digit, Shift + digit adds a note\n- **N / Space:** toggle notes · **Backspace / Delete / 0:** erase · **Z / U:** undo\n- **P / Esc:** pause",
+    "ka": "- **მაუსი / სენსორი:** შეეხე უჯრას, შემდეგ – ციფრს პანელზე; ქვემოთ „შენიშვნა“, „წაშლა“ და „დაბრუნება“\n- **კლავიატურა:** ისრები – გადაადგილება, 1–9 – ციფრის ჩაწერა, Shift + ციფრი – შენიშვნა\n- **N / Space:** შენიშვნების რეჟიმი · **Backspace / Delete / 0:** წაშლა · **Z / U:** დაბრუნება\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare / dokunmatik:** bir hücreye, ardından paneldeki bir sayıya dokun; altta Not, Sil ve Geri al düğmeleri\n- **Klavye:** ok tuşlarıyla gezin, 1–9 rakam girer, Shift + rakam not ekler\n- **N / Space:** not modu · **Backspace / Delete / 0:** sil · **Z / U:** geri al\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь / сенсор:** нажмите на клетку, затем на цифру на панели; ниже кнопки «Заметки», «Стереть» и «Отмена»\n- **Клавиатура:** стрелки — перемещение, 1–9 — ввод цифры, Shift + цифра — заметка\n- **N / Space:** режим заметок · **Backspace / Delete / 0:** стереть · **Z / U:** отмена\n- **P / Esc:** пауза"
+  },
+  "categories": ["puzzle", "logic", "brain", "classic"],
+  "primary_category": "logic",
+  "tags": [
+    {"slug": "sudoku", "name": {"en": "Sudoku", "ka": "სუდოკუ", "tr": "Sudoku", "ru": "Судоку"}},
+    {"slug": "numbers", "name": {"en": "Numbers", "ka": "რიცხვები", "tr": "Sayılar", "ru": "Числа"}},
+    {"slug": "relaxing", "name": {"en": "Relaxing", "ka": "დამამშვიდებელი", "tr": "Rahatlatıcı", "ru": "Расслабляющие"}}
+  ],
+  "input_types": ["mouse", "keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "long",
+  "min_age": 6,
+  "score_mode": "casual",
+  "max_points_per_second": 200,
+  "max_score": 12000,
+  "color": "#22d3ee",
+  "width": 960,
+  "height": 640,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

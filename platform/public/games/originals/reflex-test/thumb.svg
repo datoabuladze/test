@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#0e7490"/><stop offset=".55" stop-color="#082f3d"/><stop offset="1" stop-color="#0b0d17"/></radialGradient>
+    <radialGradient id="core" cx="38%" cy="32%" r="70%"><stop offset="0" stop-color="#e0fbff"/><stop offset=".4" stop-color="#22d3ee"/><stop offset="1" stop-color="#0b3a4a"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#7c5cff"/></linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <circle cx="320" cy="210" r="182" fill="none" stroke="#22d3ee" stroke-opacity=".25" stroke-width="5"/>
+  <circle cx="320" cy="210" r="215" fill="none" stroke="#22d3ee" stroke-opacity=".12" stroke-width="3"/>
+  <circle cx="320" cy="210" r="160" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="2" stroke-dasharray="8 14"/>
+  <circle cx="320" cy="210" r="130" fill="url(#core)" filter="url(#glow)"/>
+  <text x="320" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="70" fill="#03222b">TAP!</text>
+  <text x="320" y="252" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="800" font-size="30" fill="#03222b" opacity=".75">214 ms</text>
+  <g fill="url(#bar)">
+    <rect x="40" y="380" width="28" height="60" rx="5"/><rect x="78" y="400" width="28" height="40" rx="5"/><rect x="116" y="370" width="28" height="70" rx="5"/>
+    <rect x="496" y="390" width="28" height="50" rx="5"/><rect x="534" y="372" width="28" height="68" rx="5"/><rect x="572" y="396" width="28" height="44" rx="5"/>
+  </g>
+  <g fill="#22d3ee"><circle cx="230" cy="430" r="11"/><circle cx="275" cy="430" r="11"/><circle cx="320" cy="430" r="11"/></g>
+  <g fill="#ffffff" fill-opacity=".15"><circle cx="365" cy="430" r="11"/><circle cx="410" cy="430" r="11"/></g>
+  <circle cx="365" cy="430" r="11" fill="none" stroke="#f472b6" stroke-width="3"/>
+  <path d="M470 120 l24 -18 M486 160 l30 -4 M150 300 l-24 18 M134 260 l-30 4" stroke="#a5f3fc" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "key": "sky-dash",
+  "slug": "sky-dash",
+  "title": {"en": "Sky Dash", "ka": "ცის სპრინტი", "tr": "Gökyüzü Koşusu", "ru": "Небесный рывок"},
+  "short_description": {
+    "en": "Sprint across neon rooftops, double-jump over gaps and spikes, and collect glowing gems.",
+    "ka": "გაირბინე ნეონის სახურავებზე, ორმაგი ხტომით გადალახე უფსკრულები და ეკლები და შეაგროვე მანათობელი ქვები.",
+    "tr": "Neon çatılarda koş, boşlukların ve dikenlerin üzerinden çift zıpla, parlayan mücevherleri topla.",
+    "ru": "Мчитесь по неоновым крышам, двойным прыжком перелетайте пропасти и шипы, собирайте светящиеся кристаллы."
+  },
+  "description": {
+    "en": "Sky Dash is a one-button endless runner set on the rooftops of a neon city at night. Your little courier bot runs on its own and never stops – all you decide is when to jump. Tap for a short hop, hold for a big leap, and press again in mid-air for a double jump.\n\nEvery run is different: rooftops of different heights, wide gaps, pink spike strips, crates you can bounce across and floating platforms over the deepest drops are generated fresh each time. The longer you survive, the faster you go, and the gaps stretch out to match.\n\nYour score grows with every ten metres you cover, and each gem adds 25 points – many of them hang right above danger, so greed has a price. Fall into the void or run into an obstacle and the run is over. How far can you dash?",
+    "ka": "ცის სპრინტი ერთი ღილაკით სამართავი უსასრულო სირბილია ღამის ნეონის ქალაქის სახურავებზე. შენი პატარა კურიერი რობოტი თავად გარბის და არასდროს ჩერდება — შენ მხოლოდ იმას წყვეტ, როდის ახტეს. მოკლედ შეეხე პატარა ნახტომისთვის, დაიჭირე დიდი ნახტომისთვის და ჰაერში ხელახლა დააჭირე ორმაგი ხტომისთვის.\n\nყოველი სირბილი განსხვავებულია: სხვადასხვა სიმაღლის სახურავები, ფართო უფსკრულები, ვარდისფერი ეკლების ზოლები, ყუთები, რომლებზეც შეიძლება გადახტე, და მცურავი პლატფორმები ყველაზე ღრმა უფსკრულების თავზე ყოველ ჯერზე ახლიდან იქმნება. რაც უფრო დიდხანს გაძლებ, მით უფრო სწრაფად გარბიხარ და უფსკრულებიც ფართოვდება.\n\nქულა ყოველ გავლილ ათ მეტრზე იზრდება, ყოველი ძვირფასი ქვა კი 25 ქულას ამატებს — ბევრი მათგანი პირდაპირ საფრთხის თავზე კიდია, ასე რომ სიხარბეს თავისი ფასი აქვს. ჩავარდები უფსკრულში ან შეეჯახები დაბრკოლებას — და სირბილი დასრულდება. რამდენ შორს გაირბენ?",
+    "tr": "Gökyüzü Koşusu, gece vakti bir neon şehrin çatılarında geçen tek tuşla oynanan sonsuz bir koşu oyunudur. Küçük kurye robotun kendi kendine koşar ve asla durmaz – sen yalnızca ne zaman zıplayacağına karar verirsin. Kısa bir sıçrayış için dokun, büyük bir atlayış için basılı tut ve havadayken tekrar basarak çift zıpla.\n\nHer koşu farklıdır: farklı yükseklikteki çatılar, geniş boşluklar, pembe diken şeritleri, üzerinden sekebileceğin sandıklar ve en derin boşlukların üzerindeki yüzen platformlar her seferinde yeniden oluşturulur. Ne kadar uzun dayanırsan o kadar hızlanırsın ve boşluklar da buna göre genişler.\n\nPuanın kat ettiğin her on metrede artar, her mücevher ise 25 puan ekler – çoğu tam tehlikenin üzerinde asılıdır, yani açgözlülüğün bir bedeli var. Boşluğa düşersen ya da bir engele çarparsan koşu biter. Ne kadar uzağa koşabilirsin?",
+    "ru": "«Небесный рывок» — бесконечный раннер на одну кнопку, действие которого разворачивается на крышах ночного неонового города. Ваш маленький робот-курьер бежит сам и никогда не останавливается — вы решаете только, когда прыгать. Короткое касание — небольшой прыжок, удержание — большой, повторное нажатие в воздухе — двойной прыжок.\n\nКаждый забег уникален: крыши разной высоты, широкие пропасти, полосы розовых шипов, ящики, по которым можно проскакать, и парящие платформы над самыми глубокими провалами каждый раз создаются заново. Чем дольше вы держитесь, тем выше скорость, и пропасти становятся шире.\n\nОчки растут с каждыми десятью метрами пути, а каждый кристалл добавляет 25 очков — многие из них висят прямо над опасностью, так что за жадность приходится платить. Сорвётесь в пропасть или врежетесь в препятствие — забег окончен. Как далеко вы сможете умчаться?"
+  },
+  "instructions": {
+    "en": "1. Your runner moves forward automatically and keeps getting faster.\n2. Jump to clear gaps, spikes, crates and higher rooftops.\n3. Hold the jump for more height, release early for a short hop.\n4. Press jump again in the air to double jump.\n5. Collect gems for 25 points each; distance adds 1 point per 10 m.\n6. Falling or hitting an obstacle ends the run.",
+    "ka": "1. შენი მორბენალი ავტომატურად მიიწევს წინ და სულ უფრო ჩქარდება.\n2. ახტი, რომ გადალახო უფსკრულები, ეკლები, ყუთები და მაღალი სახურავები.\n3. დაიჭირე ხტომის ღილაკი მეტი სიმაღლისთვის, ადრე აუშვი მოკლე ნახტომისთვის.\n4. ჰაერში ხელახლა დააჭირე ორმაგი ხტომისთვის.\n5. აკრიფე ძვირფასი ქვები — თითო 25 ქულა; ყოველი 10 მ მანძილი 1 ქულას ამატებს.\n6. ჩავარდნა ან დაბრკოლებასთან შეჯახება სირბილს ასრულებს.",
+    "tr": "1. Koşucun otomatik olarak ilerler ve giderek hızlanır.\n2. Boşlukları, dikenleri, sandıkları ve yüksek çatıları aşmak için zıpla.\n3. Daha yükseğe çıkmak için zıplamayı basılı tut, kısa sıçrayış için erken bırak.\n4. Çift zıplamak için havadayken tekrar bas.\n5. Her biri 25 puan olan mücevherleri topla; her 10 m mesafe 1 puan ekler.\n6. Düşmek ya da bir engele çarpmak koşuyu bitirir.",
+    "ru": "1. Бегун движется вперёд автоматически и постоянно ускоряется.\n2. Прыгайте через пропасти, шипы, ящики и более высокие крыши.\n3. Удерживайте прыжок, чтобы взлететь выше, отпустите раньше для короткого прыжка.\n4. Нажмите ещё раз в воздухе для двойного прыжка.\n5. Собирайте кристаллы — по 25 очков; каждые 10 м пути дают 1 очко.\n6. Падение или столкновение с препятствием завершает забег."
+  },
+  "controls": {
+    "en": "- **Keyboard:** Space, ↑ or W to jump (hold for higher, press again in the air to double jump)\n- **Mouse / touch:** click or tap anywhere to jump, hold for a higher jump\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** Space, ↑ ან W — ხტომა (დაიჭირე უფრო მაღლა ასახტომად, ჰაერში ხელახლა დააჭირე ორმაგი ხტომისთვის)\n- **მაუსი / სენსორი:** დააწკაპუნე ან შეეხე ნებისმიერ ადგილას ხტომისთვის, დაიჭირე უფრო მაღალი ნახტომისთვის\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** zıplamak için Space, ↑ veya W (daha yüksek için basılı tut, çift zıplama için havada tekrar bas)\n- **Fare / dokunmatik:** zıplamak için herhangi bir yere tıkla veya dokun, daha yüksek zıplama için basılı tut\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** Пробел, ↑ или W — прыжок (удерживайте для высоты, нажмите ещё раз в воздухе для двойного прыжка)\n- **Мышь / сенсор:** щелчок или касание в любом месте — прыжок, удержание — прыжок выше\n- **P / Esc:** пауза"
+  },
+  "categories": ["endless-runner", "platformer", "arcade", "casual"],
+  "primary_category": "endless-runner",
+  "tags": [
+    {"slug": "runner", "name": {"en": "Runner", "ka": "სირბილი", "tr": "Koşu", "ru": "Раннер"}},
+    {"slug": "one-button", "name": {"en": "One button", "ka": "ერთი ღილაკი", "tr": "Tek tuş", "ru": "Одна кнопка"}},
+    {"slug": "neon", "name": {"en": "Neon", "ka": "ნეონი", "tr": "Neon", "ru": "Неон"}}
+  ],
+  "input_types": ["keyboard", "mouse", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 400,
+  "max_score": 1000000,
+  "color": "#a78bfa",
+  "width": 800,
+  "height": 450,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

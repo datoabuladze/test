@@ -1,0 +1,52 @@
+{
+  "key": "block-cascade",
+  "slug": "block-cascade",
+  "title": {"en": "Block Cascade", "ka": "ბლოკების კასკადი", "tr": "Blok Çağlayanı", "ru": "Блочный каскад"},
+  "short_description": {
+    "en": "Rotate and stack falling neon blocks, clear full rows and survive the rising speed.",
+    "ka": "შეაბრუნე და დააწყვე ჩამოვარდნილი ნეონის ბლოკები, გაასუფთავე სავსე რიგები და გაუძელი მზარდ სიჩქარეს.",
+    "tr": "Düşen neon blokları döndür ve diz, dolu sıraları temizle, artan hıza dayan.",
+    "ru": "Вращайте и укладывайте падающие неоновые блоки, убирайте полные ряды и выдержите растущую скорость."
+  },
+  "description": {
+    "en": "Block Cascade is a falling-block puzzle built for quick thinking. Seven different four-cell shapes drop into a ten-column well one after another. Slide and rotate each one into place – whenever a row is completely filled, it flashes and disappears, and everything above it drops down.\n\nThe controls are tuned for precision: smart wall kicks let a shape rotate even when it is pressed against a wall or the stack, a ghost outline shows exactly where it will land, and a short lock delay gives you a moment to slide it under an overhang. Park an awkward shape in the hold slot and plan with the three-piece preview.\n\nClearing four rows at once – a *Cascade* – scores far more than singles, and back-to-back Cascades and combos multiply your points. Every ten lines the level rises and the blocks fall faster. How long can you keep the well from overflowing?",
+    "ka": "ბლოკების კასკადი სწრაფი აზროვნებისთვის შექმნილი ჩამოვარდნილი ბლოკების თავსატეხია. შვიდი სხვადასხვა ოთხუჯრედიანი ფიგურა ერთმანეთის მიყოლებით ათსვეტიან ჭაში ვარდება. გადააადგილე და შეაბრუნე თითოეული — როცა რიგი მთლიანად ივსება, ის ციმციმებს და ქრება, ზემოთ მყოფი კი ქვემოთ ჩამოდის.\n\nმართვა სიზუსტისთვისაა მორგებული: ჭკვიანი „კედლიდან ასხლეტა“ ფიგურას შემობრუნების საშუალებას აძლევს მაშინაც კი, როცა ის კედელს ან სხვა ბლოკებს ეხება; მოჩვენებითი კონტური ზუსტად აჩვენებს, სად დაეშვება, ხოლო მოკლე დაყოვნება საშუალებას გაძლევს, ფიგურა შვერილის ქვეშ შეასრიალო. მოუხერხებელი ფიგურა შენახვის უჯრაში გადადე და სამი შემდეგი ფიგურის მიხედვით დაგეგმე.\n\nოთხი რიგის ერთდროულად გასუფთავება — *კასკადი* — გაცილებით მეტ ქულას იძლევა, ხოლო ზედიზედ კასკადები და კომბოები ქულებს ამრავლებს. ყოველ ათ ხაზზე დონე იზრდება და ბლოკები უფრო სწრაფად ვარდება. რამდენ ხანს შეძლებ ჭის გადავსების თავიდან აცილებას?",
+    "tr": "Blok Çağlayanı, hızlı düşünmek için tasarlanmış bir düşen blok bulmacasıdır. Dört hücreli yedi farklı şekil, on sütunlu bir kuyuya art arda düşer. Her birini kaydırıp döndürerek yerine yerleştir – bir sıra tamamen dolduğunda parlar ve kaybolur, üstündeki her şey aşağı iner.\n\nKontroller hassasiyet için ayarlandı: akıllı duvar sekmeleri, şekil duvara ya da yığına dayalıyken bile dönmesini sağlar; hayalet çerçeve tam olarak nereye ineceğini gösterir ve kısa kilitlenme gecikmesi şekli bir çıkıntının altına kaydırman için sana zaman tanır. Uygunsuz bir şekli saklama yuvasına koy ve üç parçalık önizlemeyle plan yap.\n\nDört sırayı aynı anda temizlemek – bir *Çağlayan* – teklilerden çok daha fazla puan kazandırır; art arda Çağlayanlar ve kombolar puanını katlar. Her on satırda seviye yükselir ve bloklar daha hızlı düşer. Kuyunun taşmasını ne kadar önleyebilirsin?",
+    "ru": "«Блочный каскад» — головоломка с падающими блоками для тех, кто быстро соображает. Семь разных фигур из четырёх клеток одна за другой падают в колодец шириной в десять столбцов. Сдвигайте и вращайте каждую, чтобы уложить её на место: как только ряд заполняется целиком, он вспыхивает и исчезает, а всё, что выше, опускается вниз.\n\nУправление настроено на точность: умные «отскоки от стен» позволяют повернуть фигуру, даже когда она прижата к стенке или к другим блокам, призрачный контур показывает, куда она упадёт, а короткая задержка фиксации даёт время подсунуть её под выступ. Неудобную фигуру можно отложить в запас, а предпросмотр трёх следующих помогает планировать.\n\nУбрать четыре ряда разом — *Каскад* — гораздо выгоднее, чем по одному, а серии Каскадов и комбо умножают очки. Каждые десять линий уровень растёт, и блоки падают быстрее. Как долго вы сможете не дать колодцу переполниться?"
+  },
+  "instructions": {
+    "en": "1. Move and rotate the falling block to fit it into the stack.\n2. Fill a complete horizontal row to clear it.\n3. Clear several rows with one block for a bigger bonus – four rows is a Cascade.\n4. Use hold to save a block for later and watch the next-piece preview.\n5. Every 10 lines the level and falling speed increase.\n6. The game ends when a new block has no room to enter the well.",
+    "ka": "1. გადააადგილე და შეაბრუნე ჩამოვარდნილი ბლოკი, რომ ბლოკებს შორის მოათავსო.\n2. შეავსე მთელი ჰორიზონტალური რიგი, რომ გაქრეს.\n3. ერთი ბლოკით რამდენიმე რიგი გააქრე დიდი ბონუსისთვის — ოთხი რიგი კასკადია.\n4. გამოიყენე შენახვა ბლოკის მოგვიანებით გამოსაყენებლად და ადევნე თვალი შემდეგ ფიგურებს.\n5. ყოველ 10 ხაზზე დონე და ვარდნის სიჩქარე იზრდება.\n6. თამაში სრულდება, როცა ახალ ბლოკს ჭაში ადგილი აღარ აქვს.",
+    "tr": "1. Düşen bloğu hareket ettirip döndürerek yığına yerleştir.\n2. Silmek için yatay bir sırayı tamamen doldur.\n3. Daha büyük bonus için tek blokla birden fazla sıra temizle – dört sıra bir Çağlayandır.\n4. Bir bloğu sonraya saklamak için saklamayı kullan ve sıradaki parçaları izle.\n5. Her 10 satırda seviye ve düşüş hızı artar.\n6. Yeni bloğun kuyuya girecek yeri kalmadığında oyun biter.",
+    "ru": "1. Сдвигайте и вращайте падающий блок, чтобы встроить его в кладку.\n2. Заполните горизонтальный ряд целиком, чтобы убрать его.\n3. Убирайте несколько рядов одним блоком ради большего бонуса — четыре ряда это Каскад.\n4. Откладывайте блок в запас и следите за предпросмотром следующих фигур.\n5. Каждые 10 линий растут уровень и скорость падения.\n6. Игра заканчивается, когда новому блоку некуда войти в колодец."
+  },
+  "controls": {
+    "en": "- **← / →** (or A / D): move\n- **↑ / X:** rotate clockwise, **Z:** rotate counter-clockwise\n- **↓** (or S): soft drop, **Space:** hard drop\n- **C / Shift:** hold\n- **Touch:** on-screen buttons for move, rotate, soft drop, hard drop and hold; tap the well to rotate\n- **P / Esc:** pause",
+    "ka": "- **← / →** (ან A / D): გადაადგილება\n- **↑ / X:** საათის ისრის მიმართულებით შემობრუნება, **Z:** საწინააღმდეგოდ\n- **↓** (ან S): ნელი ჩამოშვება, **Space:** მყისიერი ჩაგდება\n- **C / Shift:** შენახვა\n- **სენსორი:** ეკრანის ღილაკები გადაადგილების, შემობრუნების, ჩამოშვების, ჩაგდებისა და შენახვისთვის; შეეხე ჭას შემოსაბრუნებლად\n- **P / Esc:** პაუზა",
+    "tr": "- **← / →** (veya A / D): hareket\n- **↑ / X:** saat yönünde döndür, **Z:** saat yönünün tersine döndür\n- **↓** (veya S): yavaş indir, **Space:** hızlı bırak\n- **C / Shift:** sakla\n- **Dokunmatik:** hareket, döndürme, yavaş indirme, hızlı bırakma ve saklama için ekran düğmeleri; döndürmek için kuyuya dokun\n- **P / Esc:** duraklat",
+    "ru": "- **← / →** (или A / D): сдвиг\n- **↑ / X:** поворот по часовой, **Z:** против часовой\n- **↓** (или S): ускорить падение, **Пробел:** мгновенный сброс\n- **C / Shift:** отложить в запас\n- **Сенсор:** экранные кнопки сдвига, поворота, ускорения, сброса и запаса; касание колодца — поворот\n- **P / Esc:** пауза"
+  },
+  "categories": ["puzzle", "classic", "logic", "retro"],
+  "primary_category": "puzzle",
+  "tags": [
+    {"slug": "blocks", "name": {"en": "Blocks", "ka": "ბლოკები", "tr": "Bloklar", "ru": "Блоки"}},
+    {"slug": "line-clear", "name": {"en": "Line clear", "ka": "ხაზების გაქრობა", "tr": "Satır temizleme", "ru": "Сбор линий"}},
+    {"slug": "falling", "name": {"en": "Falling blocks", "ka": "ჩამოვარდნილი ბლოკები", "tr": "Düşen bloklar", "ru": "Падающие блоки"}}
+  ],
+  "input_types": ["keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "medium",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 15000,
+  "max_score": 5000000,
+  "color": "#7c5cff",
+  "width": 520,
+  "height": 620,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

@@ -1,0 +1,52 @@
+{
+  "key": "four-in-a-row",
+  "slug": "four-in-a-row",
+  "title": {"en": "Gravity Four", "ka": "გრავიტაციის ოთხეული", "tr": "Yerçekimi Dörtlü", "ru": "Гравитация: четыре в ряд"},
+  "short_description": {
+    "en": "Drop glowing discs into a 7×6 tower and connect four – against a sharp CPU or a friend.",
+    "ka": "ჩააგდე მანათობელი დისკები 7×6 კოშკში და შეაერთე ოთხი – ჭკვიანი კომპიუტერის ან მეგობრის წინააღმდეგ.",
+    "tr": "Parlayan diskleri 7×6’lık kuleye bırak ve dördünü birleştir – zeki bir bilgisayara ya da arkadaşına karşı.",
+    "ru": "Бросайте светящиеся диски в башню 7×6 и соберите четыре в ряд – против сильного компьютера или друга."
+  },
+  "description": {
+    "en": "Gravity Four is a fast, tactical drop-and-connect duel. Pick a column, release your disc and watch it fall to the lowest free slot. Line up four of your colour horizontally, vertically or diagonally to take the round – while making sure your opponent never gets the chance.\n\nThe computer opponent thinks ahead with an alpha-beta search. **Easy** makes the occasional careless move, **Medium** spots most threats, and **Hard** looks seven moves deep and punishes every gap. Against the CPU the run lasts until you lose a round: wins earn more points on higher difficulties, and the faster you win, the bigger the bonus.\n\nPlaying with someone next to you? Choose **2 Players** and take turns on the same screen – the first to win three rounds takes the match. Tip: the centre column is part of more possible lines than any other, so claim it early.",
+    "ka": "გრავიტაციის ოთხეული სწრაფი, ტაქტიკური დუელია. აირჩიე სვეტი, გაუშვი დისკი და უყურე, როგორ ვარდება ყველაზე დაბალ თავისუფალ ადგილზე. შენი ფერის ოთხი დისკი ჰორიზონტალურად, ვერტიკალურად ან დიაგონალზე ააწყვე და რაუნდი შენია – ოღონდ მეტოქეს ამის შანსი არ მისცე.\n\nკომპიუტერი წინასწარ ფიქრობს ალფა-ბეტა ძიებით. **მარტივი** ხანდახან უყურადღებო სვლას აკეთებს, **საშუალო** საფრთხეების უმეტესობას ამჩნევს, ხოლო **რთული** შვიდი სვლით წინ იყურება და ყოველ შეცდომას გისჯის. კომპიუტერთან თამაში გრძელდება, სანამ რაუნდს არ წააგებ: მაღალ სირთულეზე მოგება მეტ ქულას იძლევა, ხოლო რაც უფრო სწრაფად მოიგებ, მით მეტია ბონუსი.\n\nგვერდით ვინმე გიზის? აირჩიე **2 მოთამაშე** და რიგრიგობით ითამაშეთ ერთ ეკრანზე – ვინც პირველი მოიგებს სამ რაუნდს, მატჩი მისია. რჩევა: ცენტრალური სვეტი სხვებზე მეტ ხაზში მონაწილეობს, ამიტომ ადრევე დაიკავე.",
+    "tr": "Yerçekimi Dörtlü hızlı ve taktiksel bir bırak-birleştir düellosudur. Bir sütun seç, diskini bırak ve en alttaki boş yuvaya düşüşünü izle. Kendi renginden dört diski yatay, dikey ya da çapraz olarak sıralarsan tur senindir – tabii rakibine bu fırsatı vermemek şartıyla.\n\nBilgisayar rakip, alfa-beta aramasıyla ileriyi düşünür. **Kolay** ara sıra dikkatsiz hamleler yapar, **Orta** tehditlerin çoğunu görür, **Zor** ise yedi hamle ileriye bakar ve her boşluğu cezalandırır. Bilgisayara karşı oyun bir tur kaybedene kadar sürer: yüksek zorluklarda galibiyetler daha çok puan getirir ve ne kadar hızlı kazanırsan bonus o kadar büyür.\n\nYanında biri mi var? **2 Oyuncu** modunu seç ve aynı ekranda sırayla oynayın – üç turu ilk kazanan maçı alır. İpucu: orta sütun diğerlerinden daha fazla olası diziye dahildir, onu erken kap.",
+    "ru": "«Гравитация: четыре в ряд» – быстрая тактическая дуэль. Выберите столбец, отпустите диск и смотрите, как он падает в самую нижнюю свободную ячейку. Соберите четыре диска своего цвета по горизонтали, вертикали или диагонали – и раунд ваш, если только соперник не успеет первым.\n\nКомпьютер думает наперёд с помощью альфа-бета-поиска. **Легко** иногда ошибается, **Средне** замечает большинство угроз, а **Сложно** просчитывает на семь ходов вперёд и наказывает за каждую брешь. Против компьютера игра длится, пока вы не проиграете раунд: на высокой сложности победы приносят больше очков, а чем быстрее вы побеждаете, тем выше бонус.\n\nРядом есть друг? Выберите **2 игрока** и ходите по очереди на одном экране – кто первым выиграет три раунда, тот победил. Совет: центральный столбец входит в большее число линий, чем любой другой, так что занимайте его пораньше."
+  },
+  "instructions": {
+    "en": "1. Choose a mode above the board: Easy, Medium, Hard or 2 Players.\n2. Pick a column – your disc falls to the lowest empty slot.\n3. Connect four discs horizontally, vertically or diagonally to win the round.\n4. A full board without four in a row is a draw.\n5. Vs CPU: wins and draws score points, one lost round ends the run. 2 Players: first to three round wins.",
+    "ka": "1. დაფის ზემოთ აირჩიე რეჟიმი: მარტივი, საშუალო, რთული ან 2 მოთამაშე.\n2. აირჩიე სვეტი – დისკი ყველაზე დაბალ ცარიელ ადგილზე ჩავარდება.\n3. შეაერთე ოთხი დისკი ჰორიზონტალურად, ვერტიკალურად ან დიაგონალზე და რაუნდს მოიგებ.\n4. თუ დაფა შეივსო და ოთხი არავინ შეაერთა, ფრეა.\n5. კომპიუტერთან: მოგება და ფრე ქულას გაძლევს, ერთი წაგებული რაუნდი თამაშს ამთავრებს. 2 მოთამაშე: სამ მოგებამდე.",
+    "tr": "1. Tahtanın üstünden bir mod seç: Kolay, Orta, Zor veya 2 Oyuncu.\n2. Bir sütun seç – diskin en alttaki boş yuvaya düşer.\n3. Turu kazanmak için dört diski yatay, dikey veya çapraz olarak birleştir.\n4. Dörtlü dizi olmadan dolan tahta beraberliktir.\n5. Bilgisayara karşı: galibiyet ve beraberlikler puan getirir, kaybedilen tek tur oyunu bitirir. 2 Oyuncu: üç galibiyete kadar.",
+    "ru": "1. Выберите режим над полем: Легко, Средне, Сложно или 2 игрока.\n2. Выберите столбец – диск упадёт в самую нижнюю пустую ячейку.\n3. Соберите четыре диска по горизонтали, вертикали или диагонали, чтобы выиграть раунд.\n4. Заполненное поле без четырёх в ряд – ничья.\n5. Против компьютера: победы и ничьи приносят очки, один проигранный раунд завершает серию. 2 игрока: до трёх побед."
+  },
+  "controls": {
+    "en": "- **Mouse / touch:** click or tap a column to drop a disc; tap a mode button to switch\n- **Keyboard:** ← → (or A D) choose a column, Space / Enter / ↓ drop, 1–7 drop straight into that column\n- **M:** cycle game mode\n- **P / Esc:** pause",
+    "ka": "- **მაუსი / სენსორი:** დისკის ჩასაგდებად დააჭირე სვეტს; რეჟიმის შესაცვლელად – რეჟიმის ღილაკს\n- **კლავიატურა:** ← → (ან A D) სვეტის არჩევა, Space / Enter / ↓ ჩაგდება, 1–7 პირდაპირ შესაბამის სვეტში აგდებს\n- **M:** რეჟიმის შეცვლა\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare / dokunmatik:** disk bırakmak için bir sütuna tıkla veya dokun; mod değiştirmek için mod düğmesine dokun\n- **Klavye:** ← → (veya A D) sütun seçer, Boşluk / Enter / ↓ bırakır, 1–7 doğrudan o sütuna bırakır\n- **M:** oyun modunu değiştir\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь / сенсор:** нажмите на столбец, чтобы бросить диск; для смены режима нажмите кнопку режима\n- **Клавиатура:** ← → (или A D) выбор столбца, Пробел / Enter / ↓ бросок, 1–7 бросают сразу в нужный столбец\n- **M:** сменить режим\n- **P / Esc:** пауза"
+  },
+  "categories": ["board", "strategy", "two-player", "logic", "classic"],
+  "primary_category": "board",
+  "tags": [
+    {"slug": "connect-four", "name": {"en": "Four in a row", "ka": "ოთხი რიგში", "tr": "Dörtlü dizi", "ru": "Четыре в ряд"}},
+    {"slug": "vs-computer", "name": {"en": "Vs computer", "ka": "კომპიუტერთან", "tr": "Bilgisayara karşı", "ru": "Против компьютера"}},
+    {"slug": "local-multiplayer", "name": {"en": "Local multiplayer", "ka": "ერთ მოწყობილობაზე", "tr": "Yerel çok oyunculu", "ru": "На одном устройстве"}}
+  ],
+  "input_types": ["keyboard", "mouse", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "medium",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 400,
+  "max_score": 500000,
+  "color": "#7c5cff",
+  "width": 720,
+  "height": 830,
+  "is_multiplayer": true,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

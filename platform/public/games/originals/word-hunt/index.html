@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Hidden Words</title>
+<link rel="stylesheet" href="../_sdk/sdk.css">
+<style>
+  #ng-stage { background: radial-gradient(120% 90% at 50% 0%, #1b1446 0%, #0b0d17 62%); }
+  #wh-wrap { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 18px; padding: 12px; }
+  #wh-wrap.port { flex-direction: column; gap: 10px; }
+  #wh-grid { flex: 0 0 auto; border-radius: 16px; background: linear-gradient(160deg, #161a2b, #0f1220); border: 1px solid rgba(255,255,255,.08);
+    box-shadow: 0 30px 80px -30px rgba(124,92,255,.6), inset 0 0 0 1px rgba(124,92,255,.15); touch-action: none; transition: filter .25s; cursor: crosshair; }
+  #wh-grid.blur, #wh-side.blur { filter: blur(14px) brightness(.5); }
+  #wh-side { flex: 0 1 auto; display: flex; flex-direction: column; gap: 10px; min-height: 0; transition: filter .25s; }
+  #wh-theme { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: #8b90b3; }
+  #wh-theme b { display: block; font-size: 22px; letter-spacing: -.01em; text-transform: none; color: #fff; margin-top: 2px;
+    background: linear-gradient(120deg, #22d3ee, #7c5cff, #f472b6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  #wh-list { display: flex; flex-wrap: wrap; gap: 6px; align-content: flex-start; overflow-y: auto; min-height: 0; }
+  .wh-word { padding: 6px 11px; border-radius: 10px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); font-weight: 800; font-size: 14px; letter-spacing: .04em; color: #e2e8f0; transition: all .3s; }
+  .wh-word.found { color: rgba(255,255,255,.55); text-decoration: line-through; text-decoration-thickness: 2px; background: color-mix(in srgb, var(--c) 22%, transparent); border-color: var(--c); }
+  .wh-word.just { animation: wh-pop .45s ease-out; }
+  @keyframes wh-pop { 0% { transform: scale(1); } 40% { transform: scale(1.18); } 100% { transform: scale(1); } }
+  #wh-wrap.port #wh-side { width: 100%; align-items: center; text-align: center; }
+  #wh-wrap.port #wh-list { justify-content: center; }
+  #wh-wrap.port .wh-word { font-size: 13px; padding: 5px 9px; }
+  .xx-diff { margin-top: 12px; }
+  .xx-diff-label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #8b90b3; margin-bottom: 6px; }
+  .xx-diff-row { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; }
+  .xx-chip { border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.05); border-radius: 999px; padding: 7px 14px; cursor: pointer; font-weight: 700; font-size: 13px; }
+  .xx-chip.on { background: linear-gradient(135deg, rgba(34,211,238,.35), rgba(124,92,255,.45)); border-color: #22d3ee; }
+  @media (max-width: 520px) { #ng-hud .ng-stats { gap: 8px; font-size: 12px; } #ng-hud .ng-title { font-size: 14px; } #ng-hud { gap: 6px; padding: 6px 8px; } #ng-hud .ng-btn { width: 30px; height: 30px; flex: 0 0 auto; } }
+  @media (max-width: 440px) { #ng-hud .ng-title { display: none; } #ng-hud .ng-stats { gap: 7px; font-size: 11.5px; } }
+</style>
+</head>
+<body>
+<script src="../_sdk/sdk.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

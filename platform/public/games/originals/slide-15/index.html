@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Tile Drift</title>
+<link rel="stylesheet" href="../_sdk/sdk.css">
+<style>
+  #ng-stage { background: radial-gradient(120% 90% at 50% 0%, #10264a 0%, #0b0d17 62%); }
+  #sd-wrap { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 10px; }
+  #sd-board { position: relative; border-radius: 18px; background: linear-gradient(160deg, #161a2b, #0f1220); border: 1px solid rgba(255,255,255,.08);
+    box-shadow: 0 30px 80px -30px rgba(124,92,255,.6), inset 0 0 0 1px rgba(34,211,238,.12); transition: filter .25s; touch-action: none; flex: 0 0 auto; }
+  #sd-board.blur { filter: blur(14px) brightness(.5); }
+  .sd-tile { position: absolute; left: 0; top: 0; border-radius: 12px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+    font-weight: 900; color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,.45); transition: transform .12s ease-out, box-shadow .2s; will-change: transform;
+    background-repeat: no-repeat; overflow: hidden; touch-action: none; }
+  .sd-tile.num { background-image: var(--numbg) !important; background-size: 100% 100% !important; background-position: 0 0 !important; }
+  .sd-tile .sd-badge { position: absolute; left: 6%; top: 5%; font-size: .32em; font-weight: 800; padding: .1em .35em; border-radius: .5em; background: rgba(11,13,23,.55); color: #e2e8f0; text-shadow: none; }
+  .sd-tile.num .sd-badge { display: none; }
+  .sd-tile .sd-big { display: none; }
+  .sd-tile.num .sd-big { display: block; }
+  .sd-tile.ok::after { content: ''; position: absolute; right: 7%; bottom: 7%; width: 7%; height: 7%; min-width: 5px; min-height: 5px; border-radius: 50%; background: #22d3ee; box-shadow: 0 0 8px #22d3ee; }
+  .sd-tile.kb { box-shadow: 0 0 0 3px #22d3ee, 0 0 18px #22d3ee; }
+  .sd-tile.final { animation: sd-in .5s ease-out; }
+  @keyframes sd-in { from { opacity: 0; filter: brightness(2.5); } to { opacity: 1; filter: none; } }
+  #sd-board.won .sd-tile { box-shadow: 0 0 22px -4px #7c5cff; }
+  #sd-bar { display: flex; gap: 10px; align-items: center; flex: 0 0 auto; }
+  #sd-prev { width: 44px; height: 44px; border-radius: 10px; background-size: cover; border: 1px solid rgba(255,255,255,.2); box-shadow: 0 0 14px -4px #22d3ee; }
+  .sd-seg { display: inline-flex; border-radius: 14px; padding: 3px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); }
+  .sd-seg button { border: 0; background: transparent; border-radius: 11px; padding: 9px 16px; font-weight: 800; font-size: 14px; cursor: pointer; color: #b4b9d6; touch-action: manipulation; }
+  .sd-seg button.on { color: #fff; background: linear-gradient(135deg, #22d3ee, #7c5cff); }
+  .xx-diff { margin-top: 12px; }
+  .xx-diff-label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #8b90b3; margin-bottom: 6px; }
+  .xx-diff-row { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; }
+  .xx-chip { border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.05); border-radius: 999px; padding: 7px 14px; cursor: pointer; font-weight: 700; font-size: 13px; }
+  .xx-chip.on { background: linear-gradient(135deg, rgba(34,211,238,.35), rgba(124,92,255,.45)); border-color: #22d3ee; }
+  @media (max-width: 520px) { #ng-hud .ng-stats { gap: 8px; font-size: 12px; } #ng-hud .ng-title { font-size: 14px; } #ng-hud { gap: 6px; padding: 6px 8px; } #ng-hud .ng-btn { width: 30px; height: 30px; flex: 0 0 auto; } }
+  @media (max-width: 440px) { #ng-hud .ng-title { display: none; } #ng-hud .ng-stats { gap: 7px; font-size: 11.5px; } }
+  .fx { position: absolute; inset: 0; pointer-events: none; z-index: 4; }
+</style>
+</head>
+<body>
+<script src="../_sdk/sdk.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

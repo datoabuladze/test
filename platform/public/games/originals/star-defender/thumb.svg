@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0d17"/><stop offset=".6" stop-color="#160f35"/><stop offset="1" stop-color="#2a0f33"/></linearGradient>
+    <radialGradient id="neb" cx="70%" cy="30%" r="50%"><stop offset="0" stop-color="#7c5cff" stop-opacity=".45"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ship" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0fbff"/><stop offset="1" stop-color="#0e7490"/></linearGradient>
+    <linearGradient id="boss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4c1d95"/><stop offset="1" stop-color="#9d174d"/></linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a5f3fc"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect width="640" height="480" fill="url(#neb)"/>
+  <g fill="#fff"><circle cx="40" cy="40" r="1.5"/><circle cx="120" cy="300" r="1.2"/><circle cx="210" cy="90" r="1.8"/><circle cx="560" cy="400" r="1.4"/><circle cx="600" cy="120" r="1.2"/><circle cx="470" cy="260" r="1"/><circle cx="80" cy="420" r="1.6"/><circle cx="350" cy="440" r="1.2"/><circle cx="520" cy="30" r="1.6"/></g>
+  <g stroke="#a5f3fc" stroke-width="2" opacity=".5"><path d="M60 140v14"/><path d="M590 300v14"/><path d="M160 200v10"/></g>
+  <!-- boss -->
+  <g transform="translate(320 110)" filter="url(#glow)">
+    <path d="M-150 -30 L-95 -64 L95 -64 L150 -30 L130 24 L56 64 L-56 64 L-130 24Z" fill="url(#boss)"/>
+    <rect x="-104" y="-14" width="208" height="24" fill="#1e1b4b"/>
+    <g fill="#7c5cff"><rect x="-92" y="-8" width="26" height="12"/><rect x="-52" y="-8" width="26" height="12"/><rect x="28" y="-8" width="26" height="12"/><rect x="68" y="-8" width="26" height="12"/></g>
+    <rect x="-12" y="-8" width="26" height="12" fill="#f472b6"/>
+    <circle cx="0" cy="40" r="18" fill="#fbbf24"/>
+  </g>
+  <!-- bullet ring -->
+  <g fill="#fbbf24" filter="url(#glow)"><circle cx="230" cy="200" r="7"/><circle cx="270" cy="222" r="7"/><circle cx="320" cy="230" r="7"/><circle cx="370" cy="222" r="7"/><circle cx="410" cy="200" r="7"/><circle cx="196" cy="170" r="7"/><circle cx="444" cy="170" r="7"/></g>
+  <g fill="#f472b6" filter="url(#glow)"><circle cx="250" cy="290" r="6"/><circle cx="400" cy="300" r="6"/></g>
+  <!-- drones -->
+  <g filter="url(#glow)"><path d="M100 230 l18 -18 18 18 -18 20z" fill="#be185d"/><circle cx="118" cy="232" r="5" fill="#fde68a"/>
+  <path d="M520 250 l18 -18 18 18 -18 20z" fill="#be185d"/><circle cx="538" cy="252" r="5" fill="#fde68a"/>
+  <path d="M480 190 l22 -12 10 4 10 -8 10 8 10 -4 22 12 -42 30z" fill="#6d28d9"/></g>
+  <!-- lasers -->
+  <g fill="#cffafe" filter="url(#glow)"><rect x="301" y="250" width="4" height="22"/><rect x="335" y="250" width="4" height="22"/><rect x="298" y="300" width="4" height="22"/><rect x="338" y="300" width="4" height="22"/><rect x="318" y="210" width="4" height="22"/></g>
+  <!-- player ship -->
+  <g transform="translate(320 390) scale(2.4)">
+    <path d="M-6 10 L0 26 L6 10Z" fill="url(#flame)"/>
+    <g filter="url(#glow)"><path d="M0 -24 L8 -4 L20 8 L18 14 L6 10 L0 13 L-6 10 L-18 14 L-20 8 L-8 -4Z" fill="url(#ship)"/></g>
+    <path d="M0 -12 L4 0 L-4 0Z" fill="#7c5cff"/>
+    <circle cx="0" cy="2" r="3" fill="#fff"/>
+  </g>
+  <circle cx="320" cy="390" r="70" fill="none" stroke="#34d399" stroke-opacity=".45" stroke-width="3"/>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "key": "brick-breaker",
+  "slug": "brick-breaker",
+  "title": {"en": "Prism Breaker", "ka": "პრიზმის მსხვრეველი", "tr": "Prizma Kırıcı", "ru": "Призменный разрушитель"},
+  "short_description": {
+    "en": "Bounce a ball of light, shatter glowing prism bricks and clear six handcrafted chambers.",
+    "ka": "აასხლიტე სინათლის ბურთი, დაამსხვრიე მანათობელი პრიზმის აგურები და გაიარე ექვსი დარბაზი.",
+    "tr": "Bir ışık topunu sektir, parlayan prizma tuğlalarını parçala ve altı özel odayı temizle.",
+    "ru": "Отбивайте световой шар, крушите сияющие призменные кирпичи и пройдите шесть залов."
+  },
+  "description": {
+    "en": "Prism Breaker is a bright, punchy breakout game. Slide your paddle under the ball of light and send it into walls of glowing prism bricks. Where the ball touches the paddle decides its angle – hit it with the edge to slice sharp shots into the corners.\n\nSix handcrafted chambers get tougher as you go: brighter bricks need two or three hits, and red volatile bricks explode and take their neighbours with them. Destroy bricks in a row without touching the paddle to build a combo multiplier, and catch falling capsules for a wide paddle, extra balls, slow motion, a piercing ball that cuts straight through everything, or an extra life.\n\nYou start with three lives; losing every ball on screen costs one. Clear all six chambers to win and earn a bonus for each life you have left.",
+    "ka": "პრიზმის მსხვრეველი კაშკაშა და ენერგიული არკანოიდის ტიპის თამაშია. მიიტანე ფიცარი სინათლის ბურთის ქვეშ და გაგზავნე ის მანათობელი პრიზმის აგურების კედლებისკენ. ბურთის კუთხეს განსაზღვრავს ის, თუ ფიცრის რომელ ადგილს მოხვდება — კიდით დარტყმით ბასრ დარტყმებს კუთხეებში გაგზავნი.\n\nექვსი ხელით შექმნილი დარბაზი თანდათან რთულდება: კაშკაშა აგურებს ორი ან სამი დარტყმა სჭირდება, ხოლო წითელი ფეთქებადი აგურები სკდება და მეზობლებსაც თან იყოლიებს. დაამსხვრიე აგურები ზედიზედ ფიცართან შეხების გარეშე, რომ კომბო-მამრავლი დააგროვო, და დაიჭირე ჩამოვარდნილი კაფსულები: განიერი ფიცარი, დამატებითი ბურთები, შენელება, ყველაფრის გამჭოლი ბურთი ან დამატებითი სიცოცხლე.\n\nთამაშს სამი სიცოცხლით იწყებ; ეკრანზე ყველა ბურთის დაკარგვა ერთ სიცოცხლეს წაგართმევს. გაიარე ექვსივე დარბაზი მოსაგებად და მიიღე ბონუსი ყოველი დარჩენილი სიცოცხლისთვის.",
+    "tr": "Prizma Kırıcı, parlak ve tempolu bir tuğla kırma oyunudur. Raketini ışık topunun altına kaydır ve onu parlayan prizma tuğlalarından duvarlara gönder. Topun rakete nereden değdiği açısını belirler – kenarla vurarak köşelere keskin atışlar yapabilirsin.\n\nÖzenle tasarlanmış altı oda giderek zorlaşır: daha parlak tuğlalar iki ya da üç vuruş ister, kırmızı patlayıcı tuğlalar ise infilak ederek komşularını da götürür. Rakete dokunmadan art arda tuğla kırarak kombo çarpanı oluştur ve düşen kapsülleri yakala: geniş raket, ekstra toplar, ağır çekim, her şeyi delip geçen top ya da ekstra can.\n\nÜç canla başlarsın; ekrandaki tüm topları kaçırmak bir cana mal olur. Kazanmak için altı odanın hepsini temizle ve kalan her can için bonus kazan.",
+    "ru": "«Призменный разрушитель» — яркий и динамичный арканоид. Подводите платформу под световой шар и отправляйте его в стены из сияющих призменных кирпичей. Угол отскока зависит от того, куда шар попал на платформе: удар краем посылает острые броски в углы.\n\nШесть продуманных залов становятся всё сложнее: яркие кирпичи выдерживают два-три удара, а красные взрывные кирпичи детонируют и уничтожают соседей. Разбивайте кирпичи подряд, не касаясь платформы, чтобы растить множитель комбо, и ловите падающие капсулы: широкая платформа, дополнительные шары, замедление, пробивающий шар, который проходит сквозь всё, или лишняя жизнь.\n\nУ вас три жизни; потеря всех шаров на экране стоит одной. Пройдите все шесть залов, чтобы победить, и получите бонус за каждую оставшуюся жизнь."
+  },
+  "instructions": {
+    "en": "1. Launch the ball and keep it in play with your paddle.\n2. The ball's angle depends on where it hits the paddle.\n3. Break every brick in a chamber to move on; bright bricks need several hits.\n4. Red volatile bricks explode and damage the bricks around them.\n5. Catch falling capsules for power-ups: W wide, M multi-ball, S slow, P pierce, ♥ extra life.\n6. Losing all balls costs a life – clear all six chambers to win.",
+    "ka": "1. გაუშვი ბურთი და ფიცრით შეინარჩუნე თამაშში.\n2. ბურთის კუთხე დამოკიდებულია იმაზე, ფიცრის რომელ ადგილს მოხვდება.\n3. გასაგრძელებლად დარბაზში ყველა აგური დაამსხვრიე; კაშკაშა აგურებს რამდენიმე დარტყმა სჭირდება.\n4. წითელი ფეთქებადი აგურები სკდება და ირგვლივ მყოფ აგურებს აზიანებს.\n5. დაიჭირე ჩამოვარდნილი კაფსულები: W განიერი, M მრავალი ბურთი, S შენელება, P გამჭოლი, ♥ დამატებითი სიცოცხლე.\n6. ყველა ბურთის დაკარგვა ერთ სიცოცხლეს გართმევს — მოსაგებად გაიარე ექვსივე დარბაზი.",
+    "tr": "1. Topu fırlat ve raketinle oyunda tut.\n2. Topun açısı rakete nereden çarptığına bağlıdır.\n3. Devam etmek için odadaki tüm tuğlaları kır; parlak tuğlalar birkaç vuruş ister.\n4. Kırmızı patlayıcı tuğlalar infilak eder ve çevresindeki tuğlalara hasar verir.\n5. Güçlendirmeler için düşen kapsülleri yakala: W geniş, M çoklu top, S yavaş, P delici, ♥ ekstra can.\n6. Tüm topları kaçırmak bir cana mal olur – kazanmak için altı odanın hepsini temizle.",
+    "ru": "1. Запустите шар и не давайте ему упасть, отбивая платформой.\n2. Угол отскока зависит от того, в какую часть платформы попал шар.\n3. Чтобы пройти зал, разбейте все кирпичи; яркие требуют нескольких ударов.\n4. Красные взрывные кирпичи детонируют и повреждают кирпичи вокруг.\n5. Ловите падающие капсулы: W — широкая платформа, M — мультишар, S — замедление, P — пробивание, ♥ — жизнь.\n6. Потеря всех шаров стоит жизни; пройдите все шесть залов, чтобы победить."
+  },
+  "controls": {
+    "en": "- **Mouse:** move to steer the paddle, click to launch\n- **Touch:** drag anywhere to steer, tap to launch\n- **Keyboard:** ← / → or A / D to move, Space or ↑ to launch\n- **P / Esc:** pause",
+    "ka": "- **მაუსი:** ამოძრავე ფიცრის სამართავად, დააწკაპუნე გასაშვებად\n- **სენსორი:** გაასრიალე თითი ნებისმიერ ადგილას სამართავად, შეეხე გასაშვებად\n- **კლავიატურა:** ← / → ან A / D მოძრაობისთვის, Space ან ↑ გასაშვებად\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare:** raketi yönlendirmek için hareket ettir, fırlatmak için tıkla\n- **Dokunmatik:** yönlendirmek için herhangi bir yerde sürükle, fırlatmak için dokun\n- **Klavye:** hareket için ← / → veya A / D, fırlatmak için Space ya da ↑\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь:** двигайте, чтобы вести платформу, щелчок — запуск\n- **Сенсор:** ведите пальцем в любом месте, касание — запуск\n- **Клавиатура:** ← / → или A / D для движения, Пробел или ↑ — запуск\n- **P / Esc:** пауза"
+  },
+  "categories": ["arcade", "classic", "action", "casual"],
+  "primary_category": "arcade",
+  "tags": [
+    {"slug": "breakout", "name": {"en": "Breakout", "ka": "არკანოიდი", "tr": "Tuğla kırma", "ru": "Арканоид"}},
+    {"slug": "bricks", "name": {"en": "Bricks", "ka": "აგურები", "tr": "Tuğlalar", "ru": "Кирпичи"}},
+    {"slug": "power-ups", "name": {"en": "Power-ups", "ka": "გაძლიერებები", "tr": "Güçlendirmeler", "ru": "Бонусы"}}
+  ],
+  "input_types": ["mouse", "keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "medium",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 12000,
+  "max_score": 400000,
+  "color": "#f472b6",
+  "width": 480,
+  "height": 640,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

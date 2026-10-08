@@ -26,6 +26,18 @@
 
   var game = NebuloGame.create({ id: 'memory-match', title: 'Neon Pairs', tagline: TXT.tagline, howTo: TXT.how });
 
+  // Run fn after ms if the same round is still active (waits while paused, drops it after a restart).
+  var roundId = 0;
+  game.on('start', function () { roundId++; });
+  function later(fn, ms) {
+    var rid = roundId;
+    setTimeout(function tick() {
+      if (rid !== roundId) return;
+      if (game.state === 'paused') { setTimeout(tick, 250); return; }
+      if (game.state === 'playing') fn();
+    }, ms);
+  }
+
   // ---------------------------------------------------------------- original icon set (viewBox 0 0 64 64, currentColor)
   var ICONS = [
     { c: '#fde047', d: '<path d="M32 6l7.6 16.4 17.9 2.1-13.2 12.2 3.5 17.7L32 45.6 16.2 54.4l3.5-17.7L6.5 24.5l17.9-2.1z"/>' },
@@ -208,7 +220,7 @@
       game.audio.sfx(combo > 1 ? 'bonus' : 'point');
       game.setStat('score', score);
       game.setStat('pairs', matches + '/' + lvl.pairs, TXT.pairs);
-      if (matches === lvl.pairs) winTimer = setTimeout(win, 750);
+      if (matches === lvl.pairs) later(win, 750);
     } else {
       combo = 0;
       setTimeout(function () { if (a.up && !a.matched) a.el.classList.add('miss'); if (b.up && !b.matched) b.el.classList.add('miss'); }, 330);
