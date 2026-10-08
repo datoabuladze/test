@@ -1,58 +1,60 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Nebulo
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A browser-games platform: a public site where people play free games instantly, and an admin panel where staff manage the catalog, licensing, content, design, ads and analytics. Built with Laravel 13, Blade, Tailwind CSS v4, Alpine.js (CSP build) and Vite.
 
-## About Laravel
+"Nebulo" is a provisional name. Trademark and domain availability have not been checked.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## What is included
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Public site** in English, Georgian, Turkish and Russian with language-specific URLs (`/en`, `/ka`, `/tr`, `/ru`) and hreflang tags: homepage with admin-configurable sections, 41 categories, tags, search with typo tolerance, game pages, leaderboards, profiles, blog and legal pages.
+- **Universal player**: every game runs in a sandboxed iframe without `allow-same-origin`; supports original HTML5 games, Phaser/HTML5 packages, Unity WebGL builds, Flash through self-hosted Ruffle, and authorized third-party embeds.
+- **21 original games** written for this project (code and art), all localized in four languages.
+- **Accounts**: registration, email verification, favorites, history, ratings, XP levels, 12 achievements, leaderboards with anti-cheat (single-use sessions, plausibility limits, server-side replay verification for Merge Orbit).
+- **Online multiplayer**: private two-player rooms for Tic-tac-toe and Four in a row, server-authoritative.
+- **Admin panel** with six staff roles: games (packages, launch checks, previews, rights review, scheduled publishing, bulk actions), categories and homepage drag-and-drop ordering, imports from CSV, JSON or provider feeds with licensing validation, reports, users, pages, menus, design versions, ads, SEO redirects, translations, analytics and an audit log.
+- **Operations**: scheduled stats and retention jobs, a real-browser launch test for every game (`php artisan games:smoke`), deploy/rollback/backup scripts, nginx and php-fpm configs, CI.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## Quick start
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+cd platform
+composer install
+npm ci
+cp .env.example .env && php artisan key:generate
+touch database/database.sqlite
+ADMIN_EMAIL=you@example.com ADMIN_PASSWORD='choose-a-strong-password' php artisan migrate --seed
+npm run build            # also copies Ruffle to public/vendor/ruffle
+php artisan storage:link
+php -S 127.0.0.1:8000 -t public scripts/dev-router.php
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+Open http://127.0.0.1:8000 for the site and http://127.0.0.1:8000/admin for the admin panel. See [docs/INSTALLATION.md](docs/INSTALLATION.md) for details, including why the dev router is used instead of `php artisan serve`.
 
-## Contributing
+## Tests
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```bash
+php artisan test                    # PHPUnit: 204 tests
+npx playwright test                 # end-to-end, needs the server above
+node tests/browser/original-game-smoke.mjs
+php artisan games:smoke --dry-run   # real-browser launch test of every catalog game
+```
 
-## Code of Conduct
+## Documentation
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+| Document | Contents |
+|---|---|
+| [ARCHITECTURE](docs/ARCHITECTURE.md) | How the system fits together |
+| [INSTALLATION](docs/INSTALLATION.md) | Local setup |
+| [DEPLOYMENT](docs/DEPLOYMENT.md) | Servers, nginx, workers, deploys and rollbacks |
+| [ADMIN_GUIDE](docs/ADMIN_GUIDE.md) | Using the admin panel |
+| [GAME_IMPORT_GUIDE](docs/GAME_IMPORT_GUIDE.md) | Importing licensed games and adding original ones |
+| [GAME_LICENSES](docs/GAME_LICENSES.md) | Licenses of games and bundled software |
+| [API_DOCUMENTATION](docs/API_DOCUMENTATION.md) | HTTP endpoints and the game frame protocol |
+| [SECURITY](docs/SECURITY.md) | Security model and known limitations |
+| [TESTING](docs/TESTING.md) | Test suites and how to run them |
+| [OPERATIONS](docs/OPERATIONS.md) | Day-to-day running, takedowns, backups |
+| [PROGRESS](docs/PROGRESS.md) | What is done, what is verified, what is outstanding |
 
-## Security Vulnerabilities
+## Content and licensing rules
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Only games whose publication rights are verified can be public; the publish gate enforces it. No games are scraped or mirrored, Flash games are never downloaded automatically, there are no real-money or gambling mechanics, and the ads system never generates impressions or clicks itself.
