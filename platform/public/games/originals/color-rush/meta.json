@@ -1,0 +1,52 @@
+{
+  "key": "color-rush",
+  "slug": "color-rush",
+  "title": {"en": "Chroma Clash", "ka": "ფერების შეჯახება", "tr": "Renk Çatışması", "ru": "Цветовой конфликт"},
+  "short_description": {
+    "en": "The word says BLUE, the ink is orange. Pick the right colour before the timer bar runs dry.",
+    "ka": "სიტყვა ამბობს „ლურჯი“, მელანი კი ნარინჯისფერია. აირჩიე სწორი ფერი, სანამ დროის ზოლი გაქრება.",
+    "tr": "Kelime MAVİ diyor, mürekkep turuncu. Süre çubuğu bitmeden doğru rengi seç.",
+    "ru": "Слово говорит СИНИЙ, а буквы оранжевые. Выберите правильный цвет, пока не иссякла полоска времени."
+  },
+  "description": {
+    "en": "Chroma Clash turns a famous quirk of the human brain into a frantic reflex game. A colour name appears in the middle of the screen – but it is painted in a *different* colour. Your job is to tap the swatch that matches the **ink**, not the word. It sounds easy until your brain insists on reading.\n\nFrom level 3 the rules start to flip: when the prompt turns pink and says **WORD**, you must pick the colour the word names instead. Every question has its own shrinking timer bar, and it gets shorter as you level up. At higher levels the word even tilts and sways to throw you off.\n\nYou have three lives; a wrong pick or a timeout costs one. Answer quickly for a time bonus and keep a streak going – every five correct answers in a row raise your multiplier, up to ×4. A short, intense workout for focus and attention that is easy to learn and surprisingly hard to master.",
+    "ka": "ფერების შეჯახება ადამიანის ტვინის ცნობილ თავისებურებას გიჟურ რეფლექსურ თამაშად აქცევს. ეკრანის შუაში ჩნდება ფერის სახელი, მაგრამ ის *სხვა* ფერითაა დაწერილი. შენი ამოცანაა, აირჩიო ნიმუში, რომელიც **მელნის** ფერს ემთხვევა და არა სიტყვას. მარტივად ჟღერს, სანამ ტვინი კითხვას არ დაიწყებს.\n\nმე-3 დონიდან წესები იცვლება: როცა მოთხოვნა ვარდისფერდება და წერია **სიტყვა**, უნდა აირჩიო ის ფერი, რომელსაც სიტყვა ასახელებს. ყოველ კითხვას საკუთარი, თანდათან მოკლებადი დროის ზოლი აქვს, რომელიც დონის ზრდასთან ერთად სულ უფრო მოკლდება. მაღალ დონეებზე სიტყვა იხრება და ირხევა კიდეც, რომ დაგაბნიოს.\n\nგაქვს სამი სიცოცხლე; არასწორი არჩევანი ან დროის ამოწურვა ერთს წაგართმევს. სწრაფად უპასუხე დროის ბონუსისთვის და შეინარჩუნე სერია – ზედიზედ ყოველი ხუთი სწორი პასუხი მამრავლს ზრდის ×4-მდე. ხანმოკლე, ინტენსიური ვარჯიში ყურადღებისა და კონცენტრაციისთვის, რომლის სწავლა მარტივია, დაუფლება კი – მოულოდნელად რთული.",
+    "tr": "Renk Çatışması, insan beyninin ünlü bir tuhaflığını çılgın bir refleks oyununa dönüştürüyor. Ekranın ortasında bir renk adı belirir – ama *başka* bir renkle yazılmıştır. Görevin kelimeye değil, **mürekkebe** uyan renk kutusuna dokunmak. Beynin okumakta ısrar edene kadar kolay görünür.\n\n3. seviyeden itibaren kurallar değişmeye başlar: komut pembeye döner ve **KELİME** yazarsa, bunun yerine kelimenin söylediği rengi seçmelisin. Her sorunun kendine ait, kısalan bir süre çubuğu vardır ve seviye atladıkça daha da kısalır. Yüksek seviyelerde kelime seni şaşırtmak için eğilir ve sallanır.\n\nÜç canın var; yanlış seçim ya da süre bitimi bir can götürür. Zaman bonusu için hızlı cevap ver ve serini koru – art arda her beş doğru cevap çarpanını ×4’e kadar artırır. Öğrenmesi kolay, ustalaşması şaşırtıcı derecede zor, odak ve dikkat için kısa ve yoğun bir antrenman.",
+    "ru": "«Цветовой конфликт» превращает известную особенность человеческого мозга в стремительную игру на реакцию. В центре экрана появляется название цвета, но написано оно *другим* цветом. Ваша задача – выбрать образец, совпадающий с цветом **букв**, а не со словом. Звучит просто, пока мозг упрямо не начинает читать.\n\nС 3-го уровня правила начинают меняться: когда подсказка становится розовой и гласит **СЛОВО**, нужно выбрать цвет, который назван словом. У каждого вопроса своя сокращающаяся полоска времени, и с ростом уровня она становится всё короче. На высоких уровнях слово ещё и наклоняется и покачивается, чтобы сбить вас с толку.\n\nУ вас три жизни; неверный выбор или истёкшее время отнимают одну. Отвечайте быстро ради бонуса за время и держите серию – каждые пять верных ответов подряд повышают множитель вплоть до ×4. Короткая и напряжённая тренировка внимания и концентрации: научиться легко, а стать мастером на удивление трудно."
+  },
+  "instructions": {
+    "en": "1. A colour word appears, painted in a different ink colour.\n2. When the prompt says INK, tap the swatch matching the ink.\n3. When the prompt says WORD (from level 3), tap the colour the word names.\n4. Answer before the timer bar empties – quicker answers score more.\n5. A wrong answer or timeout costs one of your three lives; the game ends at zero.",
+    "ka": "1. ჩნდება ფერის სახელი, რომელიც სხვა ფერის მელნითაა დაწერილი.\n2. როცა მოთხოვნაში წერია „მელანი“, აირჩიე მელნის შესაბამისი ნიმუში.\n3. როცა წერია „სიტყვა“ (მე-3 დონიდან), აირჩიე ფერი, რომელსაც სიტყვა ასახელებს.\n4. უპასუხე, სანამ დროის ზოლი დაცარიელდება – სწრაფი პასუხი მეტ ქულას იძლევა.\n5. არასწორი პასუხი ან დროის ამოწურვა სამი სიცოცხლიდან ერთს გართმევს; ნულზე თამაში სრულდება.",
+    "tr": "1. Farklı bir mürekkep rengiyle yazılmış bir renk adı belirir.\n2. Komut MÜREKKEP dediğinde mürekkebe uyan kutuya dokun.\n3. Komut KELİME dediğinde (3. seviyeden itibaren) kelimenin söylediği renge dokun.\n4. Süre çubuğu boşalmadan cevap ver – hızlı cevaplar daha çok puan getirir.\n5. Yanlış cevap veya süre bitimi üç canından birini götürür; can kalmayınca oyun biter.",
+    "ru": "1. Появляется название цвета, написанное буквами другого цвета.\n2. Если подсказка говорит ЦВЕТ, выберите образец, совпадающий с цветом букв.\n3. Если подсказка говорит СЛОВО (с 3-го уровня), выберите цвет, названный словом.\n4. Отвечайте, пока не опустела полоска времени – быстрые ответы приносят больше очков.\n5. Ошибка или истёкшее время отнимают одну из трёх жизней; при нуле игра заканчивается."
+  },
+  "controls": {
+    "en": "- **Touch / mouse:** tap or click one of the four colour swatches\n- **Keyboard:** 1 2 3 4 (or Q W A S) – top-left, top-right, bottom-left, bottom-right\n- **P / Esc:** pause",
+    "ka": "- **სენსორი / მაუსი:** დააჭირე ოთხი ფერის ნიმუშიდან ერთ-ერთს\n- **კლავიატურა:** 1 2 3 4 (ან Q W A S) – ზედა მარცხენა, ზედა მარჯვენა, ქვედა მარცხენა, ქვედა მარჯვენა\n- **P / Esc:** პაუზა",
+    "tr": "- **Dokunmatik / fare:** dört renk kutusundan birine dokun veya tıkla\n- **Klavye:** 1 2 3 4 (veya Q W A S) – sol üst, sağ üst, sol alt, sağ alt\n- **P / Esc:** duraklat",
+    "ru": "- **Сенсор / мышь:** нажмите на один из четырёх цветных образцов\n- **Клавиатура:** 1 2 3 4 (или Q W A S) – левый верхний, правый верхний, левый нижний, правый нижний\n- **P / Esc:** пауза"
+  },
+  "categories": ["brain", "casual", "arcade"],
+  "primary_category": "brain",
+  "tags": [
+    {"slug": "colors", "name": {"en": "Colours", "ka": "ფერები", "tr": "Renkler", "ru": "Цвета"}},
+    {"slug": "focus", "name": {"en": "Focus", "ka": "ყურადღება", "tr": "Odak", "ru": "Внимание"}},
+    {"slug": "reaction-time", "name": {"en": "Reaction time", "ka": "რეაქციის დრო", "tr": "Tepki süresi", "ru": "Время реакции"}}
+  ],
+  "input_types": ["keyboard", "mouse", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "short",
+  "min_age": 6,
+  "score_mode": "casual",
+  "max_points_per_second": 350,
+  "max_score": 200000,
+  "color": "#f97316",
+  "width": 520,
+  "height": 780,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

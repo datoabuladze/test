@@ -1,0 +1,52 @@
+{
+  "key": "neon-snake",
+  "slug": "neon-snake",
+  "title": {"en": "Neon Snake", "ka": "ნეონის გველი", "tr": "Neon Yılan", "ru": "Неоновая змейка"},
+  "short_description": {
+    "en": "Guide a glowing serpent across the grid, swallow orbs and survive as the pace climbs.",
+    "ka": "ატარე მანათობელი გველი ბადეზე, შთანთქე სფეროები და გადარჩი, როცა ტემპი იზრდება.",
+    "tr": "Parlayan yılanı ızgarada yönlendir, küreleri yut ve tempo arttıkça hayatta kal.",
+    "ru": "Ведите светящуюся змейку по сетке, глотайте сферы и держитесь, пока темп растёт."
+  },
+  "description": {
+    "en": "Neon Snake is a fast, clean take on the classic grid snake. Your light-serpent never stops moving: steer it toward the cyan orbs, and every orb you swallow makes it one segment longer and a little bit faster.\n\nEvery five orbs the level rises, orbs become worth more, and a pink crystal block lands somewhere on the board, so the arena slowly turns into a maze. Now and then a golden star appears for a few seconds – it is worth five orbs, but chasing it can trap you in a corner.\n\nThink two turns ahead, keep open lanes for your growing tail, and use the edges wisely. One touch of a wall, a crystal or your own body ends the run.",
+    "ka": "ნეონის გველი კლასიკური ბადის გველის სწრაფი და სუფთა ვერსიაა. შენი სინათლის გველი არასდროს ჩერდება: მიმართე ის ცისფერი სფეროებისკენ — ყოველი შთანთქმული სფერო მას ერთი რგოლით აგრძელებს და ცოტათი აჩქარებს.\n\nყოველ ხუთ სფეროზე დონე იზრდება, სფეროები მეტ ქულას იძლევა, ხოლო დაფაზე ვარდისფერი კრისტალის ბლოკი ჩნდება — ასე არენა თანდათან ლაბირინთად იქცევა. დროდადრო რამდენიმე წამით ოქროს ვარსკვლავი ჩნდება: ის ხუთი სფეროს ტოლია, მაგრამ მისი დევნა შეიძლება კუთხეში ჩაგკეტოს.\n\nიფიქრე ორი მოსახვევით წინ, დაუტოვე თავისუფალი გზები მზარდ კუდს და ჭკვიანურად გამოიყენე კიდეები. კედელთან, კრისტალთან ან საკუთარ სხეულთან ერთი შეხებაც კი თამაშს ასრულებს.",
+    "tr": "Neon Yılan, klasik ızgara yılanının hızlı ve sade bir yorumudur. Işık yılanın hiç durmaz: onu camgöbeği kürelere yönlendir; yuttuğun her küre onu bir boğum uzatır ve biraz daha hızlandırır.\n\nHer beş kürede seviye yükselir, küreler daha çok puan verir ve tahtanın bir yerine pembe bir kristal blok düşer; böylece arena yavaş yavaş bir labirente dönüşür. Ara sıra birkaç saniyeliğine altın bir yıldız belirir – beş küre değerindedir ama peşinden koşmak seni bir köşeye kıstırabilir.\n\nİki dönüş ilerisini düşün, büyüyen kuyruğun için açık koridorlar bırak ve kenarları akıllıca kullan. Duvara, kristale ya da kendi gövdene tek bir dokunuş oyunu bitirir.",
+    "ru": "«Неоновая змейка» — быстрая и аккуратная версия классической змейки на сетке. Ваша световая змейка никогда не останавливается: направляйте её к бирюзовым сферам, и каждая проглоченная сфера делает её на одно звено длиннее и чуть быстрее.\n\nКаждые пять сфер повышается уровень, сферы приносят больше очков, а на поле появляется розовый кристальный блок — арена постепенно превращается в лабиринт. Время от времени на несколько секунд возникает золотая звезда: она стоит пяти сфер, но погоня за ней может загнать вас в угол.\n\nПланируйте на два поворота вперёд, оставляйте свободные коридоры для растущего хвоста и с умом используйте края поля. Одно касание стены, кристалла или собственного тела — и забег окончен."
+  },
+  "instructions": {
+    "en": "1. The snake moves on its own – you only choose where it turns.\n2. Eat cyan orbs to grow, score points and speed up.\n3. Grab golden stars before they fade for a 5× bonus.\n4. Every 5 orbs the level rises and a crystal block appears.\n5. Hitting a wall, a crystal or your own body ends the game.",
+    "ka": "1. გველი თავად მოძრაობს — შენ მხოლოდ ირჩევ, საით მოუხვიოს.\n2. ჭამე ცისფერი სფეროები, რომ გაიზარდო, დააგროვო ქულები და აჩქარდე.\n3. აიღე ოქროს ვარსკვლავები, სანამ გაქრებიან — 5-ჯერადი ბონუსისთვის.\n4. ყოველ 5 სფეროზე დონე იზრდება და ჩნდება კრისტალის ბლოკი.\n5. კედელთან, კრისტალთან ან საკუთარ სხეულთან შეჯახება თამაშს ასრულებს.",
+    "tr": "1. Yılan kendi kendine ilerler – sen yalnızca nereye döneceğini seçersin.\n2. Büyümek, puan kazanmak ve hızlanmak için camgöbeği küreleri ye.\n3. 5 kat bonus için altın yıldızları kaybolmadan yakala.\n4. Her 5 kürede seviye artar ve bir kristal blok belirir.\n5. Duvara, kristale ya da kendi gövdene çarpmak oyunu bitirir.",
+    "ru": "1. Змейка движется сама — вы лишь выбираете, куда повернуть.\n2. Ешьте бирюзовые сферы, чтобы расти, набирать очки и ускоряться.\n3. Успейте схватить золотую звезду, пока она не исчезла, — это бонус ×5.\n4. Каждые 5 сфер повышается уровень и появляется кристальный блок.\n5. Столкновение со стеной, кристаллом или собственным телом заканчивает игру."
+  },
+  "controls": {
+    "en": "- **Keyboard:** arrow keys or W A S D to turn\n- **Touch:** swipe in any direction or use the on-screen pad\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** ისრები ან W A S D მოსახვევად\n- **სენსორი:** გაასრიალე ნებისმიერი მიმართულებით ან გამოიყენე ეკრანის პულტი\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** dönmek için ok tuşları veya W A S D\n- **Dokunmatik:** herhangi bir yöne kaydır ya da ekrandaki pedi kullan\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** стрелки или W A S D для поворотов\n- **Сенсор:** свайп в любую сторону или экранный джойстик\n- **P / Esc:** пауза"
+  },
+  "categories": ["arcade", "classic", "retro", "casual"],
+  "primary_category": "arcade",
+  "tags": [
+    {"slug": "snake", "name": {"en": "Snake", "ka": "გველი", "tr": "Yılan", "ru": "Змейка"}},
+    {"slug": "neon", "name": {"en": "Neon", "ka": "ნეონი", "tr": "Neon", "ru": "Неон"}},
+    {"slug": "reflex", "name": {"en": "Reflex", "ka": "რეაქცია", "tr": "Refleks", "ru": "Реакция"}}
+  ],
+  "input_types": ["keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 4000,
+  "max_score": 400000,
+  "color": "#22d3ee",
+  "width": 600,
+  "height": 600,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

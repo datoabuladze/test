@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Merge Orbit</title>
+<link rel="stylesheet" href="../_sdk/sdk.css">
+<style>
+  #board { position: relative; touch-action: none; }
+  .mo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap); padding: var(--gap); border-radius: 18px;
+    background: linear-gradient(160deg, #161a2b, #10131f); border: 1px solid rgba(255,255,255,.08); box-shadow: 0 30px 80px -30px rgba(124,92,255,.6); }
+  .mo-cell { border-radius: 12px; background: rgba(255,255,255,.04); aspect-ratio: 1; }
+  .mo-tile { position: absolute; display: flex; align-items: center; justify-content: center; border-radius: 12px; font-weight: 900;
+    transition: transform .11s ease-out; will-change: transform; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,.35); }
+  .mo-tile.new { animation: mo-pop .16s ease-out; }
+  .mo-tile.merged { animation: mo-merge .18s ease-out; }
+  @keyframes mo-pop { from { transform: var(--pos) scale(.2); } to { transform: var(--pos) scale(1); } }
+  @keyframes mo-merge { 0% { transform: var(--pos) scale(1); } 50% { transform: var(--pos) scale(1.16); } 100% { transform: var(--pos) scale(1); } }
+</style>
+</head>
+<body>
+<script src="../_sdk/sdk.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

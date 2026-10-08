@@ -1,0 +1,38 @@
+/* Shared look for Nebulo original games. */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #0b0d17; color: #eef0ff;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-user-select: none; user-select: none;
+  touch-action: none; -webkit-tap-highlight-color: transparent; }
+button { font: inherit; color: inherit; }
+#ng-root { position: fixed; inset: 0; display: flex; flex-direction: column; }
+#ng-hud { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; padding: 6px 10px; min-height: 44px;
+  background: linear-gradient(180deg, rgba(22,26,43,.95), rgba(22,26,43,.75)); border-bottom: 1px solid rgba(255,255,255,.08); z-index: 5; }
+#ng-hud .ng-title { font-weight: 800; letter-spacing: -.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#ng-hud .ng-stats { margin-left: auto; display: flex; gap: 14px; font-variant-numeric: tabular-nums; font-size: 14px; }
+#ng-hud .ng-stat b { color: #22d3ee; font-weight: 800; margin-left: 4px; }
+#ng-hud .ng-btn { width: 34px; height: 34px; border-radius: 10px; border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.06);
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+#ng-hud .ng-btn:hover { background: rgba(255,255,255,.14); }
+#ng-hud .ng-btn svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+#ng-stage { position: relative; flex: 1 1 auto; min-height: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+#ng-stage canvas { display: block; image-rendering: auto; touch-action: none; }
+.ng-overlay { position: absolute; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; padding: 16px;
+  background: radial-gradient(80% 60% at 50% 40%, rgba(124,92,255,.25), rgba(11,13,23,.92)); backdrop-filter: blur(3px); }
+.ng-card { max-width: 420px; width: 100%; text-align: center; padding: 22px 20px; border-radius: 18px;
+  background: rgba(22,26,43,.92); border: 1px solid rgba(255,255,255,.1); box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.ng-card h1, .ng-card h2 { margin: 0 0 8px; font-size: 26px; font-weight: 900; letter-spacing: -.02em;
+  background: linear-gradient(120deg, #22d3ee, #7c5cff, #f472b6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ng-card p { margin: 6px 0; color: #b4b9d6; font-size: 14px; line-height: 1.5; }
+.ng-card .ng-big { font-size: 40px; font-weight: 900; color: #fff; margin: 8px 0; font-variant-numeric: tabular-nums; }
+.ng-card ul { text-align: left; color: #b4b9d6; font-size: 13px; padding-left: 18px; margin: 10px 0; }
+.ng-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+.ng-action { border: 0; border-radius: 12px; padding: 12px 20px; font-weight: 800; cursor: pointer; color: #fff;
+  background: linear-gradient(135deg, #7c5cff, #c062f5); box-shadow: 0 8px 24px -10px #7c5cff; }
+.ng-action.ng-secondary { background: rgba(255,255,255,.08); box-shadow: none; border: 1px solid rgba(255,255,255,.12); }
+.ng-action:focus-visible, .ng-btn:focus-visible { outline: 2px solid #22d3ee; outline-offset: 2px; }
+.ng-hidden { display: none !important; }
+.ng-touch { position: absolute; z-index: 6; display: flex; gap: 10px; pointer-events: none; }
+.ng-touch button { pointer-events: auto; width: 64px; height: 64px; border-radius: 18px; border: 1px solid rgba(255,255,255,.15);
+  background: rgba(255,255,255,.08); color: #fff; font-size: 22px; font-weight: 800; touch-action: none; }
+.ng-touch button.ng-pressed { background: rgba(124,92,255,.5); }
+@media (hover: hover) and (pointer: fine) { .ng-touch.ng-auto { display: none; } }

@@ -1,0 +1,93 @@
+{
+  "key": "hoop-shot",
+  "slug": "hoop-shot",
+  "title": {
+    "en": "Hoop Shot",
+    "ka": "კალათის სროლა",
+    "tr": "Pota Atışı",
+    "ru": "Бросок в кольцо"
+  },
+  "short_description": {
+    "en": "Sixty seconds, one hoop: pull back, release and chain baskets for streak bonuses.",
+    "ka": "სამოცი წამი, ერთი რგოლი: გადაათრიე უკან, გაუშვი და ზედიზედ ჩააგდე სერიის ბონუსებისთვის.",
+    "tr": "Altmış saniye, tek pota: geri çek, bırak ve seri bonusu için basketleri arka arkaya diz.",
+    "ru": "Шестьдесят секунд и одно кольцо: оттяните, отпустите и забивайте подряд ради бонусов серии."
+  },
+  "description": {
+    "en": "Hoop Shot is a quick-fire basketball challenge with real ball physics. Pull back anywhere on the court, watch the dotted arc preview your shot, and let go – the ball bounces off the rim and backboard just like you would expect, so bank shots and lucky rolls really count.\n\nEvery basket scores 2 points, and a clean **swish** that never touches the rim scores 3. Make baskets in a row to build a streak: each extra basket in the chain adds a bonus point, up to +4, and the ball catches fire when you are hot. Miss once and the streak starts over.\n\nThe court changes as you improve. After a few baskets the hoop jumps to new spots, from level 3 it starts sliding side to side, and later it bobs up and down too. You have 60 seconds – a ball that is already in the air when the buzzer sounds still counts!",
+    "ka": "„კალათის სროლა“ არის სწრაფი კალათბურთის გამოწვევა ნამდვილი ბურთის ფიზიკით. გადაათრიე უკან მოედნის ნებისმიერ ადგილას, წყვეტილი რკალი სროლის ტრაექტორიას გაჩვენებს, და გაუშვი — ბურთი რგოლსა და ფარს ისე ეხეთქება, როგორც მოელი, ამიტომ ფარიდან ასხლეტილი და იღბლიანი ბურთებიც ითვლება.\n\nყოველი კალათი 2 ქულაა, ხოლო სუფთა სროლა, რომელიც რგოლს საერთოდ არ ეხება, 3 ქულა. ზედიზედ ჩააგდე, რომ სერია ააწყო: ჯაჭვში ყოველი დამატებითი კალათი ბონუს ქულას მატებს (მაქსიმუმ +4), ხოლო როცა ფორმაში ხარ, ბურთი ცეცხლს ეკიდება. ერთი აცდენა და სერია თავიდან იწყება.\n\nმოედანი შენთან ერთად იცვლება. რამდენიმე კალათის შემდეგ რგოლი ახალ ადგილებზე გადადის, მე-3 დონიდან გვერდიდან გვერდზე მოძრაობს, მოგვიანებით კი ზემოთ-ქვემოთაც. გაქვს 60 წამი — ბურთი, რომელიც სირენის დროს უკვე ჰაერშია, მაინც ითვლება!",
+    "tr": "Pota Atışı, gerçek top fiziğine sahip seri bir basketbol mücadelesidir. Sahada istediğin yerden geri çek, noktalı yayın atışını önizlemesini izle ve bırak – top çembere ve panyaya tam beklediğin gibi çarpar; yani panyadan basketler ve şanslı dönüşler gerçekten sayılır.\n\nHer basket 2 puan, çembere hiç değmeyen temiz bir **file** atışı 3 puandır. Seri yapmak için arka arkaya basket at: zincirdeki her ekstra basket bir bonus puan ekler (en fazla +4) ve formdayken top alev alır. Bir kez kaçırırsan seri baştan başlar.\n\nSen geliştikçe saha da değişir. Birkaç basketten sonra pota yeni yerlere atlar, 3. seviyeden itibaren sağa sola kaymaya başlar, daha sonra da yukarı aşağı oynar. 60 saniyen var – düdük çaldığında havada olan top yine de sayılır!",
+    "ru": "«Бросок в кольцо» — динамичное баскетбольное испытание с настоящей физикой мяча. Потяните назад в любой точке площадки, пунктирная дуга покажет траекторию, и отпустите — мяч отскакивает от дужки и щита именно так, как вы ожидаете, поэтому броски от щита и удачные отскоки тоже засчитываются.\n\nКаждое попадание приносит 2 очка, а чистый бросок без касания кольца — 3. Забивайте подряд, чтобы собрать серию: каждое следующее попадание добавляет бонусное очко (до +4), а когда вы в ударе, мяч загорается. Один промах — и серия начинается заново.\n\nПлощадка меняется вместе с вами. После нескольких попаданий кольцо перескакивает на новые места, с 3-го уровня начинает ездить из стороны в сторону, а позже ещё и вверх-вниз. У вас 60 секунд — мяч, который уже летит в момент сирены, всё равно засчитывается!"
+  },
+  "instructions": {
+    "en": "1. Press anywhere, drag back away from the hoop and release to shoot.\n2. The dotted arc previews the start of the flight; a longer drag means more power.\n3. A basket scores 2 points, a swish without touching the rim scores 3.\n4. Consecutive baskets add a streak bonus of +1 each, up to +4. A miss resets it.\n5. Every 3 baskets the level rises: the hoop relocates, then starts moving.\n6. Score as much as you can before the 60-second clock runs out.",
+    "ka": "1. დააჭირე ნებისმიერ ადგილას, გადაათრიე რგოლის საპირისპიროდ და გაუშვი სასროლად.\n2. წყვეტილი რკალი ფრენის დასაწყისს გაჩვენებს; რაც უფრო გრძელია გადათრევა, მით მეტია ძალა.\n3. კალათი 2 ქულაა, რგოლის შეუხებლად სუფთა სროლა — 3.\n4. ზედიზედ კალათები სერიის ბონუსს +1-ით ზრდის, მაქსიმუმ +4-მდე. აცდენა მას ანულებს.\n5. ყოველ 3 კალათზე დონე იზრდება: რგოლი ადგილს იცვლის, შემდეგ კი მოძრაობას იწყებს.\n6. მოაგროვე რაც შეიძლება მეტი ქულა, სანამ 60-წამიანი საათი ამოიწურება.",
+    "tr": "1. Herhangi bir yere bas, potanın tersine doğru geri sürükle ve atmak için bırak.\n2. Noktalı yay uçuşun başlangıcını gösterir; uzun sürükleme daha fazla güç demektir.\n3. Basket 2 puan, çembere değmeyen file atışı 3 puandır.\n4. Arka arkaya basketler her biri +1 olmak üzere en fazla +4 seri bonusu ekler. Kaçırmak seriyi sıfırlar.\n5. Her 3 basket seviyeyi yükseltir: pota yer değiştirir, ardından hareket etmeye başlar.\n6. 60 saniyelik süre dolmadan olabildiğince çok puan topla.",
+    "ru": "1. Нажмите в любом месте, потяните в сторону от кольца и отпустите, чтобы бросить.\n2. Пунктирная дуга показывает начало полёта; чем длиннее рывок, тем сильнее бросок.\n3. Попадание — 2 очка, чистый бросок без касания дужки — 3.\n4. Попадания подряд дают бонус серии +1 за каждое, максимум +4. Промах его сбрасывает.\n5. Каждые 3 попадания уровень растёт: кольцо переезжает, а потом начинает двигаться.\n6. Наберите как можно больше очков, пока не истекут 60 секунд."
+  },
+  "controls": {
+    "en": "- **Mouse / touch:** press, drag back and release to shoot\n- **Keyboard:** ◀ ▶ (A / D) adjust the angle, ▲ ▼ (W / S) adjust the power, Space shoots\n- **Touch buttons:** ↺ ↻ angle, − + power, ● shoot\n- **P / Esc:** pause",
+    "ka": "- **მაუსი / სენსორი:** დააჭირე, გადაათრიე უკან და გაუშვი სასროლად\n- **კლავიატურა:** ◀ ▶ (A / D) — კუთხე, ▲ ▼ (W / S) — ძალა, Space — სროლა\n- **სენსორული ღილაკები:** ↺ ↻ კუთხე, − + ძალა, ● სროლა\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare / dokunmatik:** bas, geri sürükle ve atmak için bırak\n- **Klavye:** ◀ ▶ (A / D) açıyı, ▲ ▼ (W / S) gücü ayarlar, Space atar\n- **Dokunmatik düğmeler:** ↺ ↻ açı, − + güç, ● atış\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь / сенсор:** нажмите, потяните назад и отпустите для броска\n- **Клавиатура:** ◀ ▶ (A / D) — угол, ▲ ▼ (W / S) — сила, Пробел — бросок\n- **Сенсорные кнопки:** ↺ ↻ угол, − + сила, ● бросок\n- **P / Esc:** пауза"
+  },
+  "categories": [
+    "sports",
+    "basketball",
+    "arcade"
+  ],
+  "primary_category": "basketball",
+  "tags": [
+    {
+      "slug": "physics",
+      "name": {
+        "en": "Physics",
+        "ka": "ფიზიკა",
+        "tr": "Fizik",
+        "ru": "Физика"
+      }
+    },
+    {
+      "slug": "timed",
+      "name": {
+        "en": "Timed",
+        "ka": "დროზე",
+        "tr": "Süreli",
+        "ru": "На время"
+      }
+    },
+    {
+      "slug": "streak",
+      "name": {
+        "en": "Streak",
+        "ka": "სერია",
+        "tr": "Seri",
+        "ru": "Серия"
+      }
+    }
+  ],
+  "input_types": [
+    "mouse",
+    "touch",
+    "keyboard"
+  ],
+  "devices": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 15,
+  "max_score": 600,
+  "color": "#fb923c",
+  "width": 480,
+  "height": 720,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

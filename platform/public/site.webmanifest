@@ -1,0 +1,9 @@
+{
+  "name": "Nebulo – Free online games",
+  "short_name": "Nebulo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d17",
+  "theme_color": "#0b0d17",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

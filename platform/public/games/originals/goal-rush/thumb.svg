@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0d17"/><stop offset=".3" stop-color="#141236"/><stop offset="1" stop-color="#0b0d17"/></linearGradient>
+    <linearGradient id="ads" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c5cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <radialGradient id="ball" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#b4b9d6"/></radialGradient>
+    <radialGradient id="fl" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#eef0ff" stop-opacity=".5"/><stop offset="1" stop-color="#eef0ff" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="net" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0 V16 M0 16 H16" stroke="#eef0ff40" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <circle cx="50" cy="20" r="140" fill="url(#fl)"/><circle cx="590" cy="20" r="140" fill="url(#fl)"/>
+  <g opacity=".5"><circle cx="30" cy="70" r="5" fill="#7c5cff"/><circle cx="90" cy="50" r="5" fill="#22d3ee"/><circle cx="150" cy="80" r="5" fill="#f472b6"/><circle cx="210" cy="55" r="5" fill="#fde047"/><circle cx="270" cy="85" r="5" fill="#7c5cff"/><circle cx="330" cy="50" r="5" fill="#22d3ee"/><circle cx="390" cy="80" r="5" fill="#f472b6"/><circle cx="450" cy="60" r="5" fill="#7c5cff"/><circle cx="510" cy="85" r="5" fill="#fde047"/><circle cx="570" cy="55" r="5" fill="#22d3ee"/><circle cx="120" cy="100" r="5" fill="#334155"/><circle cx="420" cy="100" r="5" fill="#334155"/></g>
+  <rect y="108" width="640" height="14" fill="url(#ads)" opacity=".85"/>
+  <rect y="122" width="640" height="358" fill="#124436"/>
+  <rect y="180" width="640" height="40" fill="#0f3a2e"/><rect y="270" width="640" height="60" fill="#0f3a2e"/><rect y="400" width="640" height="80" fill="#0f3a2e"/>
+  <rect x="110" y="140" width="420" height="160" fill="#0b0d1799"/>
+  <rect x="110" y="140" width="420" height="160" fill="url(#net)"/>
+  <path d="M104 300 V134 H536 V300" fill="none" stroke="#22d3ee" stroke-width="10" filter="url(#glow)"/>
+  <path d="M104 300 V134 H536 V300" fill="none" stroke="#eef0ff" stroke-width="8"/>
+  <line x1="0" y1="300" x2="640" y2="300" stroke="#eef0ffbb" stroke-width="3"/>
+  <path d="M40 300 L0 360 M600 300 L640 360" stroke="#eef0ffbb" stroke-width="3"/>
+  <g transform="translate(200 268) rotate(-62)">
+    <rect x="-17" y="-80" width="34" height="50" rx="9" fill="#f472b6"/>
+    <rect x="-13" y="-30" width="10" height="32" fill="#111827"/><rect x="3" y="-30" width="10" height="32" fill="#111827"/>
+    <path d="M-14 -72 L-40 -112 M14 -72 L40 -112" stroke="#f472b6" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="-42" cy="-116" r="8" fill="#fde047"/><circle cx="42" cy="-116" r="8" fill="#fde047"/>
+    <circle cx="0" cy="-96" r="12" fill="#f5d0b0"/>
+  </g>
+  <circle cx="470" cy="172" r="26" fill="#34d399" filter="url(#glow)" opacity=".7"/>
+  <g transform="translate(470 172)"><circle r="20" fill="url(#ball)"/><g fill="#1e293b"><circle r="5"/><circle cx="12" cy="-6" r="4"/><circle cx="-12" cy="-6" r="4"/><circle cx="7" cy="12" r="4"/><circle cx="-7" cy="12" r="4"/></g></g>
+  <path d="M330 440 Q 400 300 456 186" fill="none" stroke="#eef0ff66" stroke-width="3" stroke-dasharray="6 10"/>
+  <ellipse cx="330" cy="448" rx="8" ry="3" fill="#eef0ffcc"/>
+  <text x="330" y="246" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="64" fill="#34d399" filter="url(#glow)" opacity=".8">GOAL!</text>
+  <text x="330" y="246" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="64" fill="#34d399">GOAL!</text>
+  <text x="32" y="458" font-family="system-ui,sans-serif" font-weight="900" font-size="52" fill="#fff">GOAL <tspan fill="#34d399">RUSH</tspan></text>
+</svg>

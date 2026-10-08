@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1d3d"/><stop offset="1" stop-color="#0b0d17"/></linearGradient>
+    <linearGradient id="pad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <g opacity=".1"><path d="M120 0h70l220 480h-120z" fill="#22d3ee"/><path d="M300 0h60l200 480h-110z" fill="#7c5cff"/><path d="M450 0h50l150 480h-90z" fill="#f472b6"/></g>
+  <g filter="url(#glow)">
+    <g fill="#f472b6"><rect x="40" y="60" width="62" height="26" rx="7"/><rect x="108" y="60" width="62" height="26" rx="7"/><rect x="176" y="60" width="62" height="26" rx="7"/><rect x="244" y="60" width="62" height="26" rx="7"/><rect x="312" y="60" width="62" height="26" rx="7"/><rect x="380" y="60" width="62" height="26" rx="7"/><rect x="448" y="60" width="62" height="26" rx="7"/><rect x="516" y="60" width="62" height="26" rx="7"/></g>
+    <g fill="#fb923c"><rect x="40" y="92" width="62" height="26" rx="7"/><rect x="108" y="92" width="62" height="26" rx="7"/><rect x="176" y="92" width="62" height="26" rx="7"/><rect x="380" y="92" width="62" height="26" rx="7"/><rect x="448" y="92" width="62" height="26" rx="7"/><rect x="516" y="92" width="62" height="26" rx="7"/></g>
+    <g fill="#fbbf24"><rect x="40" y="124" width="62" height="26" rx="7"/><rect x="108" y="124" width="62" height="26" rx="7"/><rect x="448" y="124" width="62" height="26" rx="7"/><rect x="516" y="124" width="62" height="26" rx="7"/></g>
+    <g fill="#34d399"><rect x="40" y="156" width="62" height="26" rx="7"/><rect x="516" y="156" width="62" height="26" rx="7"/></g>
+    <rect x="244" y="92" width="62" height="26" rx="7" fill="#ef4444"/>
+    <g fill="#22d3ee"><rect x="176" y="124" width="62" height="26" rx="7" opacity=".7"/></g>
+  </g>
+  <g fill="#fff" fill-opacity=".3"><rect x="46" y="64" width="50" height="6" rx="3"/><rect x="114" y="64" width="50" height="6" rx="3"/><rect x="182" y="64" width="50" height="6" rx="3"/><rect x="250" y="64" width="50" height="6" rx="3"/><rect x="318" y="64" width="50" height="6" rx="3"/><rect x="386" y="64" width="50" height="6" rx="3"/><rect x="454" y="64" width="50" height="6" rx="3"/><rect x="522" y="64" width="50" height="6" rx="3"/></g>
+  <!-- explosion shards -->
+  <g fill="#fde68a"><path d="M330 108l10-16 6 18z"/><path d="M350 128l18-4-8 14z"/><path d="M318 132l-4 16-10-10z"/><path d="M296 118l-14-8 16-4z"/></g>
+  <circle cx="335" cy="116" r="26" fill="#fbbf24" opacity=".45" filter="url(#soft)"/>
+  <!-- ball trail -->
+  <path d="M250 400 L300 300 L360 196" stroke="#22d3ee" stroke-width="10" stroke-linecap="round" fill="none" opacity=".25"/>
+  <circle cx="362" cy="192" r="12" fill="#fff" filter="url(#glow)"/>
+  <!-- capsule -->
+  <g filter="url(#glow)"><rect x="130" y="270" width="54" height="26" rx="13" fill="#a78bfa"/></g>
+  <text x="157" y="289" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="17" fill="#0b0d17">M</text>
+  <!-- paddle -->
+  <rect x="190" y="410" width="160" height="22" rx="11" fill="url(#pad)" filter="url(#glow)"/>
+  <rect x="200" y="413" width="140" height="6" rx="3" fill="#fff" fill-opacity=".45"/>
+  <text x="470" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="40" fill="#eef0ff">PRISM</text>
+  <text x="470" y="440" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="30" fill="#f472b6" letter-spacing="3">BREAKER</text>
+</svg>

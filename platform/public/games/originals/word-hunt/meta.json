@@ -1,0 +1,52 @@
+{
+  "key": "word-hunt",
+  "slug": "word-hunt",
+  "title": {"en": "Hidden Words", "ka": "დამალული სიტყვები", "tr": "Gizli Kelimeler", "ru": "Скрытые слова"},
+  "short_description": {
+    "en": "A glowing word search with themed lists in your own language – find every word hidden in the grid.",
+    "ka": "მანათობელი სიტყვების ძიება თემატური სიებით შენს ენაზე – იპოვე ბადეში დამალული ყველა სიტყვა.",
+    "tr": "Kendi dilinde tematik listelerle ışıltılı bir kelime avı – tabloya gizlenmiş tüm kelimeleri bul.",
+    "ru": "Светящаяся игра «найди слово» с тематическими списками на вашем языке — отыщите все слова в сетке."
+  },
+  "description": {
+    "en": "Hidden Words is a relaxed word search that speaks your language. Each round picks a theme – space, animals, food, sports, nature or music – and hides a set of real words in a square grid of letters. Words can run across, down, diagonally and, on the larger grids, even backwards.\n\nThe puzzle is generated fresh every time, so no two grids are the same, and the filler letters are drawn from the theme itself to keep you on your toes. Choose a cosy 8×8 grid with forward-only words, a 10×10 grid with all eight directions or a dense 12×12 challenge packed with thirteen words.\n\nThe game is fully localised: English, Georgian, Turkish and Russian players each get their own word lists written in their own alphabet. Longer words are worth more points, harder grids multiply your score, and finishing quickly adds a time bonus.",
+    "ka": "„დამალული სიტყვები“ მშვიდი სიტყვების ძიებაა, რომელიც შენს ენაზე ლაპარაკობს. ყოველი რაუნდი ირჩევს თემას – კოსმოსი, ცხოველები, საჭმელი, სპორტი, ბუნება ან მუსიკა – და ასოების კვადრატულ ბადეში ნამდვილ სიტყვებს მალავს. სიტყვები შეიძლება იყოს ჰორიზონტალურად, ვერტიკალურად, დიაგონალზე, ხოლო დიდ ბადეებზე – უკუღმაც.\n\nთავსატეხი ყოველ ჯერზე თავიდან იქმნება, ამიტომ ორი ერთნაირი ბადე არ გვხვდება, ხოლო შემავსებელი ასოები თავად თემიდანაა აღებული, რომ ყურადღება არ მოადუნო. აირჩიე მყუდრო 8×8 ბადე მხოლოდ წინა მიმართულების სიტყვებით, 10×10 ბადე რვავე მიმართულებით ან მჭიდრო 12×12 გამოწვევა ცამეტი სიტყვით.\n\nთამაში სრულად ლოკალიზებულია: ინგლისურენოვან, ქართველ, თურქ და რუსულენოვან მოთამაშეებს თავიანთი სიტყვების სიები აქვთ საკუთარ ანბანზე. გრძელი სიტყვები მეტ ქულას იძლევა, რთული ბადე ქულას ამრავლებს, ხოლო სწრაფად დასრულებისთვის დროის ბონუსს მიიღებ.",
+    "tr": "Gizli Kelimeler, senin dilini konuşan rahat bir kelime avı oyunudur. Her tur bir tema seçer – uzay, hayvanlar, yiyecekler, spor, doğa ya da müzik – ve gerçek kelimeleri kare bir harf tablosuna gizler. Kelimeler yatay, dikey, çapraz ve büyük tablolarda tersten bile yerleştirilebilir.\n\nBulmaca her seferinde yeniden üretilir, bu yüzden hiçbir tablo diğerine benzemez; boşluklar ise dikkatini diri tutmak için temanın kendi harfleriyle doldurulur. Yalnızca ileri yönlü kelimelerle rahat bir 8×8, sekiz yönün hepsiyle 10×10 ya da on üç kelimeyle dolu yoğun bir 12×12 tablo seç.\n\nOyun tamamen yerelleştirilmiştir: İngilizce, Gürcüce, Türkçe ve Rusça oynayanlar kendi alfabelerinde yazılmış kendi kelime listelerini alır. Uzun kelimeler daha çok puan değerindedir, zor tablolar puanını katlar ve hızlı bitirmek süre bonusu kazandırır.",
+    "ru": "«Скрытые слова» — спокойная игра на поиск слов, которая говорит на вашем языке. Каждый раунд выбирает тему — космос, животные, еда, спорт, природа или музыка — и прячет настоящие слова в квадратной сетке букв. Слова могут идти по горизонтали, вертикали, диагонали, а на больших сетках — даже задом наперёд.\n\nГоловоломка каждый раз создаётся заново, поэтому двух одинаковых сеток не бывает, а свободные клетки заполняются буквами из самой темы, чтобы вы не расслаблялись. Выберите уютную сетку 8×8, где слова идут только вперёд, сетку 10×10 со всеми восемью направлениями или плотное поле 12×12 с тринадцатью словами.\n\nИгра полностью локализована: игроки на английском, грузинском, турецком и русском получают собственные списки слов на родном алфавите. Длинные слова приносят больше очков, сложные сетки умножают счёт, а быстрое прохождение даёт бонус за время."
+  },
+  "instructions": {
+    "en": "1. Choose a grid size and press Play.\n2. Look for the words listed next to (or below) the grid.\n3. Drag across a word from its first to its last letter – or tap the first letter, then the last.\n4. Words run in straight lines: across, down, diagonally and, on larger grids, backwards.\n5. Find every word to win; a quick finish adds a time bonus.",
+    "ka": "1. აირჩიე ბადის ზომა და დააჭირე „თამაშს“.\n2. მოძებნე სიტყვები, რომლებიც ბადის გვერდით (ან ქვემოთ) არის ჩამოწერილი.\n3. გადაატარე სიტყვაზე პირველი ასოდან ბოლომდე – ან შეეხე ჯერ პირველ, შემდეგ ბოლო ასოს.\n4. სიტყვები სწორ ხაზზეა: ჰორიზონტალურად, ვერტიკალურად, დიაგონალზე და დიდ ბადეებზე – უკუღმაც.\n5. მოსაგებად იპოვე ყველა სიტყვა; სწრაფად დასრულება დროის ბონუსს გაძლევს.",
+    "tr": "1. Bir tablo boyutu seç ve Oyna’ya bas.\n2. Tablonun yanında (veya altında) listelenen kelimeleri ara.\n3. Bir kelimenin ilk harfinden son harfine sürükle – ya da önce ilk, sonra son harfe dokun.\n4. Kelimeler düz çizgiler halindedir: yatay, dikey, çapraz ve büyük tablolarda tersten.\n5. Kazanmak için tüm kelimeleri bul; hızlı bitirmek süre bonusu kazandırır.",
+    "ru": "1. Выберите размер сетки и нажмите «Играть».\n2. Ищите слова из списка рядом с сеткой (или под ней).\n3. Проведите по слову от первой до последней буквы — или нажмите сначала на первую, затем на последнюю букву.\n4. Слова идут по прямым: по горизонтали, вертикали, диагонали и на больших сетках — задом наперёд.\n5. Найдите все слова, чтобы победить; быстрое прохождение даёт бонус за время."
+  },
+  "controls": {
+    "en": "- **Mouse / touch:** drag from the first to the last letter of a word, or tap both ends\n- **Keyboard:** arrow keys move the cursor, Space / Enter marks the start and then the end of a word, Backspace cancels\n- **P / Esc:** pause",
+    "ka": "- **მაუსი / სენსორი:** გადაატარე სიტყვის პირველი ასოდან ბოლომდე, ან შეეხე ორივე ბოლოს\n- **კლავიატურა:** ისრები კურსორს ამოძრავებს, Space / Enter ნიშნავს სიტყვის დასაწყისს და შემდეგ დასასრულს, Backspace – გაუქმება\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare / dokunmatik:** bir kelimenin ilk harfinden son harfine sürükle veya iki ucuna dokun\n- **Klavye:** ok tuşları imleci hareket ettirir, Space / Enter kelimenin başını ve ardından sonunu işaretler, Backspace iptal eder\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь / сенсор:** проведите от первой до последней буквы слова или нажмите на оба конца\n- **Клавиатура:** стрелки двигают курсор, Space / Enter отмечают начало, а затем конец слова, Backspace — отмена\n- **P / Esc:** пауза"
+  },
+  "categories": ["puzzle", "educational", "brain", "casual"],
+  "primary_category": "puzzle",
+  "tags": [
+    {"slug": "words", "name": {"en": "Words", "ka": "სიტყვები", "tr": "Kelimeler", "ru": "Слова"}},
+    {"slug": "word-search", "name": {"en": "Word search", "ka": "სიტყვების ძიება", "tr": "Kelime avı", "ru": "Поиск слов"}},
+    {"slug": "vocabulary", "name": {"en": "Vocabulary", "ka": "ლექსიკა", "tr": "Kelime bilgisi", "ru": "Словарный запас"}}
+  ],
+  "input_types": ["mouse", "keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "easy",
+  "session_length": "medium",
+  "min_age": 6,
+  "score_mode": "casual",
+  "max_points_per_second": 600,
+  "max_score": 10000,
+  "color": "#a78bfa",
+  "width": 960,
+  "height": 640,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": true,
+  "editors_pick": false
+}

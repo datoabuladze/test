@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0d17"/><stop offset=".55" stop-color="#1d1240"/><stop offset="1" stop-color="#3a1642"/></linearGradient>
+    <linearGradient id="bot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#7c5cff"/></linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22184a"/><stop offset="1" stop-color="#0f0b22"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="big" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#sky)"/>
+  <g fill="#fff" opacity=".7"><circle cx="50" cy="40" r="1.3"/><circle cx="160" cy="80" r="1"/><circle cx="300" cy="30" r="1.5"/><circle cx="420" cy="70" r="1"/><circle cx="380" cy="140" r="1.2"/><circle cx="90" cy="150" r="1"/></g>
+  <circle cx="500" cy="110" r="62" fill="#f472b6" opacity=".55" filter="url(#big)"/>
+  <circle cx="500" cy="110" r="50" fill="#f9a8d4"/>
+  <g stroke="#1d1240" stroke-opacity=".5" stroke-width="5"><path d="M448 116h104M450 130h100M456 144h88"/></g>
+  <path d="M0 330 L70 250 L140 330 L210 230 L290 330 L360 260 L430 330 L520 240 L600 330 L640 290 V480 H0Z" fill="#20154a" stroke="#22d3ee" stroke-opacity=".35" stroke-width="2"/>
+  <g fill="#150f30"><rect x="20" y="230" width="70" height="250"/><rect x="120" y="190" width="60" height="290"/><rect x="210" y="250" width="80" height="230"/><rect x="330" y="210" width="56" height="270"/><rect x="420" y="240" width="70" height="240"/><rect x="530" y="200" width="80" height="280"/></g>
+  <g fill="#7c5cff" opacity=".55"><rect x="32" y="250" width="6" height="8"/><rect x="60" y="280" width="6" height="8"/><rect x="134" y="214" width="6" height="8"/><rect x="156" y="260" width="6" height="8"/><rect x="226" y="270" width="6" height="8"/><rect x="262" y="300" width="6" height="8"/><rect x="344" y="232" width="6" height="8"/><rect x="434" y="262" width="6" height="8"/><rect x="560" y="226" width="6" height="8"/><rect x="584" y="270" width="6" height="8"/></g>
+  <!-- rooftops -->
+  <rect x="0" y="380" width="250" height="100" fill="url(#roof)"/>
+  <rect x="390" y="350" width="250" height="130" fill="url(#roof)"/>
+  <g filter="url(#glow)" fill="#22d3ee"><rect x="0" y="378" width="250" height="5"/><rect x="390" y="348" width="250" height="5"/></g>
+  <rect x="270" y="290" width="100" height="10" fill="#3b2a7a"/><rect x="270" y="288" width="100" height="4" fill="#f472b6" filter="url(#glow)"/>
+  <!-- spikes -->
+  <path d="M170 380 L180 354 L190 380 L200 354 L210 380Z" fill="#f472b6" filter="url(#glow)"/>
+  <!-- crate -->
+  <rect x="500" y="300" width="50" height="50" rx="5" fill="#2b1d55" stroke="#fbbf24" stroke-width="3" filter="url(#glow)"/>
+  <path d="M507 307 L543 343 M543 307 L507 343" stroke="#fbbf24" stroke-opacity=".45" stroke-width="2"/>
+  <!-- gems arc -->
+  <g fill="#f9a8d4" filter="url(#glow)"><path d="M300 238 l10 11 -10 13 -10 -13z"/><path d="M340 222 l10 11 -10 13 -10 -13z"/><path d="M380 238 l10 11 -10 13 -10 -13z"/></g>
+  <!-- trail -->
+  <path d="M110 330 Q170 300 228 236" stroke="#22d3ee" stroke-opacity=".3" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <!-- bot -->
+  <g transform="translate(240 222) rotate(-12)">
+    <path d="M-20 -4 Q-34 -12 -48 -2" stroke="#f472b6" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <g filter="url(#glow)"><rect x="-20" y="-24" width="40" height="44" rx="12" fill="url(#bot)"/></g>
+    <rect x="-3" y="-15" width="22" height="13" rx="6" fill="#0b0d17"/>
+    <rect x="6" y="-11" width="8" height="5" fill="#f472b6"/>
+    <path d="M-8 20 L-14 32 M8 20 L16 30" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g stroke="#fff" stroke-opacity=".35" stroke-width="2"><path d="M40 110h70M20 190h50M560 400h60"/></g>
+</svg>

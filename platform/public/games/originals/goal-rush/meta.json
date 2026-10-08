@@ -1,0 +1,92 @@
+{
+  "key": "goal-rush",
+  "slug": "goal-rush",
+  "title": {
+    "en": "Goal Rush",
+    "ka": "გოლის ციებ-ცხელება",
+    "tr": "Gol Telaşı",
+    "ru": "Голевой рывок"
+  },
+  "short_description": {
+    "en": "A night-time penalty shoot-out: pick your corner, time your power and dive to save.",
+    "ka": "ღამის პენალტების სერია: აირჩიე კუთხე, გამოთვალე ძალა და გადაეშვი ბურთის მოსაგერიებლად.",
+    "tr": "Gece maçında penaltı atışları: köşeni seç, gücünü ayarla ve kurtarmak için uç.",
+    "ru": "Ночная серия пенальти: выберите угол, поймайте силу удара и прыгайте за мячом."
+  },
+  "description": {
+    "en": "Goal Rush puts the whole shoot-out in your hands – both ends of it. Under the floodlights you alternate with the CPU: first you step up to the spot and shoot, then you pull on the gloves and try to stop their kick.\n\nWhen shooting, move the crosshair to the spot you want and lock it in, then stop the power bar in the **green zone**. Soft shots give the keeper time to react, while overhit shots drift and can sail over the bar. The keeper sometimes reads your mind, so the far corners are your best friend – if you can hit them.\n\nWhen keeping, dive left, centre or right. Watch the kicker's run-up: his body often gives away the side, but sometimes it is a bluff, and if you commit too early he may switch. Dive too late and you will not reach the corner. After five kicks each it goes to sudden death until someone misses.",
+    "ka": "„გოლის ციებ-ცხელება“ პენალტების მთელ სერიას შენ განდობს — ორივე მხრიდან. პროჟექტორების შუქზე CPU-სთან მონაცვლეობ: ჯერ თერთმეტმეტრიან ნიშნულთან დგები და ურტყამ, შემდეგ კი ხელთათმანებს იცვამ და მათი დარტყმის მოგერიებას ცდილობ.\n\nდარტყმისას მიზანი სასურველ წერტილზე გადაიტანე და დააფიქსირე, შემდეგ ძალის ზოლი **მწვანე ზონაში** გააჩერე. სუსტი დარტყმა მეკარეს რეაქციის დროს აძლევს, ზედმეტად ძლიერი კი გვერდზე მიდის და შეიძლება ძელს ზემოთ გადაფრინდეს. მეკარე ზოგჯერ შენს ჩანაფიქრს ხვდება, ამიტომ შორეული კუთხეები საუკეთესო არჩევანია — თუ მოარტყამ.\n\nკარში დგომისას გადაეშვი მარცხნივ, ცენტრში ან მარჯვნივ. უყურე დამრტყმელის გამორბენას: მისი სხეული ხშირად მხარეს გასცემს, მაგრამ ზოგჯერ ეს ბლეფია, და თუ ნაადრევად გადაეშვები, შეიძლება მხარე შეცვალოს. დაგვიანებული ნახტომით კუთხეს ვერ მიწვდები. თითო ხუთი დარტყმის შემდეგ სერია გრძელდება, სანამ ვინმე არ ააცდენს.",
+    "tr": "Gol Telaşı tüm penaltı atışlarını senin ellerine bırakır – her iki taraftan da. Projektörlerin altında CPU ile sırayla oynarsın: önce penaltı noktasına geçip şut çekersin, sonra eldivenleri giyip rakibin atışını durdurmaya çalışırsın.\n\nŞut çekerken nişangâhı istediğin noktaya götürüp sabitle, ardından güç çubuğunu **yeşil bölgede** durdur. Yumuşak şutlar kaleciye tepki süresi verir, fazla sert şutlar ise sapar ve üstten auta gidebilir. Kaleci bazen niyetini okur; bu yüzden uzak köşeler en iyi dostundur – tabii isabet ettirebilirsen.\n\nKalecilik yaparken sola, ortaya ya da sağa uç. Atıcının koşusunu izle: vücudu çoğu zaman yönü ele verir ama bazen bu bir blöftür ve çok erken uçarsan taraf değiştirebilir. Geç uçarsan köşeye yetişemezsin. Beşer atıştan sonra biri kaçırana kadar seri penaltılara geçilir.",
+    "ru": "«Голевой рывок» отдаёт в ваши руки всю серию пенальти — с обеих сторон. Под светом прожекторов вы чередуетесь с компьютером: сначала выходите к точке и бьёте, затем надеваете перчатки и пытаетесь отразить его удар.\n\nПри ударе наведите прицел в нужную точку и зафиксируйте его, а затем остановите шкалу силы в **зелёной зоне**. Слабый удар даёт вратарю время среагировать, а слишком сильный уводит мяч в сторону и может отправить его выше перекладины. Вратарь иногда угадывает замысел, поэтому дальние углы — ваши лучшие друзья, если вы в них попадёте.\n\nВ воротах прыгайте влево, в центр или вправо. Следите за разбегом бьющего: его корпус часто выдаёт сторону, но иногда это блеф, а если прыгнуть слишком рано, он может сменить угол. Прыгнете поздно — до угла не дотянетесь. После пяти ударов с каждой стороны серия продолжается до первого промаха."
+  },
+  "instructions": {
+    "en": "1. You and the CPU take turns: you shoot first, then you keep.\n2. Shooting: aim with the mouse, your finger or the arrow keys and tap / click / press Space to lock the aim.\n3. Tap again while the power bar is in the green zone. Too weak is easy to save, too strong may fly over.\n4. Keeping: dive left, centre or right before the ball arrives – watch the kicker for hints.\n5. Five kicks each; if it is level, sudden death decides.\n6. Your score is the number of goals you scored. Win the shoot-out to finish on top.",
+    "ka": "1. შენ და CPU რიგრიგობით ურტყამთ: ჯერ შენ ურტყამ, შემდეგ კარში დგახარ.\n2. დარტყმა: დაუმიზნე მაუსით, თითით ან ისრებით და დააფიქსირე შეხებით / დაწკაპუნებით / Space-ით.\n3. კიდევ ერთხელ შეეხე, როცა ძალის ზოლი მწვანე ზონაშია. სუსტ დარტყმას ადვილად იგერიებენ, ძლიერი კი შეიძლება ზემოთ გადავიდეს.\n4. კარში დგომა: გადაეშვი მარცხნივ, ცენტრში ან მარჯვნივ, სანამ ბურთი მოვა — დამრტყმელი შეიძლება მინიშნებას მოგცემს.\n5. თითოეულს ხუთი დარტყმა; თუ ანგარიში თანაბარია, სერია ერთ დარტყმამდე გრძელდება.\n6. შენი ქულა გატანილი გოლების რაოდენობაა. მოიგე სერია, რომ გამარჯვებული იყო.",
+    "tr": "1. Sen ve CPU sırayla atarsınız: önce sen şut çekersin, sonra kaleye geçersin.\n2. Şut: fare, parmak ya da ok tuşlarıyla nişan al; nişanı sabitlemek için dokun / tıkla / Space’e bas.\n3. Güç çubuğu yeşil bölgedeyken tekrar dokun. Çok zayıf şut kolay kurtarılır, çok sert şut üstten gidebilir.\n4. Kalecilik: top gelmeden sola, ortaya ya da sağa uç – ipuçları için atıcıyı izle.\n5. Her tarafa beş atış; eşitlik olursa seri penaltılar kazananı belirler.\n6. Puanın attığın gol sayısıdır. Zirvede bitirmek için atışları kazan.",
+    "ru": "1. Вы и компьютер бьёте по очереди: сначала бьёте вы, затем встаёте в ворота.\n2. Удар: целитесь мышью, пальцем или стрелками и фиксируйте прицел касанием / щелчком / Пробелом.\n3. Коснитесь ещё раз, когда шкала силы в зелёной зоне. Слабый удар легко отбить, слишком сильный может уйти выше.\n4. Вратарь: прыгайте влево, в центр или вправо до того, как прилетит мяч, — следите за бьющим.\n5. По пять ударов; при равенстве всё решает серия до первого промаха.\n6. Ваши очки — количество забитых голов. Выиграйте серию, чтобы стать победителем."
+  },
+  "controls": {
+    "en": "- **Shooting – mouse:** move to aim, click to lock, click again to shoot\n- **Shooting – touch:** tap the spot in the goal, then tap again to shoot\n- **Shooting – keyboard:** arrow keys / W A S D to aim, Space to lock and to shoot\n- **Keeping:** ◀ / A dive left, ▼ / S / Space stay central, ▶ / D dive right – or tap the left, middle or right of the goal\n- **P / Esc:** pause",
+    "ka": "- **დარტყმა – მაუსი:** გადაადგილე დასამიზნებლად, დააწკაპუნე დასაფიქსირებლად, კვლავ დააწკაპუნე დასარტყმელად\n- **დარტყმა – სენსორი:** შეეხე კარის სასურველ წერტილს, შემდეგ კვლავ შეეხე დასარტყმელად\n- **დარტყმა – კლავიატურა:** ისრები / W A S D დასამიზნებლად, Space დასაფიქსირებლად და დასარტყმელად\n- **კარში დგომა:** ◀ / A — მარცხნივ, ▼ / S / Space — ცენტრში, ▶ / D — მარჯვნივ, ან შეეხე კარის მარცხენა, შუა ან მარჯვენა ნაწილს\n- **P / Esc:** პაუზა",
+    "tr": "- **Şut – fare:** nişan almak için hareket ettir, sabitlemek için tıkla, şut için tekrar tıkla\n- **Şut – dokunmatik:** kalede istediğin noktaya dokun, sonra şut için tekrar dokun\n- **Şut – klavye:** nişan için ok tuşları / W A S D, sabitleme ve şut için Space\n- **Kalecilik:** ◀ / A sola uç, ▼ / S / Space ortada kal, ▶ / D sağa uç – ya da kalenin soluna, ortasına veya sağına dokun\n- **P / Esc:** duraklat",
+    "ru": "- **Удар – мышь:** двигайте для прицеливания, щелчок фиксирует прицел, второй щелчок — удар\n- **Удар – сенсор:** коснитесь нужной точки ворот, затем коснитесь ещё раз для удара\n- **Удар – клавиатура:** стрелки / W A S D для прицела, Пробел — фиксация и удар\n- **Вратарь:** ◀ / A — прыжок влево, ▼ / S / Пробел — остаться в центре, ▶ / D — прыжок вправо, либо коснитесь левой, средней или правой части ворот\n- **P / Esc:** пауза"
+  },
+  "categories": [
+    "sports",
+    "football"
+  ],
+  "primary_category": "football",
+  "tags": [
+    {
+      "slug": "penalty",
+      "name": {
+        "en": "Penalty",
+        "ka": "პენალტი",
+        "tr": "Penaltı",
+        "ru": "Пенальти"
+      }
+    },
+    {
+      "slug": "goalkeeper",
+      "name": {
+        "en": "Goalkeeper",
+        "ka": "მეკარე",
+        "tr": "Kaleci",
+        "ru": "Вратарь"
+      }
+    },
+    {
+      "slug": "soccer",
+      "name": {
+        "en": "Soccer",
+        "ka": "ფეხბურთი",
+        "tr": "Futbol",
+        "ru": "Футбол"
+      }
+    }
+  ],
+  "input_types": [
+    "mouse",
+    "touch",
+    "keyboard"
+  ],
+  "devices": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "orientation": "any",
+  "difficulty": "easy",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 2,
+  "max_score": 100,
+  "color": "#34d399",
+  "width": 720,
+  "height": 600,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

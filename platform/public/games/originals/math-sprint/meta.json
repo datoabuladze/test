@@ -1,0 +1,52 @@
+{
+  "key": "math-sprint",
+  "slug": "math-sprint",
+  "title": {"en": "Math Sprint", "ka": "მათემატიკური სპრინტი", "tr": "Matematik Sprinti", "ru": "Математический спринт"},
+  "short_description": {
+    "en": "Sixty seconds of rapid-fire arithmetic – build combos, climb levels, beat your best.",
+    "ka": "სამოცი წამი სწრაფი არითმეტიკა – ააწყვე კომბოები, აიწიე დონეებზე და გააუმჯობესე რეკორდი.",
+    "tr": "Altmış saniyelik seri aritmetik – kombo yap, seviye atla, rekorunu kır.",
+    "ru": "Шестьдесят секунд скоростной арифметики – собирайте комбо, поднимайтесь по уровням, бейте рекорды."
+  },
+  "description": {
+    "en": "Math Sprint is a one-minute workout for your mental arithmetic. Problems appear one after another and you type the answer as fast as you can – the moment you have entered enough digits, the answer is checked and the next problem is already waiting.\n\nThe sprint starts gently with small additions, then mixes in subtraction, multiplication tables, exact division and finally multi-step problems such as 7 × 6 + 13. Every three correct answers in a row raise your combo multiplier, up to ×5, and higher levels are worth more points per answer. A wrong answer costs three seconds and resets the combo, so speed only pays off when it is accurate.\n\nIt works equally well with a keyboard or on a phone thanks to the large on-screen number pad. Great as a daily warm-up for students and adults alike: play a few rounds and watch your accuracy and best streak improve.",
+    "ka": "მათემატიკური სპრინტი ერთწუთიანი ვარჯიშია გონებრივი ანგარიშისთვის. მაგალითები ერთმანეთის მიყოლებით ჩნდება და პასუხი რაც შეიძლება სწრაფად უნდა აკრიფო – როგორც კი საკმარის ციფრებს შეიყვან, პასუხი მოწმდება და შემდეგი მაგალითი უკვე გელოდება.\n\nსპრინტი მარტივი შეკრებით იწყება, შემდეგ ემატება გამოკლება, გამრავლების ტაბულა, ნაშთის გარეშე გაყოფა და ბოლოს რამდენიმესაფეხურიანი მაგალითები, მაგალითად 7 × 6 + 13. ზედიზედ ყოველი სამი სწორი პასუხი კომბო-მამრავლს ზრდის ×5-მდე, ხოლო მაღალ დონეებზე თითო პასუხი მეტ ქულას იძლევა. არასწორი პასუხი სამი წამი ჯდება და კომბოს ანულებს, ამიტომ სისწრაფე მხოლოდ სიზუსტესთან ერთად ფასობს.\n\nთამაში ერთნაირად კარგად მუშაობს კლავიატურითაც და ტელეფონზეც, დიდი ეკრანული ციფრული კლავიატურის წყალობით. იდეალურია ყოველდღიური გახურებისთვის როგორც მოსწავლეებისთვის, ისე უფროსებისთვის: ითამაშე რამდენიმე რაუნდი და დააკვირდი, როგორ იზრდება სიზუსტე და საუკეთესო სერია.",
+    "tr": "Matematik Sprinti, zihinden hesaplama için bir dakikalık bir antrenmandır. İşlemler art arda belirir ve cevabı olabildiğince hızlı yazarsın – yeterli rakamı girdiğin anda cevap kontrol edilir ve sıradaki işlem seni bekliyor olur.\n\nSprint küçük toplamalarla yavaşça başlar, ardından çıkarma, çarpım tablosu, kalansız bölme ve sonunda 7 × 6 + 13 gibi çok adımlı işlemler eklenir. Art arda her üç doğru cevap kombo çarpanını ×5’e kadar artırır; yüksek seviyelerde her cevap daha çok puan değerindedir. Yanlış cevap üç saniyeye mal olur ve komboyu sıfırlar, yani hız ancak doğrulukla birleşince işe yarar.\n\nBüyük ekran tuş takımı sayesinde klavyeyle de telefonda da aynı rahatlıkla oynanır. Öğrenciler ve yetişkinler için harika bir günlük ısınma: birkaç tur oyna ve isabetinin ve en uzun serinin nasıl geliştiğini izle.",
+    "ru": "«Математический спринт» – минутная тренировка для устного счёта. Примеры появляются один за другим, и нужно как можно быстрее ввести ответ – как только вы набрали нужное количество цифр, ответ проверяется, и следующий пример уже ждёт.\n\nСпринт начинается с простого сложения, затем добавляются вычитание, таблица умножения, деление без остатка и, наконец, примеры в несколько действий, например 7 × 6 + 13. Каждые три верных ответа подряд повышают множитель комбо вплоть до ×5, а на высоких уровнях каждый ответ стоит больше очков. Ошибка стоит трёх секунд и сбрасывает комбо, так что скорость окупается только вместе с точностью.\n\nИграть одинаково удобно и с клавиатуры, и на телефоне благодаря большой экранной цифровой панели. Отличная ежедневная разминка для школьников и взрослых: сыграйте несколько раундов и следите, как растут точность и лучшая серия."
+  },
+  "instructions": {
+    "en": "1. Press Play – the 60-second clock starts immediately.\n2. Type the answer to each problem; it is checked as soon as enough digits are entered.\n3. Each correct answer scores 10 × level × combo.\n4. Three correct answers in a row raise the combo (max ×5); a wrong answer costs 3 seconds and resets it.\n5. Every five correct answers the level – and the difficulty – go up. The round ends when time runs out.",
+    "ka": "1. დააჭირე „თამაშს“ – 60-წამიანი საათი მაშინვე ირთვება.\n2. აკრიფე თითოეული მაგალითის პასუხი; ის მოწმდება, როგორც კი საკმარის ციფრებს შეიყვან.\n3. ყოველი სწორი პასუხი იძლევა 10 × დონე × კომბო ქულას.\n4. ზედიზედ სამი სწორი პასუხი კომბოს ზრდის (მაქს. ×5); არასწორი პასუხი 3 წამი ჯდება და კომბოს ანულებს.\n5. ყოველ ხუთ სწორ პასუხზე დონე და სირთულე იზრდება. რაუნდი სრულდება, როცა დრო ამოიწურება.",
+    "tr": "1. Oyna’ya bas – 60 saniyelik süre hemen başlar.\n2. Her işlemin cevabını yaz; yeterli rakam girildiği anda kontrol edilir.\n3. Her doğru cevap 10 × seviye × kombo puan kazandırır.\n4. Art arda üç doğru cevap komboyu artırır (en fazla ×5); yanlış cevap 3 saniyeye mal olur ve komboyu sıfırlar.\n5. Her beş doğru cevapta seviye – ve zorluk – artar. Süre bitince tur sona erer.",
+    "ru": "1. Нажмите «Играть» – 60-секундный таймер запускается сразу.\n2. Вводите ответ на каждый пример; он проверяется, как только введено достаточно цифр.\n3. Каждый верный ответ приносит 10 × уровень × комбо очков.\n4. Три верных ответа подряд повышают комбо (макс. ×5); ошибка стоит 3 секунды и сбрасывает его.\n5. Каждые пять верных ответов уровень – и сложность – повышаются. Раунд заканчивается, когда истекает время."
+  },
+  "controls": {
+    "en": "- **Keyboard:** number keys (or numpad) type digits, Backspace deletes, Enter submits early\n- **Touch / mouse:** tap the on-screen number pad, ⌫ deletes, OK submits\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** ციფრების ღილაკები (ან ციფრული ბლოკი) კრეფს, Backspace შლის, Enter ადრე აგზავნის\n- **სენსორი / მაუსი:** დააჭირე ეკრანულ ციფრულ კლავიატურას, ⌫ შლის, OK აგზავნის\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** rakam tuşları (veya sayısal tuş takımı) rakam yazar, Backspace siler, Enter erken gönderir\n- **Dokunmatik / fare:** ekrandaki tuş takımına dokun, ⌫ siler, OK gönderir\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** цифровые клавиши (или цифровой блок) вводят цифры, Backspace стирает, Enter отправляет досрочно\n- **Сенсор / мышь:** нажимайте на экранную цифровую панель, ⌫ стирает, OK отправляет\n- **P / Esc:** пауза"
+  },
+  "categories": ["educational", "brain", "kids", "casual"],
+  "primary_category": "educational",
+  "tags": [
+    {"slug": "math", "name": {"en": "Math", "ka": "მათემატიკა", "tr": "Matematik", "ru": "Математика"}},
+    {"slug": "numbers", "name": {"en": "Numbers", "ka": "რიცხვები", "tr": "Sayılar", "ru": "Числа"}},
+    {"slug": "time-attack", "name": {"en": "Time attack", "ka": "დროზე თამაში", "tr": "Zamana karşı", "ru": "На время"}}
+  ],
+  "input_types": ["keyboard", "mouse", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "short",
+  "min_age": 6,
+  "score_mode": "casual",
+  "max_points_per_second": 1500,
+  "max_score": 150000,
+  "color": "#fde047",
+  "width": 480,
+  "height": 780,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

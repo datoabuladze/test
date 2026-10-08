@@ -1,0 +1,101 @@
+name: Platform CI
+
+on:
+  push:
+    paths: ['platform/**', '.github/workflows/platform-ci.yml']
+  pull_request:
+    paths: ['platform/**', '.github/workflows/platform-ci.yml']
+
+concurrency:
+  group: platform-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: platform
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        db: [sqlite, pgsql]
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: nebulo
+          POSTGRES_PASSWORD: nebulo
+          POSTGRES_DB: nebulo_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U nebulo" --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: gd, zip, intl, pdo_sqlite, pdo_pgsql, mbstring
+          coverage: none
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: platform/package-lock.json
+      - run: composer install --no-interaction --prefer-dist --no-progress
+      - run: npm ci --no-audit --no-fund
+      - run: npm run build
+      - run: cp .env.example .env && php artisan key:generate
+      - name: Lint (Pint)
+        if: matrix.db == 'sqlite'
+        run: vendor/bin/pint --test
+      - name: PHPUnit
+        env:
+          DB_CONNECTION: ${{ matrix.db }}
+          DB_HOST: 127.0.0.1
+          DB_PORT: 5432
+          DB_DATABASE: ${{ matrix.db == 'pgsql' && 'nebulo_test' || ':memory:' }}
+          DB_USERNAME: nebulo
+          DB_PASSWORD: nebulo
+        run: php artisan test
+
+  browser:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: gd, zip, intl, pdo_sqlite, mbstring
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: platform/package-lock.json
+      - run: composer install --no-interaction --prefer-dist --no-progress
+      - run: npm ci --no-audit --no-fund && npx playwright install --with-deps chromium
+      - run: npm run build
+      - name: Prepare app
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+          touch database/database.sqlite
+          ADMIN_EMAIL=admin@nebulo.test ADMIN_PASSWORD=AdminPass12345 php artisan migrate --seed --force
+      - name: Start server
+        run: php -S 127.0.0.1:8000 -t public scripts/dev-router.php > /tmp/server.log 2>&1 &
+      - name: Original games smoke test
+        run: CHROMIUM_PATH="$(node -e "console.log(require('@playwright/test').chromium.executablePath())")" node tests/browser/original-game-smoke.mjs
+      - name: Catalog launch test
+        run: CHROMIUM_PATH="$(node -e "console.log(require('@playwright/test').chromium.executablePath())")" php artisan games:smoke --dry-run
+      - name: End-to-end tests
+        run: CHROMIUM_PATH="$(node -e "console.log(require('@playwright/test').chromium.executablePath())")" npx playwright test
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-artifacts
+          path: |
+            platform/storage/app/smoke-*.png
+            platform/test-results
+            /tmp/server.log

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0d17"/><stop offset=".6" stop-color="#1a1240"/><stop offset="1" stop-color="#0b0d17"/></linearGradient>
+    <radialGradient id="spot1" cx="15%" cy="0%" r="60%"><stop offset="0" stop-color="#7c5cff" stop-opacity=".5"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="spot2" cx="85%" cy="0%" r="60%"><stop offset="0" stop-color="#22d3ee" stop-opacity=".45"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ball" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#fdba74"/><stop offset="1" stop-color="#c2410c"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect width="640" height="480" fill="url(#spot1)"/><rect width="640" height="480" fill="url(#spot2)"/>
+  <g opacity=".35"><circle cx="40" cy="60" r="8" fill="#7c5cff"/><circle cx="80" cy="90" r="8" fill="#22d3ee"/><circle cx="130" cy="55" r="8" fill="#f472b6"/><circle cx="170" cy="100" r="8" fill="#7c5cff"/><circle cx="220" cy="70" r="8" fill="#22d3ee"/><circle cx="270" cy="105" r="8" fill="#f472b6"/><circle cx="320" cy="60" r="8" fill="#7c5cff"/><circle cx="360" cy="95" r="8" fill="#22d3ee"/><circle cx="20" cy="120" r="8" fill="#f472b6"/><circle cx="110" cy="130" r="8" fill="#22d3ee"/><circle cx="250" cy="140" r="8" fill="#7c5cff"/></g>
+  <rect x="0" y="410" width="640" height="70" fill="#1d1533"/>
+  <line x1="0" y1="410" x2="640" y2="410" stroke="#f472b6" stroke-width="4"/>
+  <rect x="560" y="120" width="14" height="292" fill="#1e2440"/>
+  <rect x="510" y="140" width="56" height="10" fill="#1e2440"/>
+  <rect x="500" y="60" width="12" height="150" fill="#b4c8ff22" stroke="#eef0ff" stroke-width="3"/>
+  <rect x="500" y="110" width="12" height="44" fill="#f472b6"/>
+  <ellipse cx="440" cy="190" rx="58" ry="12" fill="none" stroke="#ea580c" stroke-width="6"/>
+  <g stroke="#eef0ffcc" stroke-width="2.5" fill="none"><path d="M384 192 L410 270"/><path d="M404 196 L420 272"/><path d="M424 198 L432 274"/><path d="M444 198 L444 274"/><path d="M464 198 L456 272"/><path d="M484 196 L468 270"/><path d="M496 192 L478 268"/><path d="M394 222 H486"/><path d="M402 248 H478"/></g>
+  <path d="M382 192 A 58 12 0 0 0 498 192" fill="none" stroke="#fb923c" stroke-width="7" filter="url(#glow)"/>
+  <path d="M382 192 A 58 12 0 0 0 498 192" fill="none" stroke="#fb923c" stroke-width="7"/>
+  <g fill="#22d3ee"><circle cx="120" cy="330" r="5"/><circle cx="150" cy="270" r="5" fill="#7c5cff"/><circle cx="185" cy="220" r="5"/><circle cx="225" cy="180" r="5" fill="#7c5cff"/><circle cx="270" cy="150" r="5"/><circle cx="315" cy="135" r="5" fill="#7c5cff"/><circle cx="360" cy="140" r="5"/></g>
+  <circle cx="400" cy="160" r="38" fill="#f472b6" filter="url(#glow)" opacity=".7"/>
+  <g transform="translate(400 160) rotate(20)">
+    <circle r="34" fill="url(#ball)"/>
+    <g stroke="#2a0e00cc" stroke-width="3" fill="none"><path d="M-34 0 H34"/><path d="M0 -34 V34"/><path d="M-20 -27 A 30 30 0 0 1 -20 27"/><path d="M20 -27 A 30 30 0 0 0 20 27"/></g>
+  </g>
+  <rect x="32" y="190" width="150" height="86" rx="16" fill="#0b0d17cc" stroke="#f472b688" stroke-width="2"/>
+  <text x="107" y="256" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-weight="900" font-size="58" fill="#fde047">60</text>
+  <text x="32" y="458" font-family="system-ui,sans-serif" font-weight="900" font-size="52" fill="#fff">HOOP <tspan fill="#fb923c">SHOT</tspan></text>
+</svg>

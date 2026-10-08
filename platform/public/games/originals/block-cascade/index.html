@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Block Cascade</title>
+<link rel="stylesheet" href="../_sdk/sdk.css">
+<style>
+  #ng-stage canvas { border-radius: 14px; box-shadow: 0 30px 80px -30px rgba(124,92,255,.55); }
+  .bc-pad { display: grid !important; grid-template-columns: repeat(2, 58px); gap: 8px; }
+  .bc-pad button { width: 58px; height: 58px; }
+  .bc-right button:nth-child(3) { grid-column: 1 / span 2; width: 124px; }
+  @media (hover: hover) and (pointer: fine) { .bc-pad.ng-auto { display: none !important; } }
+</style>
+</head>
+<body>
+<script src="../_sdk/sdk.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

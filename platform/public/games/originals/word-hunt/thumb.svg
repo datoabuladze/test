@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#2a1d6a"/><stop offset=".6" stop-color="#120f2c"/><stop offset="1" stop-color="#0b0d17"/></radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <g transform="translate(140 50)">
+    <rect width="360" height="360" rx="22" fill="#141829" stroke="#7c5cff" stroke-opacity=".4" stroke-width="2"/>
+    <!-- highlights (cell = 45px, centers at 22.5 + 45k) -->
+    <path d="M22.5 22.5 L337.5 22.5" stroke="#22d3ee" stroke-width="34" stroke-linecap="round" opacity=".35"/>
+    <path d="M22.5 22.5 L337.5 22.5" stroke="#22d3ee" stroke-width="34" stroke-linecap="round" opacity=".35" filter="url(#glow)"/>
+    <path d="M67.5 67.5 L247.5 247.5" stroke="#f472b6" stroke-width="34" stroke-linecap="round" opacity=".4"/>
+    <path d="M337.5 112.5 L337.5 292.5" stroke="#a78bfa" stroke-width="34" stroke-linecap="round" opacity=".4"/>
+    <g font-family="system-ui,sans-serif" font-weight="800" font-size="24" text-anchor="middle" fill="#b9c0e4">
+      <text x="22.5" y="31">G</text><text x="67.5" y="31">A</text><text x="112.5" y="31">L</text><text x="157.5" y="31">A</text><text x="202.5" y="31">X</text><text x="247.5" y="31">I</text><text x="292.5" y="31">E</text><text x="337.5" y="31">S</text>
+      <text x="22.5" y="76">K</text><text x="67.5" y="76">O</text><text x="112.5" y="76">T</text><text x="157.5" y="76">R</text><text x="202.5" y="76">E</text><text x="247.5" y="76">N</text><text x="292.5" y="76">U</text><text x="337.5" y="76">B</text>
+      <text x="22.5" y="121">P</text><text x="67.5" y="121">L</text><text x="112.5" y="121">R</text><text x="157.5" y="121">M</text><text x="202.5" y="121">A</text><text x="247.5" y="121">D</text><text x="292.5" y="121">Y</text><text x="337.5" y="121">M</text>
+      <text x="22.5" y="166">Z</text><text x="67.5" y="166">E</text><text x="112.5" y="166">C</text><text x="157.5" y="166">B</text><text x="202.5" y="166">H</text><text x="247.5" y="166">W</text><text x="292.5" y="166">F</text><text x="337.5" y="166">U</text>
+      <text x="22.5" y="211">S</text><text x="67.5" y="211">V</text><text x="112.5" y="211">I</text><text x="157.5" y="211">N</text><text x="202.5" y="211">I</text><text x="247.5" y="211">K</text><text x="292.5" y="211">J</text><text x="337.5" y="211">S</text>
+      <text x="22.5" y="256">Q</text><text x="67.5" y="256">D</text><text x="112.5" y="256">A</text><text x="157.5" y="256">S</text><text x="202.5" y="256">P</text><text x="247.5" y="256">T</text><text x="292.5" y="256">C</text><text x="337.5" y="256">I</text>
+      <text x="22.5" y="301">Y</text><text x="67.5" y="301">W</text><text x="112.5" y="301">E</text><text x="157.5" y="301">G</text><text x="202.5" y="301">L</text><text x="247.5" y="301">A</text><text x="292.5" y="301">K</text><text x="337.5" y="301">C</text>
+      <text x="22.5" y="346">H</text><text x="67.5" y="346">U</text><text x="112.5" y="346">N</text><text x="157.5" y="346">T</text><text x="202.5" y="346">O</text><text x="247.5" y="346">R</text><text x="292.5" y="346">B</text><text x="337.5" y="346">S</text>
+    </g>
+    <!-- highlighted letters brighter -->
+    <g font-family="system-ui,sans-serif" font-weight="900" font-size="24" text-anchor="middle" fill="#fff">
+      <text x="22.5" y="31">G</text><text x="67.5" y="31">A</text><text x="112.5" y="31">L</text><text x="157.5" y="31">A</text><text x="202.5" y="31">X</text><text x="247.5" y="31">I</text><text x="292.5" y="31">E</text><text x="337.5" y="31">S</text>
+      <text x="337.5" y="121">M</text><text x="337.5" y="166">U</text><text x="337.5" y="211">S</text><text x="337.5" y="256">I</text><text x="337.5" y="301">C</text>
+      <text x="67.5" y="76">O</text><text x="112.5" y="121">R</text><text x="157.5" y="166">B</text><text x="202.5" y="211">I</text><text x="247.5" y="256">T</text>
+    </g>
+  </g>
+  <!-- magnifier -->
+  <g transform="translate(470 330)">
+    <circle r="54" fill="#22d3ee" opacity=".18"/>
+    <circle r="54" fill="none" stroke="#22d3ee" stroke-width="10"/>
+    <circle r="54" fill="none" stroke="#22d3ee" stroke-width="10" filter="url(#glow)" opacity=".7"/>
+    <path d="M40 40 L90 90" stroke="#f472b6" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <text x="320" y="455" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="36" fill="#fff" letter-spacing="2">HIDDEN WORDS</text>
+</svg>
