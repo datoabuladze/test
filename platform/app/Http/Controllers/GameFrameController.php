@@ -19,7 +19,7 @@ class GameFrameController extends Controller
 {
     public function show(Request $request, Game $game): Response
     {
-        $canPreview = $request->user()?->hasPermission('games.manage');
+        $canPreview = $request->user()?->hasPermission('games.manage') || $request->hasValidSignature(false);
         abort_unless($game->isPublic() || $canPreview, 404);
 
         $base = $this->assetOrigin();

@@ -21,9 +21,10 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->trustProxies(at: env('TRUSTED_PROXIES', '127.0.0.1'));
         $middleware->web(append: [
             SecurityHeaders::class,
-            HandleRedirects::class,
             TouchLastActive::class,
         ]);
+        // Global, so it also sees 404s for paths that match no route at all.
+        $middleware->append(HandleRedirects::class);
         $middleware->alias([
             'locale' => SetLocale::class,
             'locale.session' => SetLocaleFromSession::class,

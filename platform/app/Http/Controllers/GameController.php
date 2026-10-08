@@ -10,6 +10,7 @@ use App\Services\SearchService;
 use App\Support\Seo;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\URL;
 use Illuminate\View\View;
 
 class GameController extends Controller
@@ -75,7 +76,7 @@ class GameController extends Controller
             'userRating' => $userRating,
             'isFavorite' => $isFavorite,
             'seo' => $seo,
-            'frameUrl' => $this->frameUrl($game),
+            'frameUrl' => self::frameUrl($game),
         ]);
     }
 
@@ -98,13 +99,20 @@ class GameController extends Controller
         $query->orderBy('id');
     }
 
-    private function frameUrl(Game $game): string
+    /**
+     * URL loaded in the player iframe. Previews of non-public games get a short-lived
+     * relative signed URL, so they also work when frames are served from GAMES_ORIGIN
+     * (where the admin's session cookie is not sent).
+     */
+    public static function frameUrl(Game $game, bool $preview = false): string
     {
         if ($game->engine === GameEngine::Iframe) {
             return (string) $game->embed_url;
         }
         $origin = config('platform.games_origin');
-        $path = route('games.frame', $game, false);
+        $path = $preview
+            ? URL::temporarySignedRoute('games.frame', now()->addMinutes(30), $game, false)
+            : route('games.frame', $game, false);
 
         return $origin ? $origin.$path : url($path);
     }

@@ -43,7 +43,7 @@ document.addEventListener('alpine:init', () => {
             const d = this.$root.dataset;
             this.keyboardWarning = d.keyboardOnly === '1' && isTouchOnly();
             try { this.muted = localStorage.getItem('player_muted') === '1'; } catch (e) { /* ignore */ }
-            recent.add(Number(d.gameId));
+            if (d.playUrl) recent.add(Number(d.gameId)); // admin previews have no play URL
 
             window.addEventListener('message', (e) => this.onMessage(e));
             document.addEventListener('fullscreenchange', () => {
@@ -62,6 +62,7 @@ document.addEventListener('alpine:init', () => {
             this.state = 'loading';
             this.mountFrame();
             this.checkOrientation();
+            if (!this.$root.dataset.playUrl) return;
             try {
                 const res = await postJson(this.$root.dataset.playUrl, {});
                 this.playId = res.play_id;

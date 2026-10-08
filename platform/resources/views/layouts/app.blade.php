@@ -12,7 +12,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="theme-color" content="#0b0d17">
     @include('layouts.partials.seo', ['seo' => $seo])
-    <link rel="icon" href="{{ ! empty($branding['favicon']) ? asset('storage/'.$branding['favicon']) : asset('favicon.svg') }}" type="image/svg+xml">
+    <link rel="icon" href="{{ ! empty($branding['favicon']) ? asset('storage/'.$branding['favicon']) : asset('favicon.svg') }}" @if (empty($branding['favicon'])) type="image/svg+xml" @endif>
     <link rel="manifest" href="{{ asset('site.webmanifest') }}">
     <script nonce="{{ $nonce }}">
         try { const t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
