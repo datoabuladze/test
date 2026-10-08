@@ -5,7 +5,7 @@ Hayır. Tüm oyunları misafir olarak oynayabilirsiniz. Ücretsiz bir hesapla fa
 Çoğu çalışır. Oyun kartlarındaki telefon simgesine bakın veya **Mobil** filtresini kullanın. Bazı klasik oyunlar klavye gerektirir; bu oyunların sayfalarında dokunmatik cihazlarda bir uyarı gösterilir.
 
 ## Bir oyun yüklenmiyor. Ne yapabilirim?
-Sayfayı yenileyin ve tekrar **Oyna** düğmesine basın. Tarayıcınızın güncel olduğundan emin olun. Sorun devam ederse, düzeltebilmemiz için oyun sayfasında **Bildir** düğmesine basın ve "Oyun yüklenmiyor" seçeneğini işaretleyin.
+Sayfayı yenileyin ve tekrar "Oyna" düğmesine basın. Tarayıcınızın güncel olduğundan emin olun. Sorun devam ederse, düzeltebilmemiz için oyun sayfasında **Bildir** düğmesine basın ve "Oyun yüklenmiyor" seçeneğini işaretleyin.
 
 ## Bazı skorlar neden "doğrulanmış"?
 Bu özelliği destekleyen oyunlarda, skorun gerçek olduğundan emin olmak için hamlelerinizi sunucumuzda yeniden oynatırız. Doğrulanmış skorlar ana skor tablosunda, diğer skorlar ise gündelik skor tablosunda yer alır.
