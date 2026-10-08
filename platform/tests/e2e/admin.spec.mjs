@@ -8,10 +8,11 @@ test('admin can sign in, filter games and open a game preview', async ({ page })
   await page.fill('input[name="email"]', email);
   await page.fill('input[name="password"]', password);
   await page.locator('form button').last().click();
+  await page.waitForURL((url) => !url.pathname.endsWith('/login'));
 
   await page.goto('/admin/games?q=orbit');
   await expect(page.locator('table')).toContainText('Merge Orbit');
-  await page.goto('/admin/game/merge-orbit/preview');
+  await page.goto('/admin/games/merge-orbit/preview');
   await page.getByTestId('play-button').click();
   await expect(page.getByTestId('game-frame')).toHaveCount(1);
 });
