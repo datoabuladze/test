@@ -18,6 +18,21 @@ Check GD WebP support:
 php -r 'var_dump(function_exists("imagewebp"), gd_info()["WebP Support"] ?? false);'
 ```
 
+
+## Quick preview with Docker
+
+`Dockerfile` builds a self-contained **preview** image: SQLite, PHP's built-in server and the demo data, seeded on first start. It is for trying the platform, not for production.
+
+```bash
+cd platform
+docker build -t nebulo-preview .
+docker run -p 8080:8080 -e ADMIN_EMAIL=you@example.com -e ADMIN_PASSWORD='ChooseAPassword123' nebulo-preview
+```
+
+Then open http://localhost:8080. The database lives inside the container, so it starts fresh when you recreate the container. `render.yaml` at the repository root deploys the same image to Render's free plan (see `docs/DEPLOYMENT.md`).
+
+Verification status: the start script (`docker/start.sh`) and the preview settings were run and passed the end-to-end suite. A full `docker build` could not be completed in the development sandbox, because its network policy blocks the Debian package mirrors.
+
 ## 1. Install dependencies
 
 ```bash

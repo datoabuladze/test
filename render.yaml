@@ -1,0 +1,16 @@
+# One-click PREVIEW of the platform on Render's free plan (https://render.com/docs/blueprint-spec).
+# Demo data only: the free plan has no persistent disk, so the database is recreated on every deploy or restart.
+services:
+  - type: web
+    name: nebulo-preview
+    runtime: docker
+    plan: free
+    rootDir: platform
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /up
+    envVars:
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false

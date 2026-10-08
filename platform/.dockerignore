@@ -1,0 +1,16 @@
+.env
+node_modules
+vendor
+public/build
+public/hot
+public/vendor/ruffle
+public/storage
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/app/*
+database/*.sqlite
+test-results
+playwright-report
+tests/browser/screenshots

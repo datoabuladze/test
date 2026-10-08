@@ -170,3 +170,8 @@ CI does not deploy anything.
 6. Supervisor workers running; cron installed; first backup run and restore tested.
 7. `php artisan games:smoke` passes on the production URL.
 8. Review legal pages, brand availability (the brand name is provisional and its trademark/domain availability has not been checked), and keep ads disabled until approved.
+
+## Free preview on Render
+
+For a shareable demo (not production), `render.yaml` at the repository root defines a free Render web service built from `platform/Dockerfile`. In Render: New → Blueprint → pick the repository and branch → enter `ADMIN_EMAIL` and `ADMIN_PASSWORD`. The free plan has no persistent disk, so the demo database is recreated on every deploy or restart. The service also sleeps when idle, so the first visit after a pause is slow. Search engines are told not to index it (`BLOCK_INDEXING=true`).
+
