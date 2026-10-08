@@ -36,7 +36,9 @@ return [
     | sandbox (no allow-same-origin), which gives game documents an opaque origin.
     */
     'games_origin' => rtrim((string) env('GAMES_ORIGIN', ''), '/'),
-    'games_disk' => env('GAMES_DISK', 'games'),
+
+    // Serve "Disallow: /" in robots.txt even in production (e.g. a staging server).
+    'block_indexing' => (bool) env('BLOCK_INDEXING', false),
 
     'iframe_sandbox' => 'allow-scripts allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-forms',
     'iframe_allow' => 'fullscreen; gamepad; autoplay; accelerometer; gyroscope',

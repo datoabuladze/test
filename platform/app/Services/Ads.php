@@ -22,11 +22,26 @@ class Ads
         }
         $campaign = AdCampaign::query()->running()->where('ad_placement_id', $placement->id)
             ->with('game')->orderByDesc('priority')->inRandomOrder()->first();
-        if ($campaign) {
+        if (! $campaign || ! $this->renderable($campaign)) {
+            return null;
+        }
+        // AdSense counts its own impressions (and only renders after consent), so ours are
+        // recorded for house and sponsored campaigns only.
+        if ($campaign->type !== 'adsense') {
             $this->record($campaign, 'impressions');
         }
 
         return $campaign;
+    }
+
+    /** Whether the ad-slot component would show anything for this campaign. */
+    public function renderable(AdCampaign $campaign): bool
+    {
+        return match (true) {
+            $campaign->type === 'adsense' => (bool) config('platform.ads.adsense_client'),
+            $campaign->type === 'sponsored_game' => (bool) $campaign->game,
+            default => (bool) $campaign->image_path,
+        };
     }
 
     public function record(AdCampaign $campaign, string $column): void

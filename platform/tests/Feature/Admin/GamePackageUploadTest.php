@@ -4,6 +4,7 @@ namespace Tests\Feature\Admin;
 
 use App\Enums\FlashCompatibility;
 use App\Enums\GameEngine;
+use App\Enums\GameStatus;
 use App\Enums\Role;
 use App\Models\Game;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -91,6 +92,18 @@ class GamePackageUploadTest extends TestCase
         $this->assertFileExists(public_path($game->entry_path));
         $this->assertFileExists(public_path(dirname($game->entry_path).'/js/main.js'));
         $this->assertDatabaseHas('audit_logs', ['action' => 'game.package', 'subject_id' => $game->id]);
+    }
+
+    public function test_new_package_for_a_published_game_takes_it_offline(): void
+    {
+        $game = Game::factory()->create(['launch_status' => 'ok']);
+        $this->assertTrue(Game::query()->public()->whereKey($game->id)->exists());
+
+        $this->upload($game, $this->zip(['index.html' => '<!doctype html><title>t</title>']))
+            ->assertSessionHasNoErrors();
+
+        $this->assertSame(GameStatus::Unpublished, $game->refresh()->status);
+        $this->assertFalse(Game::query()->public()->whereKey($game->id)->exists());
     }
 
     public function test_zip_with_single_top_level_folder_and_phaser_detection(): void

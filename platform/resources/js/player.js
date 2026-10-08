@@ -8,14 +8,17 @@
  * Frame <-> page protocol (window.postMessage, validated by event.source):
  *   frame -> page: {type: 'nebulo:ready'} | {type: 'nebulo:score', score} |
  *                  {type: 'nebulo:gameover', score, durationMs, evidence} | {type: 'nebulo:error', message}
- *   page -> frame: {type: 'nebulo:mute', muted} | {type: 'nebulo:pause'} | {type: 'nebulo:resume'}
+ *   page -> frame: {type: 'nebulo:mute', muted} | {type: 'nebulo:pause'} | {type: 'nebulo:resume'} |
+ *                  {type: 'nebulo:session', ...} (score session for original games)
  */
 import { postJson } from './lib/http';
 import { recent } from './lib/recent';
 
 const LOAD_TIMEOUT_MS = 30000;
-// Engines whose frame documents we control and that announce readiness.
-const MANAGED = ['original', 'html5', 'phaser', 'unity', 'ruffle'];
+// Engines whose frame documents we control and that announce readiness. Uploaded
+// HTML5/Phaser packages are third-party code that does not speak the protocol, so
+// they count as ready on the frame's load event, like embeds.
+const MANAGED = ['original', 'unity', 'ruffle'];
 
 function isTouchOnly() {
     return window.matchMedia('(hover: none) and (pointer: coarse)').matches;

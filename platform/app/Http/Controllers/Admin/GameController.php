@@ -233,7 +233,7 @@ class GameController extends Controller
         $game->refreshSearchText();
     }
 
-    public function uploadPackage(Request $request, Game $game, GamePackageInstaller $installer): RedirectResponse
+    public function uploadPackage(Request $request, Game $game, GamePackageInstaller $installer, GamePublisher $publisher): RedirectResponse
     {
         $request->validate([
             'package' => ['required', 'file', 'max:'.config('platform.uploads.max_game_package_kb'), function ($attr, $file, $fail) {
@@ -242,6 +242,12 @@ class GameController extends Controller
                 }
             }],
         ]);
+        // New files are new code: take a public game offline first, so it goes back
+        // through the launch check, preview and publish gate before players see it.
+        $wasPublic = $game->status === GameStatus::Published;
+        if ($wasPublic) {
+            $publisher->unpublish($game);
+        }
         $result = $installer->install($game, $request->file('package'));
 
         $game->entry_path = $result['entry_path'];
@@ -256,7 +262,7 @@ class GameController extends Controller
         GameCatalog::flush();
         Audit::log('game.package', $game, ['files' => $result['files'], 'engine' => $game->engine->value, 'entry' => $game->entry_path]);
 
-        return back()->with('status', "Package installed ({$result['files']} files, detected engine: {$game->engine->value}). Run a launch check and test it in the preview.");
+        return back()->with('status', "Package installed ({$result['files']} files, detected engine: {$game->engine->value}).".($wasPublic ? ' The game was unpublished.' : '').' Run a launch check and test it in the preview.');
     }
 
     public function check(Game $game, LaunchChecker $checker): RedirectResponse

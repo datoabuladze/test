@@ -33,7 +33,7 @@ Open http://127.0.0.1:8000 for the site and http://127.0.0.1:8000/admin for the 
 ## Tests
 
 ```bash
-php artisan test                    # PHPUnit: 204 tests
+php artisan test                    # PHPUnit: 210 tests
 npx playwright test                 # end-to-end, needs the server above
 node tests/browser/original-game-smoke.mjs
 php artisan games:smoke --dry-run   # real-browser launch test of every catalog game

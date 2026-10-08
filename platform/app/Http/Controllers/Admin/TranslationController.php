@@ -11,8 +11,14 @@ use Illuminate\Support\Facades\File;
 use Illuminate\View\View;
 
 /**
- * Edits UI strings in lang/{locale}.json. Keys are the English source strings
- * used with __('...'); English itself is the key, so only other locales are edited.
+ * Edits UI strings. Keys are the English source strings used with __('...');
+ * English itself is the key, so only other locales are edited.
+ *
+ * The shipped strings live in lang/{locale}.json (in git, replaced on every deploy).
+ * Admin edits are stored as overrides in storage/app/lang-overrides/{locale}.json,
+ * which deploys keep (storage is shared between releases) and which the translator
+ * loads after the shipped files (see AppServiceProvider). An empty override hides
+ * a shipped string, so the English key is shown.
  */
 class TranslationController extends Controller
 {
@@ -135,6 +141,11 @@ class TranslationController extends Controller
         return array_values(array_filter(array_keys(config('platform.locales')), fn ($l) => $l !== 'en'));
     }
 
+    public static function overridesPath(string $file = ''): string
+    {
+        return storage_path('app/lang-overrides'.($file !== '' ? '/'.$file : ''));
+    }
+
     private function ensureFiles(array $locales): void
     {
         File::ensureDirectoryExists(lang_path());
@@ -146,16 +157,28 @@ class TranslationController extends Controller
         }
     }
 
-    /** @return array<string, array<string, string>> locale => strings, for every lang/*.json file */
+    /** @return array<string, array<string, string>> locale => effective strings (shipped + overrides, empty overrides removed) */
     private function readAll(): array
     {
         $out = [];
         foreach (File::glob(lang_path('*.json')) as $path) {
-            $decoded = json_decode((string) File::get($path), true);
-            $out[pathinfo($path, PATHINFO_FILENAME)] = is_array($decoded) ? array_map('strval', array_filter($decoded, 'is_scalar')) : [];
+            $locale = pathinfo($path, PATHINFO_FILENAME);
+            $merged = array_merge($this->decode($path), $this->decode(self::overridesPath("$locale.json")));
+            $out[$locale] = array_filter($merged, fn ($v) => $v !== '');
         }
 
         return $out;
+    }
+
+    /** @return array<string, string> */
+    private function decode(string $path): array
+    {
+        if (! File::exists($path)) {
+            return [];
+        }
+        $decoded = json_decode((string) File::get($path), true);
+
+        return is_array($decoded) ? array_map('strval', array_filter($decoded, 'is_scalar')) : [];
     }
 
     /** @return list<string> */
@@ -173,10 +196,17 @@ class TranslationController extends Controller
         return array_map('strval', $keys);
     }
 
+    /** Stores only the differences from the shipped file as overrides. */
     private function write(string $locale, array $strings): void
     {
-        ksort($strings, SORT_STRING);
-        $json = json_encode($strings ?: new \stdClass, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-        File::put(lang_path("$locale.json"), $json."\n", true);
+        $shipped = $this->decode(lang_path("$locale.json"));
+        $overrides = array_diff_assoc($strings, $shipped);
+        foreach (array_diff_key($shipped, $strings) as $key => $_) {
+            $overrides[$key] = ''; // cleared in the admin: hide the shipped string
+        }
+        ksort($overrides, SORT_STRING);
+        File::ensureDirectoryExists(self::overridesPath());
+        $json = json_encode($overrides ?: new \stdClass, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        File::put(self::overridesPath("$locale.json"), $json."\n", true);
     }
 }

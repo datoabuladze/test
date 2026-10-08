@@ -81,7 +81,8 @@ class UserController extends Controller
     {
         $actor = $request->user();
         abort_if($actor->is($target), 403, 'You cannot change your own account here.');
-        abort_if($target->isStaff() && ! $actor->hasPermission('users.manage'), 403, 'Only administrators can act on staff accounts.');
+        // Judge by role, not isStaff(): a suspended admin has no permissions but is still staff.
+        abort_if(($target->role ?? Role::Player) !== Role::Player && ! $actor->hasPermission('users.manage'), 403, 'Only administrators can act on staff accounts.');
         abort_if($target->role === Role::SuperAdmin && $actor->role !== Role::SuperAdmin, 403);
     }
 }

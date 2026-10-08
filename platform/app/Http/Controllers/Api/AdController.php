@@ -12,7 +12,7 @@ class AdController extends Controller
 {
     public function click(AdCampaign $campaign, Ads $ads): RedirectResponse
     {
-        abort_unless($campaign->is_active, 404);
+        abort_unless(AdCampaign::query()->running()->whereKey($campaign->id)->exists(), 404);
         $ads->record($campaign, 'clicks');
 
         if ($campaign->type === 'sponsored_game' && $campaign->game) {

@@ -72,6 +72,8 @@ class GameDistributionAdapter extends JsonAdapter
             'instructions' => (string) $first(['Instructions', 'instructions']),
             'engine' => 'iframe',
             'embed_url' => (string) $first(['Url', 'url', 'EmbedUrl']),
+            // The provider's page for the game is the source; fall back to the embed URL.
+            'source_url' => (string) ($first(['GameUrl', 'gameUrl', 'Link', 'link']) ?? $first(['Url', 'url', 'EmbedUrl'])),
             'thumbnail_url' => is_array($assets) ? (string) ($assets[0] ?? '') : (string) $assets,
             'categories' => $list($first(['Category', 'category', 'Categories']) ?? ''),
             'tags' => $list($first(['Tag', 'tags', 'Tags']) ?? ''),

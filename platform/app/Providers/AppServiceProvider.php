@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\MenuItem;
 use App\Models\Setting;
 use App\Models\ThemeVersion;
+use App\Support\OverridableFileLoader;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
@@ -15,13 +16,25 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Translation\FileLoader;
 use Illuminate\Validation\Rules\Password;
 
 class AppServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        //
+        // Apply admin translation overrides (stored outside the release folder) on top of lang/*.json.
+        $this->app->extend('translation.loader', function (FileLoader $loader, $app) {
+            $overridable = new OverridableFileLoader($app['files'], $loader->paths());
+            foreach ($loader->jsonPaths() as $path) {
+                $overridable->addJsonPath($path);
+            }
+            foreach ($loader->namespaces() as $namespace => $hint) {
+                $overridable->addNamespace($namespace, $hint);
+            }
+
+            return $overridable;
+        });
     }
 
     public function boot(): void

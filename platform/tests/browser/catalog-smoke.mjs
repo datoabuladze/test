@@ -8,7 +8,7 @@ import fs from 'node:fs';
 
 const input = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const { appUrl, sandbox, allow, games, timeoutMs = 20000, settleMs = 2500 } = input;
-const MANAGED = ['original', 'html5', 'phaser', 'unity', 'ruffle'];
+const MANAGED = ['original', 'unity', 'ruffle']; // must match resources/js/player.js
 
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium' });
 const results = [];
