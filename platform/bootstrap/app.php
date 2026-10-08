@@ -1,5 +1,11 @@
 <?php
 
+use App\Http\Middleware\EnsurePermission;
+use App\Http\Middleware\HandleRedirects;
+use App\Http\Middleware\SecurityHeaders;
+use App\Http\Middleware\SetLocale;
+use App\Http\Middleware\SetLocaleFromSession;
+use App\Http\Middleware\TouchLastActive;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -12,7 +18,19 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        //
+        $middleware->trustProxies(at: env('TRUSTED_PROXIES', '127.0.0.1'));
+        $middleware->web(append: [
+            SecurityHeaders::class,
+            HandleRedirects::class,
+            TouchLastActive::class,
+        ]);
+        $middleware->alias([
+            'locale' => SetLocale::class,
+            'locale.session' => SetLocaleFromSession::class,
+            'permission' => EnsurePermission::class,
+        ]);
+        $middleware->redirectGuestsTo(fn (Request $request) => route('login', ['locale' => SetLocale::preferred($request)]));
+        $middleware->redirectUsersTo(fn (Request $request) => route('home', ['locale' => SetLocale::preferred($request)]));
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         $exceptions->shouldRenderJsonWhen(

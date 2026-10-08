@@ -8,6 +8,13 @@ return [
     'brand' => env('PLATFORM_BRAND', 'Nebulo'),
     'tagline' => 'Play instantly. No downloads.',
 
+    // Shown on legal pages via the :operator / :contact_email / :jurisdiction tokens.
+    'legal' => [
+        'operator' => env('LEGAL_OPERATOR', 'the operator of this website'),
+        'contact_email' => env('CONTACT_EMAIL', 'support@example.com'),
+        'jurisdiction' => env('LEGAL_JURISDICTION', 'the country where the operator is established'),
+    ],
+
     'locales' => [
         'en' => ['name' => 'English', 'native' => 'English', 'hreflang' => 'en'],
         'ka' => ['name' => 'Georgian', 'native' => 'ქართული', 'hreflang' => 'ka'],

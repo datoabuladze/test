@@ -145,7 +145,7 @@ class Game extends Model
         return $query->select([
             'id', 'slug', 'title', 'short_description', 'thumbnail_path', 'thumbnail_color', 'engine',
             'is_multiplayer', 'is_mobile_friendly', 'is_original', 'rating_avg', 'rating_count', 'play_count',
-            'published_at', 'devices', 'input_types',
+            'published_at', 'devices', 'input_types', 'popularity_score',
         ]);
     }
 
@@ -214,7 +214,7 @@ class Game extends Model
                 $parts = array_merge($parts, array_values($category->name ?? []));
             }
             if ($this->provider_id) {
-                $parts[] = $this->provider?->name;
+                $parts[] = Provider::query()->whereKey($this->provider_id)->value('name');
             }
         }
 

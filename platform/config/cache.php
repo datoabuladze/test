@@ -131,6 +131,19 @@ return [
     |
     */
 
-    'serializable_classes' => false,
+    // Allow-list for unserialize(): only our own models and the collection types
+    // used by cached catalog queries. Anything else comes back as an incomplete class.
+    'serializable_classes' => [
+        Illuminate\Database\Eloquent\Collection::class,
+        Illuminate\Support\Collection::class,
+        Illuminate\Database\Eloquent\Relations\Pivot::class,
+        App\Models\Game::class,
+        App\Models\Category::class,
+        App\Models\Tag::class,
+        App\Models\MenuItem::class,
+        App\Models\HomepageSection::class,
+        App\Models\AdPlacement::class,
+        App\Models\Provider::class,
+    ],
 
 ];

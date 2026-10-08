@@ -1,0 +1,52 @@
+{
+  "key": "memory-match",
+  "slug": "memory-match",
+  "title": {"en": "Neon Pairs", "ka": "ნეონის წყვილები", "tr": "Neon Çiftler", "ru": "Неоновые пары"},
+  "short_description": {
+    "en": "Flip glowing cards, remember the symbols and clear the board in as few moves as possible.",
+    "ka": "გადააბრუნე მანათობელი ბარათები, დაიმახსოვრე სიმბოლოები და გაასუფთავე დაფა რაც შეიძლება ნაკლები სვლით.",
+    "tr": "Parlayan kartları çevir, sembolleri aklında tut ve tahtayı olabildiğince az hamleyle temizle.",
+    "ru": "Переворачивайте светящиеся карты, запоминайте символы и очистите поле за минимум ходов."
+  },
+  "description": {
+    "en": "Neon Pairs is a classic memory challenge with a fresh coat of light. Every card hides one of fifteen hand-drawn symbols – stars, rockets, crowns, snowflakes and more – and each symbol appears exactly twice. Flip two cards per move: if they match, they stay open and glow; if not, they turn back and it is up to your memory.\n\nChoose your challenge: a relaxed 12-card board, a balanced 16-card grid or a demanding 30-card field. Matching pairs one after another builds a **combo** that multiplies your points, and finishing quickly with few moves adds time and move bonuses on top.\n\nAt the end you get up to three stars for efficiency. It is a short, satisfying brain workout that fits into a coffee break – and a great way to train concentration for players of any age.",
+    "ka": "„ნეონის წყვილები“ კლასიკური მეხსიერების გამოწვევაა ახალ, მანათობელ სამოსში. თითოეული ბარათის მიღმა თხუთმეტი ხელით დახატული სიმბოლოდან ერთ-ერთი იმალება – ვარსკვლავები, რაკეტები, გვირგვინები, ფიფქები და სხვა – და თითო სიმბოლო ზუსტად ორჯერ გვხვდება. ყოველ სვლაზე ორი ბარათი გადააბრუნე: თუ ემთხვევა, ღია რჩება და ანათებს, თუ არა – ისევ იხურება და ყველაფერი შენს მეხსიერებაზეა.\n\nაირჩიე სირთულე: მშვიდი 12-ბარათიანი დაფა, დაბალანსებული 16-ბარათიანი ბადე ან მომთხოვნი 30-ბარათიანი ველი. ზედიზედ გამოცნობილი წყვილები **კომბოს** ქმნის, რომელიც ქულებს ამრავლებს, ხოლო სწრაფად და ცოტა სვლით დასრულებისთვის დამატებით ბონუსებს მიიღებ.\n\nბოლოს ეფექტურობისთვის სამამდე ვარსკვლავს მიიღებ. ეს მოკლე და სასიამოვნო ვარჯიშია გონებისთვის, რომელიც ყავის შესვენებაშიც ეტევა და ნებისმიერი ასაკის მოთამაშეს ყურადღების გავარჯიშებაში ეხმარება.",
+    "tr": "Neon Çiftler, klasik hafıza oyununu ışıl ışıl yeni bir görünümle sunar. Her kartın arkasında on beş el çizimi sembolden biri saklıdır – yıldızlar, roketler, taçlar, kar taneleri ve dahası – ve her sembol tam iki kez bulunur. Her hamlede iki kart çevir: eşleşirlerse açık kalıp parlarlar, eşleşmezlerse geri dönerler ve gerisi hafızana kalır.\n\nZorluğu sen seç: rahat 12 kartlık tahta, dengeli 16 kartlık ızgara ya da zorlu 30 kartlık alan. Art arda bulunan çiftler puanlarını katlayan bir **kombo** oluşturur; hızlı ve az hamleyle bitirmek de ayrıca süre ve hamle bonusu kazandırır.\n\nSonunda verimliliğine göre üç yıldıza kadar kazanırsın. Bir kahve molasına sığan kısa ve keyifli bir zihin egzersizi; her yaştan oyuncu için dikkat geliştirmenin eğlenceli bir yolu.",
+    "ru": "«Неоновые пары» — классическая игра на память в новом светящемся оформлении. Под каждой картой спрятан один из пятнадцати нарисованных вручную символов — звёзды, ракеты, короны, снежинки и другие, — и каждый символ встречается ровно дважды. За ход вы открываете две карты: если они совпали, то остаются открытыми и светятся, если нет — закрываются, и дальше всё зависит от вашей памяти.\n\nВыберите уровень: спокойное поле из 12 карт, сбалансированную сетку из 16 или серьёзное испытание из 30 карт. Пары, найденные подряд, создают **комбо**, которое умножает очки, а быстрая игра с малым числом ходов приносит дополнительные бонусы.\n\nВ конце вы получите до трёх звёзд за эффективность. Это короткая и приятная тренировка для ума, которая помещается в перерыв на кофе и помогает развивать внимание в любом возрасте."
+  },
+  "instructions": {
+    "en": "1. Pick a difficulty and press Play.\n2. Flip a card, then flip a second one.\n3. Matching symbols stay open; different symbols turn back over.\n4. Consecutive matches build a combo for extra points.\n5. Find all pairs to win – fewer moves and less time mean more stars and bonus points.",
+    "ka": "1. აირჩიე სირთულე და დააჭირე „თამაშს“.\n2. გადააბრუნე ერთი ბარათი, შემდეგ – მეორე.\n3. ერთნაირი სიმბოლოები ღია რჩება, განსხვავებული – ისევ იხურება.\n4. ზედიზედ გამოცნობილი წყვილები კომბოს ქმნის და დამატებით ქულებს გაძლევს.\n5. მოსაგებად იპოვე ყველა წყვილი – ნაკლები სვლა და დრო მეტ ვარსკვლავს და ბონუსს ნიშნავს.",
+    "tr": "1. Bir zorluk seç ve Oyna’ya bas.\n2. Bir kart çevir, ardından ikincisini çevir.\n3. Aynı semboller açık kalır; farklı olanlar geri döner.\n4. Art arda eşleşmeler ekstra puan veren bir kombo oluşturur.\n5. Kazanmak için tüm çiftleri bul – daha az hamle ve süre, daha fazla yıldız ve bonus demektir.",
+    "ru": "1. Выберите сложность и нажмите «Играть».\n2. Откройте одну карту, затем вторую.\n3. Одинаковые символы остаются открытыми, разные — закрываются.\n4. Пары подряд создают комбо и приносят дополнительные очки.\n5. Найдите все пары, чтобы победить: меньше ходов и времени — больше звёзд и бонусов."
+  },
+  "controls": {
+    "en": "- **Mouse / touch:** click or tap a card to flip it\n- **Keyboard:** arrow keys or W A S D to choose a card, Space / Enter to flip\n- **P / Esc:** pause",
+    "ka": "- **მაუსი / სენსორი:** დააწკაპუნე ან შეეხე ბარათს მის გადასაბრუნებლად\n- **კლავიატურა:** ისრები ან W A S D ბარათის ასარჩევად, Space / Enter – გადაბრუნება\n- **P / Esc:** პაუზა",
+    "tr": "- **Fare / dokunmatik:** kartı çevirmek için tıkla veya dokun\n- **Klavye:** kart seçmek için ok tuşları veya W A S D, çevirmek için Space / Enter\n- **P / Esc:** duraklat",
+    "ru": "- **Мышь / сенсор:** нажмите на карту, чтобы открыть её\n- **Клавиатура:** стрелки или W A S D — выбор карты, Space / Enter — открыть\n- **P / Esc:** пауза"
+  },
+  "categories": ["puzzle", "brain", "casual", "kids"],
+  "primary_category": "brain",
+  "tags": [
+    {"slug": "memory", "name": {"en": "Memory", "ka": "მეხსიერება", "tr": "Hafıza", "ru": "Память"}},
+    {"slug": "cards", "name": {"en": "Cards", "ka": "ბარათები", "tr": "Kartlar", "ru": "Карты"}},
+    {"slug": "matching", "name": {"en": "Matching", "ka": "დაწყვილება", "tr": "Eşleştirme", "ru": "Поиск пар"}}
+  ],
+  "input_types": ["mouse", "keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "easy",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 1000,
+  "max_score": 20000,
+  "color": "#7c5cff",
+  "width": 800,
+  "height": 640,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

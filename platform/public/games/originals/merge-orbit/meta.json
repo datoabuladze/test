@@ -1,0 +1,53 @@
+{
+  "key": "merge-orbit",
+  "slug": "merge-orbit",
+  "title": {"en": "Merge Orbit", "ka": "შერწყმის ორბიტა", "tr": "Birleşik Yörünge", "ru": "Орбита слияний"},
+  "short_description": {
+    "en": "Slide glowing orbs, merge equal numbers and chase the 2048 orb.",
+    "ka": "გადაასრიალე მანათობელი სფეროები, გააერთიანე ტოლი რიცხვები და მიაღწიე 2048-ს.",
+    "tr": "Parlayan küreleri kaydır, eşit sayıları birleştir ve 2048 küresinin peşine düş.",
+    "ru": "Сдвигайте светящиеся сферы, объединяйте одинаковые числа и стремитесь к 2048."
+  },
+  "description": {
+    "en": "Merge Orbit is a calm but sneaky number puzzle. Every move slides **all** orbs on the 4×4 board at once, and two orbs with the same number fuse into one with double the value.\n\nPlan ahead: a new orb appears after every move, and the board fills up faster than you think. Keep your biggest orb in a corner, build chains, and see how far past 2048 you can go.\n\nScores in Merge Orbit are **server-verified**: your moves are replayed on our server, so the leaderboard shows real runs only.",
+    "ka": "შერწყმის ორბიტა მშვიდი, მაგრამ ეშმაკური რიცხვითი თავსატეხია. ყოველი სვლა 4×4 დაფაზე **ყველა** სფეროს ერთდროულად ამოძრავებს, ხოლო ორი ერთნაირი რიცხვის მქონე სფერო ერთდება და მნიშვნელობა ორმაგდება.\n\nწინასწარ დაგეგმე: ყოველი სვლის შემდეგ ახალი სფერო ჩნდება და დაფა მალე ივსება. ყველაზე დიდი სფერო კუთხეში შეინახე, ააწყვე ჯაჭვები და ნახე, რამდენად შორს წახვალ 2048-ის მიღმა.\n\nქულები **სერვერზე მოწმდება**: შენი სვლები სერვერზე მეორდება, ამიტომ რეიტინგში მხოლოდ ნამდვილი თამაშებია.",
+    "tr": "Birleşik Yörünge sakin ama kurnaz bir sayı bulmacasıdır. Her hamle 4×4 tahtadaki **tüm** küreleri aynı anda kaydırır; aynı sayıya sahip iki küre birleşerek değerini ikiye katlar.\n\nÖnceden plan yap: her hamleden sonra yeni bir küre belirir ve tahta sandığından hızlı dolar. En büyük küreni bir köşede tut, zincirler kur ve 2048’in ötesine ne kadar gidebileceğini gör.\n\nPuanlar **sunucuda doğrulanır**: hamlelerin sunucuda yeniden oynatılır, böylece liderlik tablosunda yalnızca gerçek oyunlar yer alır.",
+    "ru": "«Орбита слияний» — спокойная, но коварная числовая головоломка. Каждый ход сдвигает **все** сферы на поле 4×4, а две сферы с одинаковым числом сливаются в одну с удвоенным значением.\n\nДумайте наперёд: после каждого хода появляется новая сфера, и поле заполняется быстрее, чем кажется. Держите самую крупную сферу в углу, стройте цепочки и узнайте, как далеко вы зайдёте за 2048.\n\nРезультаты **проверяются сервером**: ваши ходы воспроизводятся на сервере, поэтому в таблице рекордов только честные партии."
+  },
+  "instructions": {
+    "en": "1. Slide all orbs in one direction.\n2. Equal orbs that collide merge and add their value to your score.\n3. A new orb (2 or 4) appears after every move.\n4. The game ends when no move is possible.",
+    "ka": "1. გადაასრიალე ყველა სფერო ერთი მიმართულებით.\n2. ერთნაირი სფეროები ერთდება და ქულას ამატებს.\n3. ყოველი სვლის შემდეგ ჩნდება ახალი სფერო (2 ან 4).\n4. თამაში სრულდება, როცა სვლა აღარ არის შესაძლებელი.",
+    "tr": "1. Tüm küreleri tek bir yöne kaydır.\n2. Çarpışan eşit küreler birleşir ve değerleri puanına eklenir.\n3. Her hamleden sonra yeni bir küre (2 veya 4) belirir.\n4. Hamle kalmadığında oyun biter.",
+    "ru": "1. Сдвиньте все сферы в одну сторону.\n2. Столкнувшиеся одинаковые сферы сливаются, их значение добавляется к очкам.\n3. После каждого хода появляется новая сфера (2 или 4).\n4. Игра заканчивается, когда ходов не осталось."
+  },
+  "controls": {
+    "en": "- **Keyboard:** arrow keys or W A S D\n- **Touch:** swipe in any direction\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** ისრები ან W A S D\n- **სენსორი:** გაასრიალე ნებისმიერი მიმართულებით\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** ok tuşları veya W A S D\n- **Dokunmatik:** herhangi bir yöne kaydır\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** стрелки или W A S D\n- **Сенсор:** свайп в любую сторону\n- **P / Esc:** пауза"
+  },
+  "categories": ["puzzle", "logic", "brain", "casual"],
+  "primary_category": "puzzle",
+  "tags": [
+    {"slug": "numbers", "name": {"en": "Numbers", "ka": "რიცხვები", "tr": "Sayılar", "ru": "Числа"}},
+    {"slug": "merge", "name": {"en": "Merge", "ka": "შერწყმა", "tr": "Birleştirme", "ru": "Слияние"}},
+    {"slug": "swipe", "name": {"en": "Swipe", "ka": "გასრიალება", "tr": "Kaydırma", "ru": "Свайп"}}
+  ],
+  "input_types": ["keyboard", "touch"],
+  "devices": ["desktop", "tablet", "mobile"],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "medium",
+  "min_age": 0,
+  "score_mode": "verified",
+  "verifier": "App\\Services\\Verifiers\\MergeOrbitVerifier",
+  "max_points_per_second": 4000,
+  "max_score": 10000000,
+  "color": "#ec4899",
+  "width": 600,
+  "height": 640,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": true,
+  "editors_pick": true
+}

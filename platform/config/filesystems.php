@@ -47,6 +47,15 @@ return [
             'report' => false,
         ],
 
+        // Uploaded game packages. Served as static files from GAMES_ORIGIN (or /game-files locally).
+        'games' => [
+            'driver' => 'local',
+            'root' => public_path('game-files'),
+            'url' => rtrim(env('GAMES_ORIGIN', env('APP_URL')), '/').'/game-files',
+            'visibility' => 'public',
+            'throw' => true,
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
