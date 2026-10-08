@@ -26,3 +26,5 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 /public/vendor/ruffle
+/test-results
+/playwright-report

@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\Game;
+use App\Models\ScoreSession;
 use App\Services\ScoreService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Validation\ValidationException;
 
 class ScoreController extends Controller
 {
@@ -30,9 +32,18 @@ class ScoreController extends Controller
             'evidence.moves' => ['nullable', 'string', 'max:200000'],
         ]);
 
-        $score = DB::transaction(fn () => $scores->submit(
-            $request->user(), $game, $data['token'], (int) $data['score'], (int) $data['duration_ms'], $data['evidence'] ?? null,
-        ));
+        try {
+            $score = DB::transaction(fn () => $scores->submit(
+                $request->user(), $game, $data['token'], (int) $data['score'], (int) $data['duration_ms'], $data['evidence'] ?? null,
+            ));
+        } catch (ValidationException $e) {
+            // A rejected score still burns its session, so one token can't be used to probe the limits.
+            if (array_key_exists('score', $e->errors())) {
+                ScoreSession::query()->where('token', $data['token'])->where('user_id', $request->user()->id)
+                    ->whereNull('used_at')->update(['used_at' => now()]);
+            }
+            throw $e;
+        }
 
         return response()->json([
             'id' => $score->id,

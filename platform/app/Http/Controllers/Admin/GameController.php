@@ -316,12 +316,13 @@ class GameController extends Controller
         if ($data['decision'] !== 'verified' && $game->status === GameStatus::Published) {
             $game->status = GameStatus::Unpublished;
         }
-        if ($data['note']) {
-            $game->license_notes = trim(($game->license_notes ? $game->license_notes."\n" : '').'['.now()->toDateString().' '.$request->user()->nickname.'] '.$data['note']);
+        $note = $data['note'] ?? null;
+        if ($note) {
+            $game->license_notes = trim(($game->license_notes ? $game->license_notes."\n" : '').'['.now()->toDateString().' '.$request->user()->nickname.'] '.$note);
         }
         $game->save();
         GameCatalog::flush();
-        Audit::log('game.rights.'.$data['decision'], $game, ['note' => $data['note']]);
+        Audit::log('game.rights.'.$data['decision'], $game, ['note' => $note]);
 
         return back()->with('status', 'Rights status set to '.$data['decision'].'.');
     }

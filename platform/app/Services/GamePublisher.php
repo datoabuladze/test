@@ -52,7 +52,7 @@ class GamePublisher
         if ($game->thumbnail_path && ! $game->thumbnail_rights && ! $game->is_original) {
             $errors[] = 'Thumbnail usage rights are not confirmed.';
         }
-        if ($game->tr('title', 'en') === '') {
+        if (! $game->hasTranslation('title', 'en')) {
             $errors[] = 'English title is missing.';
         }
 

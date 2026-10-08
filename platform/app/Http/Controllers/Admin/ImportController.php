@@ -73,8 +73,8 @@ class ImportController extends Controller
         $data = $request->validate([
             'mode' => ['required', Rule::in(['selected', 'all_valid', 'repreview'])],
             'ids' => ['nullable', 'array', 'max:5000'], 'ids.*' => ['integer'],
-            'confirm' => ['required_unless:mode,repreview', 'accepted_unless:mode,repreview'],
-        ], ['confirm.accepted_unless' => 'Confirm that the provider agreement allows these games to be listed.']);
+            'confirm' => ['accepted_if:mode,selected', 'accepted_if:mode,all_valid'],
+        ], ['confirm.accepted_if' => 'Confirm that the provider agreement allows these games to be listed.']);
 
         if ($data['mode'] === 'repreview') {
             PreviewImportBatch::dispatchSync($batch->id);
