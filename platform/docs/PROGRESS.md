@@ -15,7 +15,7 @@ Status as of 2026-10-08. Everything marked **verified** was run and observed in 
 | Homepage sections | 24, reorderable | Admin drag-and-drop reorder endpoint tested |
 | Routes | 137 (76 admin, 15 API) | `php artisan route:list` |
 | Database tables | 39 | Counted in PostgreSQL 16 after migrations |
-| PHPUnit | 210 tests, 1546 assertions, all passing | `php artisan test` on SQLite and on PostgreSQL 16 |
+| PHPUnit | 212 tests, 1557 assertions, all passing | `php artisan test` on SQLite and on PostgreSQL 16 |
 | Playwright end-to-end | 19 tests, all passing | `npx playwright test` (desktop and Pixel 7 projects) against the local server |
 | Admin pages | All GET pages return 200 as super admin | curl probe of every admin index/create/edit page |
 | Ruffle (Flash) pipeline | Works end to end | A blank SWF made for testing was uploaded through the admin package form, loaded by self-hosted Ruffle in the sandboxed frame, and reported ready (the test game was deleted afterwards) |
@@ -45,7 +45,7 @@ Status as of 2026-10-08. Everything marked **verified** was run and observed in 
 - **Lighthouse.** Not run; only the local metrics above were measured.
 - **AdSense.** Code paths exist but were not exercised with a real client id. Serving AdSense to EEA/UK visitors needs a Google-certified consent platform; the built-in banner is not one.
 - **Brand.** "Nebulo" trademark and domain availability are unchecked.
-- **Smaller known gaps** are listed in [SECURITY.md](SECURITY.md#known-limitations), among them: email verification is not required for any feature, registration reveals whether an email is taken, and staff with import rights can point feed and thumbnail fetches at internal HTTPS hosts.
+- **Smaller known gaps** are listed in [SECURITY.md](SECURITY.md#known-limitations), among them: email verification is not required for any feature, and registration reveals whether an email is taken.
 - **Admin panel language.** The admin panel is English only; the public site is fully localized.
 
 ## Development environment used for verification

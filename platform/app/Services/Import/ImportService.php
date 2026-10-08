@@ -12,6 +12,7 @@ use App\Models\Tag;
 use App\Services\Audit;
 use App\Services\GameCatalog;
 use App\Services\ImageProcessor;
+use App\Support\PublicUrl;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
@@ -195,12 +196,12 @@ class ImportService
     /** Downloads an HTTPS thumbnail (max 3 MB) and re-encodes it; returns null on any failure. */
     private function fetchThumbnail(string $url): ?string
     {
-        if (! str_starts_with($url, 'https://')) {
+        if (! PublicUrl::allowed($url)) {
             return null;
         }
         $tmp = tempnam(sys_get_temp_dir(), 'thumb');
         try {
-            $res = Http::timeout(10)->withOptions(['sink' => $tmp, 'allow_redirects' => ['max' => 2, 'protocols' => ['https']]])->get($url);
+            $res = Http::timeout(10)->withOptions(['sink' => $tmp, 'allow_redirects' => PublicUrl::redirectOptions()])->get($url);
             if (! $res->successful() || filesize($tmp) > 3 * 1024 * 1024) {
                 return null;
             }

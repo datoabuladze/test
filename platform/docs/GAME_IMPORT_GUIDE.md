@@ -21,7 +21,7 @@ upload / feed  ->  adapter.rows()  ->  adapter.map()  ->  ImportNormalizer.norma
 
 1. **Create a batch** (Admin > Imports, permission `imports.manage`). Source is `csv`, `json` (file upload, max 20 MB, `.csv`/`.txt`/`.json`) or `provider` (reads the provider's feed via its adapter). Choosing a provider for a file import applies that provider's allow-list and defaults.
 2. **Preview** (`PreviewImportBatch`). Every row is parsed, mapped, validated and stored in `import_items` with status `valid`, `invalid` or `duplicate`, plus its errors and warnings. Nothing is written to `games`. Files up to 2 MB are previewed during the request; larger files and provider feeds are queued (a queue worker must run). Max 5,000 rows per batch.
-3. **Review** (Admin > Imports > batch). Filter by status, read errors and warnings per row. "Rebuild preview" re-runs validation (useful after fixing provider settings).
+3. **Review** (Admin > Imports > batch). Filter by status, read errors and warnings per row. "Rebuild preview" re-runs validation (useful after fixing provider settings); provider feeds and batches over 300 rows are rebuilt in the background by the queue worker.
 4. **Run** (`RunImportBatch`). Choose "selected rows" or "all valid rows" and tick the confirmation that the provider agreement allows these games to be listed. Up to 300 rows run during the request; more are queued. Each valid item becomes a draft game; the item status becomes `imported` (or `failed` with the error). The run is recorded in the audit log and flushes the catalog cache.
 5. **Per-game review.** For each new draft: check licence and source, upload files for self-hosted engines, run the launch check, preview, verify rights, then publish.
 

@@ -117,7 +117,7 @@ The server holds the game state and validates every move under a row lock. Seats
 
 ## Outbound requests
 
-The server makes outbound HTTPS requests only for: launch checks of embed URLs (only hosts on the provider allow-list), provider feeds (`feed_url` set by staff), import thumbnails (HTTPS, max 3 MB, max 2 HTTPS-only redirects), and the breached-password check. Feed and thumbnail URLs are not restricted to public IP ranges, so staff with `imports.manage` could point them at internal HTTPS services; treat that permission as trusted.
+The server makes outbound HTTPS requests only for: launch checks of embed URLs (only hosts on the provider allow-list), provider feeds (`feed_url` set by staff), import thumbnails (HTTPS, max 3 MB, max 2 HTTPS-only redirects), and the breached-password check. Feed and thumbnail URLs must resolve only to public addresses, and every redirect target is checked the same way (`App\Support\PublicUrl`), so they cannot be pointed at internal services. A DNS answer that changes between the check and the request is not caught; that residual risk is limited to staff with `imports.manage`.
 
 ## Privacy
 
@@ -143,6 +143,5 @@ The server makes outbound HTTPS requests only for: launch checks of embed URLs (
 - **Cookie banner is not a certified CMP.** It stores a simple `consent` value in `localStorage` and does not implement IAB TCF. Google requires a Google-certified consent management platform for AdSense in the EEA, UK and Switzerland, so a certified CMP must be integrated before enabling AdSense for those visitors.
 - **Email verification is not enforced** for any feature (see above).
 - **Branding and ad images are not re-encoded** (validated only).
-- **Uploaded package size check while streaming is per file**, so total extracted size is only bounded by the declared sizes and the per-file limit.
 - **No automated vulnerability scanning** (dependency audit, SAST) is configured in CI.
 - The nginx configuration is an unvalidated template (see `docs/DEPLOYMENT.md`).

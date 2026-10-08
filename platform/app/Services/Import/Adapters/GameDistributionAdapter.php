@@ -4,6 +4,7 @@ namespace App\Services\Import\Adapters;
 
 use App\Models\ImportBatch;
 use App\Services\Import\ImportException;
+use App\Support\PublicUrl;
 use Illuminate\Support\Facades\Http;
 
 /**
@@ -37,8 +38,11 @@ class GameDistributionAdapter extends JsonAdapter
         if (! str_starts_with($url, 'https://')) {
             throw new ImportException('Set an HTTPS "feed_url" in the provider settings first.');
         }
+        if (! PublicUrl::allowed($url)) {
+            throw new ImportException('The feed URL must point to a public HTTPS host.');
+        }
         try {
-            $res = Http::timeout(20)->accept('application/json')->withUserAgent(config('platform.brand').' catalog import')->get($url);
+            $res = Http::timeout(20)->withOptions(['allow_redirects' => PublicUrl::redirectOptions(3)])->accept('application/json')->withUserAgent(config('platform.brand').' catalog import')->get($url);
         } catch (\Throwable $e) {
             throw new ImportException('Feed request failed: '.class_basename($e));
         }

@@ -102,6 +102,7 @@ class GamePackageInstaller
 
         [$rel, $abs] = $this->targetDir($game);
         $written = 0;
+        $extracted = 0; // actual bytes across all files: zip headers can lie about sizes
         foreach ($entries as $i => $name) {
             $dest = $abs.'/'.$name;
             File::ensureDirectoryExists(dirname($dest), 0755);
@@ -114,7 +115,8 @@ class GamePackageInstaller
             while (! feof($in)) {
                 $chunk = fread($in, 1 << 16);
                 $bytes += strlen((string) $chunk);
-                if ($bytes > $maxBytes) { // guards against lying size headers
+                $extracted += strlen((string) $chunk);
+                if ($bytes > $maxBytes || $extracted > $maxBytes) {
                     fclose($out);
                     fclose($in);
                     File::deleteDirectory($abs);

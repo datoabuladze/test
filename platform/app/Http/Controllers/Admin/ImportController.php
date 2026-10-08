@@ -77,9 +77,14 @@ class ImportController extends Controller
         ], ['confirm.accepted_if' => 'Confirm that the provider agreement allows these games to be listed.']);
 
         if ($data['mode'] === 'repreview') {
-            PreviewImportBatch::dispatchSync($batch->id);
+            if ($batch->source !== 'provider' && $batch->total <= 300) {
+                PreviewImportBatch::dispatchSync($batch->id);
 
-            return back()->with('status', 'Preview rebuilt.');
+                return back()->with('status', 'Preview rebuilt.');
+            }
+            PreviewImportBatch::dispatch($batch->id);
+
+            return back()->with('status', 'Rebuilding the preview in the background. Refresh this page in a moment.');
         }
         if (! in_array($batch->status, ['previewed', 'completed'], true)) {
             return back()->with('error', 'This batch is not ready to run (status: '.$batch->status.').');

@@ -37,7 +37,7 @@ This document describes the intended production setup, based on the files in `pl
   current -> releases/<latest>
 ```
 
-Each release symlinks `.env`, `storage/` and `public/game-files/` into `shared/`, so uploads and logs survive deploys. Note: the header comment of `deploy.sh` also lists `shared/public-storage`, but the script never creates or uses it; `public/storage` is created by `php artisan storage:link` pointing into `shared/storage/app/public`.
+Each release symlinks `.env`, `storage/` and `public/game-files/` into `shared/`, so uploads and logs survive deploys. `public/storage` is created by `php artisan storage:link`, pointing into `shared/storage/app/public`. `deploy.sh` accepts a branch, tag or full commit SHA.
 
 Prepare it once:
 
@@ -79,7 +79,7 @@ Start from `deploy/env.production.example`. Values that must be set before launc
 
 1. **HTTP -> HTTPS redirect** for `example.com` and `www.example.com`.
 2. **App server** (`www.example.com`): root `current/public`; long-lived caching for `/build/`; `/storage/` with `nosniff` and PHP disabled; game paths (`/games/`, `/game-files/`, `/vendor/ruffle/`) via the snippet (kept so games still work when `GAMES_ORIGIN` is empty); `/api/` rate-limited at 20 req/s per IP (burst 40) in addition to Laravel's limiters; only `index.php` is executed (`fastcgi_pass unix:/run/php/php8.4-fpm-nebulo.sock`); dotfiles denied; `client_max_body_size 210m`.
-3. **Games origin** (`play.example-games.net`): same `public/` root, serves only the game paths (through the snippet) and `/frame/*` (routed to Laravel for the Ruffle/Unity wrapper pages and the redirects for HTML5 games); everything else returns 404. This block has no port-80 redirect and no `ssl_protocols` line; add them if needed.
+3. **Games origin** (`play.example-games.net`): same `public/` root, serves only the game paths (through the snippet) and `/frame/*` (routed to Laravel for the Ruffle/Unity wrapper pages and the redirects for HTML5 games); everything else returns 404. It has its own port-80 redirect to HTTPS and allows TLS 1.2 and 1.3 only.
 
 `nebulo-game-files.conf` sets `Access-Control-Allow-Origin: *` (sandboxed frames have an opaque origin), `Cross-Origin-Resource-Policy: cross-origin`, `nosniff`, a 1-day cache, refuses script extensions, relies on the stock `mime.types` (no `types {}` block, which would replace it), and for Unity `.br`/`.gz` files sets `Content-Encoding`, the uncompressed file's type, and repeats the CORS/CORP/nosniff headers.
 
@@ -116,14 +116,14 @@ The schedule itself is in `routes/console.php` (see `docs/OPERATIONS.md`).
 ## deploy.sh
 
 ```bash
-sudo -u nebulo /var/www/nebulo/current/deploy/scripts/deploy.sh <branch-or-tag>
+sudo -u nebulo /var/www/nebulo/current/deploy/scripts/deploy.sh <branch-tag-or-sha>
 ```
 
 (For the first deploy, run the script from a checkout since `current` does not exist yet.)
 
 Steps:
 
-1. `git clone --depth 1 --branch <ref>` of `NEBULO_REPO` (default is the project's GitHub repository over SSH; override with `NEBULO_REPO`). `--branch` accepts a branch or tag, **not a commit SHA**. The server needs a read-only deploy key.
+1. A shallow fetch of `<ref>` (branch, tag or full commit SHA) from `NEBULO_REPO` (default is the project's GitHub repository over SSH; override with `NEBULO_REPO`). The server needs a read-only deploy key.
 2. Moves the repository's `platform/` folder into `releases/<timestamp>` and discards the rest.
 3. Symlinks `.env`, `storage`, `public/game-files` to `shared/`.
 4. `composer install --no-dev --optimize-autoloader`, `npm ci`, `npm run build` (includes the Ruffle copy), removes `node_modules`.

@@ -51,10 +51,7 @@ class ImportTest extends TestCase
         return ImportBatch::query()->latest('id')->firstOrFail();
     }
 
-    /**
-     * Runs the batch the way the run endpoint does after validation. The endpoint itself is
-     * currently broken (see test_run_endpoint_with_confirmation), so the job is dispatched directly.
-     */
+    /** Runs the batch directly, the way the run endpoint does after validation. */
     private function runImport(ImportBatch $batch, ?array $ids = null): void
     {
         RunImportBatch::dispatchSync($batch->id, $ids, auth()->id());
