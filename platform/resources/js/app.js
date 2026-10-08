@@ -240,4 +240,56 @@ Alpine.data('confirmForm', () => ({
     },
 }));
 
+/* ------------------------------------------------------------------ cookie consent + consent-gated ads */
+function readConsent() {
+    try { return localStorage.getItem('consent'); } catch (e) { return null; }
+}
+
+Alpine.data('consentBanner', () => ({
+    open: false,
+    init() {
+        this.open = readConsent() === null;
+        window.addEventListener('consent:open', () => { this.open = true; });
+    },
+    choose(value) {
+        const before = readConsent();
+        try { localStorage.setItem('consent', value); } catch (e) { /* storage unavailable */ }
+        this.open = false;
+        // Third-party scripts are only injected at page load, so reload when consent was widened or withdrawn.
+        if (before !== null && before !== value) window.location.reload();
+        else if (value === 'all') window.location.reload();
+    },
+    acceptAll() { this.choose('all'); },
+    essentialOnly() { this.choose('essential'); },
+}));
+
+Alpine.data('consentLink', () => ({
+    reopen() { window.dispatchEvent(new CustomEvent('consent:open')); },
+}));
+
+// AdSense: loaded only when an approved client id is configured, a slot is on the page and the
+// visitor accepted advertising cookies. The platform never generates impressions or clicks itself.
+function loadAdsense() {
+    const slots = document.querySelectorAll('[data-adsense-slot]');
+    if (!slots.length || readConsent() !== 'all') return;
+    const client = slots[0].dataset.adsenseClient;
+    slots.forEach((el) => {
+        const ins = document.createElement('ins');
+        ins.className = 'adsbygoogle';
+        ins.style.display = 'block';
+        ins.dataset.adClient = client;
+        ins.dataset.adSlot = el.dataset.adsenseSlot;
+        ins.dataset.adFormat = 'auto';
+        ins.dataset.fullWidthResponsive = 'true';
+        el.appendChild(ins);
+    });
+    const s = document.createElement('script');
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(client);
+    s.onload = () => slots.forEach(() => { try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { /* ignore */ } });
+    document.head.appendChild(s);
+}
+
 Alpine.start();
+loadAdsense();

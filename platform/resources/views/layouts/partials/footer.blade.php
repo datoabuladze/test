@@ -35,6 +35,9 @@
                     <li><a class="hover:text-ink" href="{{ route('pages.show', 'privacy') }}">{{ __('Privacy policy') }}</a></li>
                     <li><a class="hover:text-ink" href="{{ route('pages.show', 'terms') }}">{{ __('Terms of use') }}</a></li>
                 @endforelse
+                @if (config('platform.analytics.ga4_measurement_id') || config('platform.ads.adsense_client'))
+                    <li x-data="consentLink"><button type="button" class="hover:text-ink" @click="reopen">{{ __('Cookie settings') }}</button></li>
+                @endif
             </ul>
         </div>
     </div>

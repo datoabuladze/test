@@ -33,6 +33,7 @@
     </main>
 
     @include('layouts.partials.footer')
+    @include('layouts.partials.consent')
 
     <div x-data="toaster" data-flash="{{ session('status') ?? session('error') }}" class="pointer-events-none fixed inset-x-0 bottom-4 z-50 flex justify-center px-4">
         <div x-cloak x-show="visible" x-transition.opacity.duration.200ms
