@@ -8,7 +8,7 @@
 <div class="container-page max-w-4xl pt-10">
     <div class="text-center">
         <span class="chip mx-auto"><x-icon name="users" class="size-3.5"/>{{ __('Two players') }}</span>
-        <h1 class="mt-4 text-3xl font-black sm:text-5xl">{{ __('Play with a') }} <span class="text-gradient">{{ __('friend') }}</span></h1>
+        <h1 class="mt-4 text-3xl font-black sm:text-5xl"><span class="text-gradient">{{ __('Play with a friend') }}</span></h1>
         <p class="mx-auto mt-3 max-w-xl text-ink-2">{{ __('Create a private room, send the link and play live. The server checks every move, so nobody can cheat.') }}</p>
     </div>
     <div class="mt-10 grid gap-5 sm:grid-cols-2" x-data="roomCreator" data-url="{{ route('api.rooms.store') }}">

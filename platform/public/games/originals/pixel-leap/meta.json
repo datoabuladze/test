@@ -1,0 +1,101 @@
+{
+  "key": "pixel-leap",
+  "slug": "pixel-leap",
+  "title": {
+    "en": "Pixel Leap",
+    "ka": "პიქსელის ნახტომი",
+    "tr": "Piksel Sıçrayış",
+    "ru": "Пиксельный прыжок"
+  },
+  "short_description": {
+    "en": "A crisp neon platformer: six hand-built levels of spikes, moving platforms and coins.",
+    "ka": "ნეონის პლატფორმერი: ექვსი ხელით აწყობილი დონე ეკლებით, მოძრავი პლატფორმებითა და მონეტებით.",
+    "tr": "Keskin bir neon platform oyunu: diken, hareketli platform ve altın dolu altı özel seviye.",
+    "ru": "Чёткий неоновый платформер: шесть рукотворных уровней с шипами, движущимися платформами и монетами."
+  },
+  "description": {
+    "en": "Pixel Leap is a tight, responsive platformer about one small cube with a big jump. Run and leap through **six hand-crafted worlds**, from a gentle first stroll to a long finale that mixes every trick the game has learned along the way.\n\nThe controls are built to feel fair: a short grace period lets you still jump just after running off a ledge, a jump pressed slightly early is remembered until you land, and holding the button longer gives a higher jump. Ride purple platforms across bottomless gaps, bounce off green springs to reach towering walls, and thread the needle between pink spikes.\n\nYou have three lives for the whole adventure. Grab coins for points, reach each flag quickly for a time bonus, and raise the final flag on Neon Summit to win.",
+    "ka": "„პიქსელის ნახტომი“ არის ზუსტი და მგრძნობიარე პლატფორმერი პატარა კუბზე, რომელსაც დიდი ნახტომი შეუძლია. ირბინე და იხტუნე **ექვს ხელით შექმნილ სამყაროში** — მშვიდი პირველი გასეირნებიდან ხანგრძლივ ფინალამდე, რომელიც თამაშის ყველა ხრიკს აერთიანებს.\n\nმართვა სამართლიანად არის აწყობილი: კიდიდან ჩამოვარდნის შემდეგაც მცირე ხნით კიდევ შეგიძლია ხტომა, ნაადრევად დაჭერილი ხტომა დაიმახსოვრება მიწაზე დაშვებამდე, ხოლო ღილაკის დიდხანს დაჭერა უფრო მაღალ ნახტომს იძლევა. იმგზავრე იისფერ პლატფორმებზე უძირო უფსკრულებზე, ახტი მწვანე ზამბარებით მაღალ კედლებზე და გაძვერი ვარდისფერ ეკლებს შორის.\n\nმთელი თავგადასავლისთვის სამი სიცოცხლე გაქვს. შეაგროვე მონეტები ქულებისთვის, სწრაფად მიაღწიე თითოეულ დროშას დროის ბონუსისთვის და აღმართე ბოლო დროშა ნეონის მწვერვალზე გასამარჯვებლად.",
+    "tr": "Piksel Sıçrayış, büyük zıplayışlı küçük bir küpün hikâyesini anlatan, sıkı ve duyarlı bir platform oyunudur. Sakin bir ilk yürüyüşten, yol boyunca öğrenilen tüm numaraları birleştiren uzun bir finale kadar **altı elle tasarlanmış dünyada** koş ve zıpla.\n\nKontroller adil hissettirmek için tasarlandı: bir kenardan düştükten hemen sonra bile kısa bir süre zıplayabilirsin, biraz erken basılan zıplama yere inene kadar hatırlanır ve tuşu uzun tutmak daha yükseğe zıplatır. Mor platformlarla dipsiz boşlukları geç, yeşil yaylardan sekerek yüksek duvarlara ulaş ve pembe dikenlerin arasından süzül.\n\nTüm macera için üç canın var. Puan için altınları topla, süre bonusu için her bayrağa hızla ulaş ve kazanmak için Neon Zirve’deki son bayrağı dik.",
+    "ru": "«Пиксельный прыжок» — точный и отзывчивый платформер о маленьком кубике с большим прыжком. Бегите и прыгайте через **шесть созданных вручную миров** — от спокойной первой прогулки до длинного финала, где собраны все приёмы, которым вы научились по пути.\n\nУправление сделано честным: даже сорвавшись с края, вы ещё мгновение можете прыгнуть, чуть раннее нажатие прыжка запоминается до приземления, а удержание кнопки даёт более высокий прыжок. Катайтесь на фиолетовых платформах над бездонными пропастями, отталкивайтесь от зелёных пружин к высоким стенам и проскальзывайте между розовыми шипами.\n\nНа всё приключение у вас три жизни. Собирайте монеты ради очков, быстро добирайтесь до флагов ради бонуса за время и поднимите последний флаг на Неоновой вершине, чтобы победить."
+  },
+  "instructions": {
+    "en": "1. Run right and reach the glowing flag at the end of each level.\n2. Avoid pink spikes and do not fall into pits – each costs one of your 3 lives.\n3. Ride the purple moving platforms across wide gaps.\n4. Land on green springs to launch high into the air.\n5. Coins give 10 points; every cleared level gives 100 plus a time bonus.\n6. Clear all six levels to win.",
+    "ka": "1. ირბინე მარჯვნივ და მიაღწიე მანათობელ დროშას თითოეული დონის ბოლოს.\n2. მოერიდე ვარდისფერ ეკლებს და არ ჩავარდე უფსკრულში — თითოეული შენი 3 სიცოცხლიდან ერთს წაგართმევს.\n3. ფართო უფსკრულებზე იისფერი მოძრავი პლატფორმებით გადადი.\n4. დაეშვი მწვანე ზამბარებზე, რომ მაღლა აფრინდე.\n5. მონეტა 10 ქულას იძლევა; ყოველი გავლილი დონე — 100 ქულას და დროის ბონუსს.\n6. მოსაგებად გაიარე ექვსივე დონე.",
+    "tr": "1. Sağa koş ve her seviyenin sonundaki parlayan bayrağa ulaş.\n2. Pembe dikenlerden kaç ve çukurlara düşme – her biri 3 canından birini götürür.\n3. Geniş boşlukları mor hareketli platformlarla geç.\n4. Havaya yükselmek için yeşil yayların üstüne in.\n5. Altınlar 10 puan verir; geçilen her seviye 100 puan ve süre bonusu kazandırır.\n6. Kazanmak için altı seviyenin hepsini bitir.",
+    "ru": "1. Бегите вправо и доберитесь до светящегося флага в конце каждого уровня.\n2. Избегайте розовых шипов и не падайте в пропасти — каждая ошибка стоит одной из 3 жизней.\n3. Пересекайте широкие пропасти на фиолетовых движущихся платформах.\n4. Приземляйтесь на зелёные пружины, чтобы взлететь высоко вверх.\n5. Монета даёт 10 очков, каждый пройденный уровень — 100 очков и бонус за время.\n6. Пройдите все шесть уровней, чтобы победить."
+  },
+  "controls": {
+    "en": "- **Keyboard:** ◀ ▶ or A / D to run, Space / ▲ / W / Z to jump (hold for a higher jump)\n- **Touch:** on-screen ◀ ▶ buttons on the left, ▲ jump button on the right\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** ◀ ▶ ან A / D — სირბილი, Space / ▲ / W / Z — ხტომა (დაიჭირე უფრო მაღლა ხტომისთვის)\n- **სენსორი:** ეკრანის ◀ ▶ ღილაკები მარცხნივ, ▲ ხტომის ღილაკი მარჯვნივ\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** koşmak için ◀ ▶ veya A / D, zıplamak için Space / ▲ / W / Z (daha yüksek için basılı tut)\n- **Dokunmatik:** solda ekrandaki ◀ ▶ düğmeleri, sağda ▲ zıplama düğmesi\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** ◀ ▶ или A / D — бег, Пробел / ▲ / W / Z — прыжок (удерживайте для более высокого прыжка)\n- **Сенсор:** экранные кнопки ◀ ▶ слева и кнопка прыжка ▲ справа\n- **P / Esc:** пауза"
+  },
+  "categories": [
+    "platformer",
+    "adventure",
+    "action"
+  ],
+  "primary_category": "platformer",
+  "tags": [
+    {
+      "slug": "jump",
+      "name": {
+        "en": "Jump",
+        "ka": "ხტომა",
+        "tr": "Zıplama",
+        "ru": "Прыжки"
+      }
+    },
+    {
+      "slug": "levels",
+      "name": {
+        "en": "Levels",
+        "ka": "დონეები",
+        "tr": "Seviyeler",
+        "ru": "Уровни"
+      }
+    },
+    {
+      "slug": "coins",
+      "name": {
+        "en": "Coins",
+        "ka": "მონეტები",
+        "tr": "Altınlar",
+        "ru": "Монеты"
+      }
+    },
+    {
+      "slug": "neon",
+      "name": {
+        "en": "Neon",
+        "ka": "ნეონი",
+        "tr": "Neon",
+        "ru": "Неон"
+      }
+    }
+  ],
+  "input_types": [
+    "keyboard",
+    "touch"
+  ],
+  "devices": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "orientation": "landscape",
+  "difficulty": "medium",
+  "session_length": "medium",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 150,
+  "max_score": 5000,
+  "color": "#7c5cff",
+  "width": 800,
+  "height": 450,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": true,
+  "editors_pick": false
+}

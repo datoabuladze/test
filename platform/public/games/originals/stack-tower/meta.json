@@ -1,0 +1,93 @@
+{
+  "key": "stack-tower",
+  "slug": "stack-tower",
+  "title": {
+    "en": "Stack Tower",
+    "ka": "კოშკის აწყობა",
+    "tr": "Kule Yığ",
+    "ru": "Башня из плит"
+  },
+  "short_description": {
+    "en": "Drop sliding slabs with perfect timing and build a neon tower into the stars.",
+    "ka": "ზუსტ დროს ჩამოაგდე მოცურავე ფილები და ააშენე ნეონის კოშკი ვარსკვლავებამდე.",
+    "tr": "Kayan blokları tam zamanında bırak ve yıldızlara uzanan bir neon kule yükselt.",
+    "ru": "Сбрасывайте скользящие плиты точно в момент и стройте неоновую башню до звёзд."
+  },
+  "description": {
+    "en": "Stack Tower is a one-button game of timing. A glowing slab glides back and forth above your tower – tap at the right moment to drop it. Whatever hangs over the edge is sliced off and tumbles away, so every sloppy drop leaves you a narrower slab to work with.\n\nLand a slab almost exactly on top of the one below and you score a **PERFECT**: it snaps into place, your combo grows and each combo step adds bonus points. Keep three or more perfects going and the slab even grows back a little, giving you room to breathe.\n\nThe slabs speed up as the tower rises, the camera climbs with you and the city skyline gives way to open space. Miss the tower completely and it is over – how high can you build?",
+    "ka": "„კოშკის აწყობა“ არის ერთი ღილაკის თამაში, სადაც ყველაფერი დროზეა დამოკიდებული. მანათობელი ფილა კოშკის თავზე წინ და უკან სრიალებს — შეეხე სწორ მომენტში, რომ ჩამოაგდო. რაც კიდეს გადასცდება, იჭრება და ძირს ვარდება, ამიტომ ყოველი უზუსტო დადების შემდეგ ფილა უფრო ვიწრო ხდება.\n\nთუ ფილას თითქმის ზუსტად დაადებ ქვედაზე, მიიღებ **იდეალურს**: ის ადგილზე ჯდება, კომბო იზრდება და ყოველი საფეხური ბონუს ქულებს გაძლევს. სამი ან მეტი იდეალური დადება ზედიზედ და ფილა ოდნავ იზრდება კიდეც, რაც სამოქმედო სივრცეს გიბრუნებს.\n\nკოშკის ზრდასთან ერთად ფილები ჩქარდება, კამერა შენთან ერთად მაღლა მიიწევს, ქალაქის სილუეტი კი ღია კოსმოსით იცვლება. თუ კოშკს სრულად ააცდენ, თამაში მთავრდება — რამდენად მაღლა ააშენებ?",
+    "tr": "Kule Yığ, tamamen zamanlamaya dayanan tek tuşlu bir oyundur. Parlayan bir blok kulenin üstünde ileri geri kayar – bırakmak için doğru anda dokun. Kenardan taşan kısım kesilip düşer; yani her özensiz bırakış sana daha dar bir blok bırakır.\n\nBloğu alttakinin neredeyse tam üstüne bırakırsan **MÜKEMMEL** olur: yerine oturur, kombon artar ve her kombo adımı bonus puan kazandırır. Üç ya da daha fazla mükemmeli sürdürürsen blok biraz büyür ve sana nefes alacak alan açar.\n\nKule yükseldikçe bloklar hızlanır, kamera seninle birlikte tırmanır ve şehir silüeti yerini açık uzaya bırakır. Kuleyi tamamen ıskalarsan oyun biter – ne kadar yükseğe çıkabilirsin?",
+    "ru": "«Башня из плит» — игра на чувство времени с одной кнопкой. Светящаяся плита скользит туда-сюда над башней — коснитесь в нужный момент, чтобы сбросить её. Всё, что свисает за край, отрезается и падает вниз, поэтому каждый неточный бросок оставляет вам плиту поуже.\n\nПоложите плиту почти точно на предыдущую — и получите **ИДЕАЛЬНО**: она встаёт на место, комбо растёт, а каждая ступень комбо приносит бонусные очки. Три идеальных броска подряд и больше — и плита даже немного расширяется, давая передышку.\n\nС ростом башни плиты ускоряются, камера поднимается вместе с вами, а силуэт города сменяется открытым космосом. Промахнулись мимо башни — игра окончена. Как высоко вы построите?"
+  },
+  "instructions": {
+    "en": "1. A slab slides back and forth above the tower.\n2. Tap, click or press Space to drop it.\n3. The part hanging over the edge is cut off – the next slab is only as wide as what is left.\n4. A near-exact drop is a PERFECT: +1 point plus a combo bonus (up to +8).\n5. Three perfects in a row make the slab grow back a little.\n6. If the slab misses the tower entirely, the game is over.",
+    "ka": "1. ფილა კოშკის თავზე წინ და უკან სრიალებს.\n2. შეეხე, დააწკაპუნე ან დააჭირე Space-ს მის ჩამოსაგდებად.\n3. კიდეს გადაცილებული ნაწილი იჭრება — შემდეგი ფილა იმდენივე სიგანისაა, რამდენიც დარჩა.\n4. თითქმის ზუსტი დადება არის „იდეალური“: +1 ქულა და კომბოს ბონუსი (მაქსიმუმ +8).\n5. ზედიზედ სამი იდეალური დადება ფილას ოდნავ ადიდებს.\n6. თუ ფილა კოშკს საერთოდ ააცდენს, თამაში სრულდება.",
+    "tr": "1. Bir blok kulenin üstünde ileri geri kayar.\n2. Bırakmak için dokun, tıkla ya da Space tuşuna bas.\n3. Kenardan taşan kısım kesilir – sonraki blok yalnızca kalan kısım kadar geniştir.\n4. Neredeyse tam bir bırakış MÜKEMMEL sayılır: +1 puan ve kombo bonusu (en fazla +8).\n5. Üst üste üç mükemmel bloğu biraz büyütür.\n6. Blok kuleyi tamamen ıskalarsa oyun biter.",
+    "ru": "1. Плита скользит туда-сюда над башней.\n2. Коснитесь, щёлкните или нажмите Пробел, чтобы сбросить её.\n3. Свисающая за край часть отрезается — следующая плита будет шириной с остаток.\n4. Почти точный бросок — это ИДЕАЛЬНО: +1 очко и бонус комбо (до +8).\n5. Три идеальных броска подряд немного расширяют плиту.\n6. Если плита полностью промахнулась мимо башни, игра окончена."
+  },
+  "controls": {
+    "en": "- **Keyboard:** Space, Enter or ▼ to drop\n- **Mouse / touch:** click or tap anywhere on the game\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** Space, Enter ან ▼ — ჩამოგდება\n- **მაუსი / სენსორი:** დააწკაპუნე ან შეეხე თამაშის ნებისმიერ ადგილს\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** bırakmak için Space, Enter veya ▼\n- **Fare / dokunmatik:** oyunda herhangi bir yere tıkla ya da dokun\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** Пробел, Enter или ▼ — сбросить\n- **Мышь / сенсор:** щелчок или касание в любом месте игры\n- **P / Esc:** пауза"
+  },
+  "categories": [
+    "arcade",
+    "casual",
+    "building"
+  ],
+  "primary_category": "arcade",
+  "tags": [
+    {
+      "slug": "one-button",
+      "name": {
+        "en": "One button",
+        "ka": "ერთი ღილაკი",
+        "tr": "Tek tuş",
+        "ru": "Одна кнопка"
+      }
+    },
+    {
+      "slug": "timing",
+      "name": {
+        "en": "Timing",
+        "ka": "დროის შეგრძნება",
+        "tr": "Zamanlama",
+        "ru": "Тайминг"
+      }
+    },
+    {
+      "slug": "tower",
+      "name": {
+        "en": "Tower",
+        "ka": "კოშკი",
+        "tr": "Kule",
+        "ru": "Башня"
+      }
+    }
+  ],
+  "input_types": [
+    "keyboard",
+    "mouse",
+    "touch"
+  ],
+  "devices": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "orientation": "any",
+  "difficulty": "easy",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 30,
+  "max_score": 100000,
+  "color": "#f472b6",
+  "width": 480,
+  "height": 800,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}

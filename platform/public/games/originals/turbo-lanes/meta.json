@@ -1,0 +1,103 @@
+{
+  "key": "turbo-lanes",
+  "slug": "turbo-lanes",
+  "title": {
+    "en": "Turbo Lanes",
+    "ka": "ტურბო ზოლები",
+    "tr": "Turbo Şeritler",
+    "ru": "Турбо-полосы"
+  },
+  "short_description": {
+    "en": "Race down a winding neon highway, dodge traffic and keep your tank full.",
+    "ka": "იქროლე ნეონის კლაკნილ გზატკეცილზე, აარიდე მანქანებს და ავზი სავსე შეინარჩუნე.",
+    "tr": "Kıvrımlı neon otoyolda hız yap, trafikten kaç ve depoyu dolu tut.",
+    "ru": "Мчитесь по извилистому неоновому шоссе, уходите от машин и следите за баком."
+  },
+  "description": {
+    "en": "Turbo Lanes is a fast top-down arcade racer set on a glowing night highway. The road bends left and right, the traffic never stops, and your car keeps getting faster the longer you survive.\n\nSteer between three lanes, slip past slower cars and trucks, and watch out for drivers who suddenly change lanes – their blinkers give you a split-second warning. Squeezing past a car at close range earns a **near-miss bonus**, so the bravest lines pay the most.\n\nFuel is the second clock: grab the green cans before the tank runs dry, and collect blue bolts to charge your **boost** for a burst of extra speed. Leaving the asphalt slows you down, and a single crash ends the run – how far can you go?",
+    "ka": "„ტურბო ზოლები“ არის სწრაფი არკადული რბოლა ზემოდან ხედით, ღამის მანათობელ გზატკეცილზე. გზა ხან მარცხნივ უხვევს, ხან მარჯვნივ, მოძრაობა არასდროს წყდება, ხოლო რაც უფრო დიდხანს გაძლებ, მით უფრო აჩქარდება შენი მანქანა.\n\nიმოძრავე სამ ზოლს შორის, გაასწარი ნელ მანქანებსა და სატვირთოებს და ფრთხილად იყავი მძღოლებთან, რომლებიც მოულოდნელად იცვლიან ზოლს — მოციმციმე ნათურები წამიერ გაფრთხილებას მოგცემს. მანქანასთან ძალიან ახლოს გავლა **ახლო აცდენის ბონუსს** გაძლევს, ასე რომ ყველაზე თამამი მანევრი ყველაზე მეტ ქულას მოიტანს.\n\nსაწვავი მეორე საათია: აიღე მწვანე ბიდონები, სანამ ავზი დაიცლება, და შეაგროვე ლურჯი ელვები **აჩქარების** დასამუხტად. ასფალტიდან გადასვლა განელებს, ერთი შეჯახება კი რბოლას ასრულებს — რამდენად შორს წახვალ?",
+    "tr": "Turbo Şeritler, parlayan bir gece otoyolunda geçen, yukarıdan bakışlı hızlı bir atari yarışıdır. Yol bir sola bir sağa kıvrılır, trafik hiç durmaz ve ne kadar uzun dayanırsan araban o kadar hızlanır.\n\nÜç şerit arasında direksiyon kır, yavaş arabaların ve kamyonların yanından sıyrıl, aniden şerit değiştiren sürücülere dikkat et – sinyalleri sana bir anlık uyarı verir. Bir arabanın çok yakınından geçmek **kıl payı bonusu** kazandırır; yani en cesur çizgiler en çok puanı getirir.\n\nYakıt ikinci saatin: depo boşalmadan yeşil bidonları kap, mavi şimşekleri toplayarak ekstra hız için **nitro** doldur. Asfalttan çıkmak seni yavaşlatır, tek bir kaza ise yarışı bitirir – ne kadar uzağa gidebilirsin?",
+    "ru": "«Турбо-полосы» — стремительные аркадные гонки с видом сверху на светящемся ночном шоссе. Дорога петляет то влево, то вправо, поток машин не прекращается, а ваш автомобиль разгоняется тем сильнее, чем дольше вы держитесь.\n\nПерестраивайтесь между тремя полосами, обходите медленные легковушки и грузовики и остерегайтесь водителей, которые внезапно меняют полосу, — поворотники дают вам долю секунды на реакцию. Проскочить вплотную к машине — значит получить **бонус за опасный обгон**, так что смелые траектории приносят больше всего очков.\n\nТопливо — второй таймер: подбирайте зелёные канистры, пока бак не опустел, и собирайте синие молнии, чтобы зарядить **ускорение**. Съезд с асфальта замедляет, а одна авария завершает заезд. Как далеко вы уедете?"
+  },
+  "instructions": {
+    "en": "1. Steer to stay on the road and avoid every other car.\n2. Your speed rises steadily – react faster as you go.\n3. Pick up green fuel cans before the tank is empty.\n4. Collect blue bolts and hold boost for extra speed.\n5. Pass cars closely for a +15 near-miss bonus.\n6. One crash, or an empty tank, ends the run. Score = distance (1 point per 10 m) + bonuses.",
+    "ka": "1. მართე მანქანა, რომ გზაზე დარჩე და ყველა სხვა მანქანას აარიდო.\n2. სიჩქარე თანდათან იზრდება — სულ უფრო სწრაფად უნდა მოახდინო რეაქცია.\n3. აიღე მწვანე საწვავის ბიდონები, სანამ ავზი დაიცლება.\n4. შეაგროვე ლურჯი ელვები და დაიჭირე აჩქარება მეტი სიჩქარისთვის.\n5. მანქანებთან ახლოს გავლა +15 ბონუსს გაძლევს.\n6. ერთი შეჯახება ან ცარიელი ავზი რბოლას ასრულებს. ქულა = მანძილი (1 ქულა ყოველ 10 მ-ზე) + ბონუსები.",
+    "tr": "1. Yolda kalmak ve diğer tüm arabalardan kaçmak için direksiyonu kullan.\n2. Hızın sürekli artar – ilerledikçe daha hızlı tepki ver.\n3. Depo boşalmadan yeşil yakıt bidonlarını al.\n4. Mavi şimşekleri topla ve ekstra hız için nitroyu basılı tut.\n5. Arabaların yakınından geçerek +15 kıl payı bonusu kazan.\n6. Tek bir kaza ya da boş depo yarışı bitirir. Puan = mesafe (her 10 m için 1 puan) + bonuslar.",
+    "ru": "1. Рулите, чтобы оставаться на дороге и не задеть ни одну машину.\n2. Скорость постоянно растёт — реагируйте всё быстрее.\n3. Подбирайте зелёные канистры, пока бак не опустел.\n4. Собирайте синие молнии и удерживайте ускорение для прибавки скорости.\n5. Проезжайте вплотную к машинам — бонус +15 за опасный обгон.\n6. Одна авария или пустой бак завершают заезд. Очки = дистанция (1 очко за 10 м) + бонусы."
+  },
+  "controls": {
+    "en": "- **Keyboard:** ◀ ▶ or A / D to steer, ▲ / W / Space to boost, ▼ / S to brake\n- **Touch / mouse:** drag on the road to steer, or use the on-screen ◀ ▶ ▼ ⚡ buttons\n- **P / Esc:** pause",
+    "ka": "- **კლავიატურა:** ◀ ▶ ან A / D — მართვა, ▲ / W / Space — აჩქარება, ▼ / S — მუხრუჭი\n- **სენსორი / მაუსი:** გაასრიალე თითი გზაზე ან გამოიყენე ეკრანის ◀ ▶ ▼ ⚡ ღილაკები\n- **P / Esc:** პაუზა",
+    "tr": "- **Klavye:** direksiyon için ◀ ▶ veya A / D, nitro için ▲ / W / Space, fren için ▼ / S\n- **Dokunmatik / fare:** yönlendirmek için yolda sürükle ya da ekrandaki ◀ ▶ ▼ ⚡ düğmelerini kullan\n- **P / Esc:** duraklat",
+    "ru": "- **Клавиатура:** ◀ ▶ или A / D — руль, ▲ / W / Пробел — ускорение, ▼ / S — тормоз\n- **Сенсор / мышь:** ведите по дороге или используйте экранные кнопки ◀ ▶ ▼ ⚡\n- **P / Esc:** пауза"
+  },
+  "categories": [
+    "racing",
+    "car",
+    "driving",
+    "arcade"
+  ],
+  "primary_category": "racing",
+  "tags": [
+    {
+      "slug": "highway",
+      "name": {
+        "en": "Highway",
+        "ka": "გზატკეცილი",
+        "tr": "Otoyol",
+        "ru": "Шоссе"
+      }
+    },
+    {
+      "slug": "traffic",
+      "name": {
+        "en": "Traffic",
+        "ka": "მოძრაობა",
+        "tr": "Trafik",
+        "ru": "Трафик"
+      }
+    },
+    {
+      "slug": "endless",
+      "name": {
+        "en": "Endless",
+        "ka": "უსასრულო",
+        "tr": "Sonsuz",
+        "ru": "Бесконечная"
+      }
+    },
+    {
+      "slug": "neon",
+      "name": {
+        "en": "Neon",
+        "ka": "ნეონი",
+        "tr": "Neon",
+        "ru": "Неон"
+      }
+    }
+  ],
+  "input_types": [
+    "keyboard",
+    "touch",
+    "mouse"
+  ],
+  "devices": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "orientation": "any",
+  "difficulty": "medium",
+  "session_length": "short",
+  "min_age": 0,
+  "score_mode": "casual",
+  "max_points_per_second": 400,
+  "max_score": 500000,
+  "color": "#22d3ee",
+  "width": 480,
+  "height": 720,
+  "is_multiplayer": false,
+  "is_mobile_friendly": true,
+  "featured": false,
+  "editors_pick": false
+}
